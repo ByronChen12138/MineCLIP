@@ -29,7 +29,7 @@ def main(cfg):
     assert video_feats.shape == (VIDEO_BATCH, 512)
     video_feats_2 = model.encode_video(video)
     # encode_video is equivalent to forward_video_features(forward_image_features(video))
-    torch.testing.assert_allclose(video_feats, video_feats_2)
+    torch.testing.assert_close(video_feats, video_feats_2)
 
     # encode batch of prompts
     text_feats_batch = model.encode_text(prompts)
@@ -51,11 +51,13 @@ def main(cfg):
         video, text_tokens=text_feats_batch, is_video_features=False
     )
     # all above are equivalent, just starting from features or raw values
-    torch.testing.assert_allclose(logits_per_video, reward_scores_2)
-    torch.testing.assert_allclose(logits_per_video, reward_scores_3)
-    torch.testing.assert_allclose(logits_per_video, reward_scores_4)
+    torch.testing.assert_close(logits_per_video, reward_scores_2)
+    torch.testing.assert_close(logits_per_video, reward_scores_3)
+    torch.testing.assert_close(logits_per_video, reward_scores_4)
 
     print("Inference successful")
+    print(f"The logits per video are {logits_per_video}")
+    print(f"The logits per text are {logits_per_text}")
 
 
 if __name__ == "__main__":

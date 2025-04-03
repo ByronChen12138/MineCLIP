@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 
-import minedojo
+from MineDojo import minedojo
 from minedojo.sim.inventory import InventoryItem
 import numpy as np
 

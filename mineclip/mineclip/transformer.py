@@ -3,6 +3,7 @@ Transformer aggregator in temporal dimension.
 https://github.com/lucidrains/x-transformers
 pip install x_transformers==0.27.1
 """
+from x_transformers import ContinuousTransformerWrapper
 from x_transformers.x_transformers import *
 
 

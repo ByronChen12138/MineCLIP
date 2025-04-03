@@ -1,0 +1,4 @@
+.vscode
+.venv
+.idea
+./main/mineclip/run.log
