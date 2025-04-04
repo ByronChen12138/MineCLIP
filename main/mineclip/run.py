@@ -56,6 +56,7 @@ def main(cfg):
     torch.testing.assert_close(logits_per_video, reward_scores_4)
 
     print("Inference successful")
+
     print(f"The logits per video are {logits_per_video}")
     print(f"The logits per text are {logits_per_text}")
 

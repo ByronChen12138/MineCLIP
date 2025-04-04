@@ -6,5 +6,6 @@ hydra-core
 dm-tree
 Pillow
 transformers
+torchvision
 kornia
 minedojo @ git+https://github.com/ByronChen12138/MineDojo.git

@@ -1,4 +1,6 @@
 .vscode
 .venv
 .idea
-./main/mineclip/run.log
+main/mineclip/*.log
+main/mineclip/ckpt
+outputs
