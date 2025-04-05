@@ -7,11 +7,11 @@ arch: "vit_base_p16_fz.v2.t2"
 hidden_dim: 512
 image_feature_dim: 512
 mlp_adapter_spec: "v0-2.t0"
-pool_type: ???  # filled by variant
+pool_type: ???  # avg or attn.d2.nh8.glusw
 resolution: [160, 256]
 
 ckpt:
-  path: ./main/mineclip/ckpt/attn.pth  # filled by users
+  path: ./ckpt/attn.pth  # filled by users
   checksum: ???
 
 hydra:

@@ -4,3 +4,6 @@
 main/mineclip/*.log
 main/mineclip/ckpt
 outputs
+downloads
+ckpt
+outs
