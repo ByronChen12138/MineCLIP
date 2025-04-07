@@ -9,3 +9,4 @@ transformers
 torchvision
 kornia
 minedojo @ git+https://github.com/ByronChen12138/MineDojo.git
+minecraft_data
