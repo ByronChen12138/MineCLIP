@@ -23,7 +23,15 @@ class ActionPredictor:
             config_path (str): Directory containing the configuration YAML file.
             labels_path (str): Path to the labels file.
         """
-        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+        if torch.cuda.is_available():
+            self.device = torch.device("cuda")
+        # elif torch.backends.mps.is_available():
+        #     self.device = torch.device("mps")
+        else:
+            self.device = torch.device("cpu")
+
+        print(f"Using device: {self.device}")
 
         # Load configuration
         cfg = OmegaConf.load(os.path.join(config_path, "conf.yaml"))
@@ -126,12 +134,19 @@ class ActionPredictor:
         Args:
             video: A tensor of shape (1, duration_sec, 3, height, width).
             top_k: Number of top actions to return.
+            is_print: Whether to print the scores.
 
         Returns:
             The top k labels with their scores in descending order.
         """
+        print(video.shape)
+
+        video = video.to(self.device)
         image_feats = self.model.forward_image_features(video)
         video_feats = self.model.forward_video_features(image_feats)
+
+        # print(video.device)
+        # print(next(self.model.parameters()).device)
 
         # encode batch of prompts
         text_feats_batch = self.model.encode_text(self.labels)

@@ -1,6 +1,9 @@
 from __future__ import annotations
 
 import json
+import os
+
+from typing import List, Dict
 
 
 def read_json(file_path: str) -> list:
@@ -35,10 +38,6 @@ def read_jsonl(file_path: str) -> list:
     with open(file_path, 'r') as f:
         return [json.loads(line) for line in f]
 
-
-import os
-import json
-from typing import List, Dict
 
 def append_jsonl(file_path: str, data: List[Dict]) -> None:
     """

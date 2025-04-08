@@ -1,3 +1,5 @@
+import datetime
+
 from main.mineclip.action_predictor import ActionPredictor
 from utils.json_utils import append_jsonl
 
@@ -6,6 +8,9 @@ VIDEO_START_TIME = 75  # seconds
 VIDEO_DURATION = 6  # seconds
 
 def main():
+    # Get the current time
+    start_time = datetime.datetime.now()
+
     action_predictor = ActionPredictor(
         config_path = "./config",
         labels_path = "./labels.txt"
@@ -35,6 +40,11 @@ def main():
         file_path = "./outs/labels.jsonl",
         data = [label_dict]
     )
+
+    # Print the time taken
+    end_time = datetime.datetime.now()
+    taken_time = end_time - start_time
+    print(f"Time taken: {taken_time}")
 
 if __name__ == "__main__":
     main()
