@@ -46,6 +46,12 @@ def get_obj_names(objects, obj_type, out_path="../outs/"):
         if obj_type == "blocks":
             new_json['action'] = ["Mining", "Placing", "Crafting", "Smelting", "Interacting"]
 
+            if data["name"] == "air":
+                continue
+
+            elif data["name"] == "water" or data["name"] == "lava":
+                new_json['action'] = ["Collecting", "Placing", "Interacting", "Swimming in"]
+
         elif obj_type == "items":
             if data["name"] == "redstone":
                 new_json['action'] = ["Crafting", "Placing", "Mining"]

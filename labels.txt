@@ -133,16 +133,14 @@ Placing Bedrock
 Crafting Bedrock
 Smelting Bedrock
 Interacting Bedrock
-Mining Water
+Collecting Water
 Placing Water
-Crafting Water
-Smelting Water
 Interacting Water
-Mining Lava
+Swimming in Water
+Collecting Lava
 Placing Lava
-Crafting Lava
-Smelting Lava
 Interacting Lava
+Swimming in Lava
 Mining Sand
 Placing Sand
 Crafting Sand
