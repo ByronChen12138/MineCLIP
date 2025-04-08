@@ -1,3 +1,4 @@
+import os
 import minecraft_data
 
 from utils.file_utils import append_txt
@@ -5,6 +6,12 @@ from utils.json_utils import write_json, append_jsonl, read_jsonl
 
 
 def get_obj_names(objects, obj_type, out_path="../outs/"):
+    # Delete the file if it exists
+    try:
+        os.remove(f'{out_path}{obj_type}_name.jsonl')
+    except OSError:
+        pass
+
     seen = set()
 
     for key, data in objects.items():
@@ -365,6 +372,9 @@ def get_obj_names(objects, obj_type, out_path="../outs/"):
 
 
 def generate_labels(objects, out_path="../labels.txt"):
+    if os.path.exists(out_path):
+        os.remove(out_path)
+
     for obj in objects:
         for verb in obj.get('action'):
             append_txt(out_path, f'{verb} {obj["name"]}')
@@ -411,6 +421,7 @@ def main():
     # all_objects.extend(read_jsonl("../outs/materials_name.jsonl"))
     all_objects.extend(read_jsonl("../outs/entities_name.jsonl"))
 
+    print(len(all_objects))
     generate_labels(all_objects)
 
     # Merge all dictionaries into one
