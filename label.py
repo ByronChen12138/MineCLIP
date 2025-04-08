@@ -3,9 +3,11 @@ import datetime
 from main.mineclip.action_predictor import ActionPredictor
 from utils.json_utils import append_jsonl
 
+
 VIDEO_ID = "0VfvCDDPHyw"
 VIDEO_START_TIME = 75  # seconds
 VIDEO_DURATION = 6  # seconds
+
 
 def main():
     # Get the current time
@@ -25,7 +27,7 @@ def main():
         width = 256
     )
 
-    labels = action_predictor.predict_action(video, is_print=True)
+    labels = action_predictor.predict_action(video, is_print=False)
     print(labels)
 
     # Create a dictionary to store the labels and the video path
@@ -46,6 +48,7 @@ def main():
     end_time = datetime.datetime.now()
     taken_time = end_time - start_time
     print(f"Time taken: {taken_time}")
+
 
 if __name__ == "__main__":
     main()
