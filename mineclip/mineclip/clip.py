@@ -290,6 +290,33 @@ class CLIP(nn.Module):
         else:
             return text
 
+    def encode_text_batch(self, text: list[str] | str, batch_size: int = 512) -> torch.Tensor:
+        """
+        Encodes a list of texts in batches to avoid memory overflows on MPS / GPU.
+        :param text: List of text strings to encode.
+        :param batch_size: Number of text samples to encode per batch.
+        :return: A tensor containing the encoded text features.
+        """
+        # Tokenize the full list of texts. This should return a tensor of shape [N, L]
+        if isinstance(text, str) or isinstance(text, list):
+            tokens = self.tokenize_text(text)
+
+        # Move tokens to the device of the text model (e.g. MPS)
+        device = U.get_device(self.text_model)
+        tokens = tokens.to(device)
+
+        all_features = []
+        N = tokens.size(0)
+        for i in range(0, N, batch_size):
+            batch_tokens = tokens[i: i + batch_size]
+            with torch.no_grad():
+                # Here, we assume text_model takes tokens and returns features
+                features = self.text_model(batch_tokens)
+            all_features.append(features.cpu())  # Optionally move back to CPU after processing
+
+        # Concatenate features from all batches.
+        return torch.cat(all_features, dim=0)
+
     def forward(self, image, text):
         if image.ndim == 2:
             image_features = image

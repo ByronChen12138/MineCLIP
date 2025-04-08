@@ -13,7 +13,8 @@ class ActionPredictor:
     def __init__(
             self,
             config_path: str = "./conf",
-            labels_path: str = "./labels.txt"
+            labels_path: str = "./labels.txt",
+            encoded_labels_path: str = None
     ):
         """
         Initializes the ActionPredictor by loading the model configuration,
@@ -23,11 +24,10 @@ class ActionPredictor:
             config_path (str): Directory containing the configuration YAML file.
             labels_path (str): Path to the labels file.
         """
-
         if torch.cuda.is_available():
             self.device = torch.device("cuda")
-        # elif torch.backends.mps.is_available():
-        #     self.device = torch.device("mps")
+        elif torch.backends.mps.is_available():
+            self.device = torch.device("mps")
         else:
             self.device = torch.device("cpu")
 
@@ -57,6 +57,21 @@ class ActionPredictor:
         # Load label mappings
         self.labels_path = labels_path
         self.labels = self.load_labels()
+
+        # Encode batch of prompts
+        if not encoded_labels_path or not os.path.isfile(encoded_labels_path):
+            # text_feats_batch = self.model.encode_text(self.labels)
+            self.text_feats_batch = self.model.encode_text_batch(self.labels)
+            print(f"Successfully encoded labels with shape: {self.text_feats_batch.shape}.")
+            torch.save(self.text_feats_batch, './labels_features.pt')
+            print(f"Successfully saved labels features to {os.path.abspath('./labels_features.pt')}.")
+
+        else:
+            # Load precomputed text features
+            if not os.path.isfile(encoded_labels_path):
+                raise FileNotFoundError(f"Encoded labels path is invalid or not found: {encoded_labels_path}")
+            self.text_feats_batch = torch.load(encoded_labels_path, map_location=self.device)
+            print(f"Successfully loaded encoded labels from {os.path.abspath(encoded_labels_path)}, with shape {self.text_feats_batch.shape}.")
 
 
     def load_labels(self):
@@ -139,33 +154,33 @@ class ActionPredictor:
         Returns:
             The top k labels with their scores in descending order.
         """
-        print(video.shape)
+        print(f"Video shape: {video.shape}")
 
         video = video.to(self.device)
         image_feats = self.model.forward_image_features(video)
         video_feats = self.model.forward_video_features(image_feats)
 
-        # print(video.device)
-        # print(next(self.model.parameters()).device)
+        print(f"Video features shape: {video_feats.shape}")
+        print(f"Video features device: {video_feats.device}")
+        print(f"Model device: {next(self.model.parameters()).device}")
 
-        # encode batch of prompts
-        text_feats_batch = self.model.encode_text(self.labels)
-
-        # compute reward from features
+        # Compute reward from features
         scores_per_video, _ = self.model.forward_reward_head(
-            video_feats, text_tokens=text_feats_batch
+            video_feats, text_tokens=self.text_feats_batch
         )
 
         if is_print:
             print(f"The scores per video are {scores_per_video}")
 
-        # Output the top k labels in descending order with their scores in a dictionary with float values
-        scores_per_video = scores_per_video.squeeze(0).cpu().numpy()
+        # Get top k scores and indices along dimension 1
+        top_values, top_indices = torch.topk(scores_per_video, top_k, dim=1)
 
-        indices = np.argsort(scores_per_video)[::-1][:top_k]
-        labels = [self.labels[i] for i in indices]
-        scores = [float(scores_per_video[i]) for i in indices]  # Convert to Python float
-        result = {labels[i]: scores[i] for i in range(top_k)}
+        # If scores_per_video has shape [1, N], then extract the first (and only) batch:
+        top_indices = top_indices[0].tolist()  # list of indices, e.g., [2, 0, 5, ...]
+        top_values = top_values[0].tolist()  # list of top k scores, already in descending order
+
+        # Create a dictionary mapping labels to float scores
+        result = {self.labels[i]: float(score) for i, score in zip(top_indices, top_values)}
 
         if is_print:
             print(f"The top {top_k} labels are {result}")

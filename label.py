@@ -13,7 +13,8 @@ def main():
 
     action_predictor = ActionPredictor(
         config_path = "./config",
-        labels_path = "./labels.txt"
+        labels_path = "./labels.txt",
+        encoded_labels_path = "./labels_features.pt"
     )
 
     video = action_predictor.load_video_clip(
@@ -24,7 +25,7 @@ def main():
         width = 256
     )
 
-    labels = action_predictor.predict_action(video)
+    labels = action_predictor.predict_action(video, is_print=True)
     print(labels)
 
     # Create a dictionary to store the labels and the video path

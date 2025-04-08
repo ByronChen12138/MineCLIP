@@ -93,6 +93,9 @@ class MineCLIP(VideoRewardBase):
     def encode_text(self, text_tokens):
         return self.clip_model.encode_text(text_tokens)
 
+    def encode_text_batch(self, text_tokens):
+        return self.clip_model.encode_text_batch(text_tokens)
+
     def encode_video(self, videos):
         return self.forward_video_features(self.forward_image_features(videos))
 
