@@ -24,6 +24,314 @@ def get_obj_names(objects, obj_type, out_path="../outs/"):
                     print (f"Duplicate name: {data['displayName']}")
                     continue
 
+                elif "Planks" in data["displayName"]:
+                    if "Planks" in seen:
+                        print (f"Duplicate type: 'Planks' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Planks"
+                        seen.add("Planks")
+                    continue
+
+                elif "Sapling" in data["displayName"] or "Propagule" in data["displayName"] or "Bamboo Shoot" in data["displayName"]:
+                    if "Sapling" in seen:
+                        print (f"Duplicate type: 'Sapling' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Sapling"
+                        seen.add("Sapling")
+                    continue
+
+                elif "Log" in data["displayName"] or "Crimson Stem" in data["displayName"] or "Warped Stem" in data["displayName"]:
+                    if "Log" in seen:
+                        print (f"Duplicate type: 'Log' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Log"
+                        seen.add("Log")
+                    continue
+
+                elif "Leaves" in data["displayName"] or data["displayName"] == "Mangrove Roots":
+                    if "Leaves" in seen:
+                        print (f"Duplicate type: 'Leaves' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Leaves"
+                        seen.add("Leaves")
+                    continue
+
+                elif "Wood" in data["displayName"] or "Crimson Hyphae" in data["displayName"] or "Warped Hyphae" in data["displayName"]:
+                    if "Wood" in seen:
+                        print (f"Duplicate type: 'Wood' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Wood"
+                        seen.add("Wood")
+                    continue
+
+                elif "Glass" in data["displayName"]:
+                    if "Glass" in seen:
+                        print (f"Duplicate type: 'Glass' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Glass"
+                        seen.add("Glass")
+                    continue
+
+                elif "Wool" in data["displayName"]:
+                    if "Wool" in seen:
+                        print (f"Duplicate type: 'Wool' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Wool"
+                        seen.add("Wool")
+                    continue
+
+                elif "Stairs" in data["displayName"]:
+                    if "Stairs" in seen:
+                        print (f"Duplicate type: 'Stairs' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Stairs"
+                        seen.add("Stairs")
+                    continue
+
+                elif "Sign" in data["displayName"]:
+                    if "Sign" in seen:
+                        print (f"Duplicate type: 'Sign' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Sign"
+                        seen.add("Sign")
+                    continue
+
+                elif "Door" in data["displayName"]:
+                    if "Door" in seen:
+                        print (f"Duplicate type: 'Door' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Door"
+                        seen.add("Door")
+                    continue
+
+                elif "Copper" in data["displayName"]:
+                    if "Copper" in seen:
+                        print (f"Duplicate type: 'Copper' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Copper"
+                        seen.add("Copper")
+                    continue
+
+                elif "Concrete" in data["displayName"]:
+                    if "Concrete" in seen:
+                        print (f"Duplicate type: 'Concrete' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Concrete"
+                        seen.add("Concrete")
+                    continue
+
+                elif "Plate" in data["displayName"]:
+                    if "Plate" in seen:
+                        print (f"Duplicate type: 'Plate' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Plate"
+                        seen.add("Plate")
+                    continue
+
+                elif "Button" in data["displayName"]:
+                    if "Button" in seen:
+                        print (f"Duplicate type: 'Button' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Button"
+                        seen.add("Button")
+                    continue
+
+                elif "Wall" in data["displayName"]:
+                    if "Wall" in seen:
+                        print (f"Duplicate type: 'Wall' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Wall"
+                        seen.add("Wall")
+                    continue
+
+                # Flower
+                elif (data["name"] == "dandelion" or
+                      data["name"] == "blue_orchid" or
+                      data["name"] == "allium" or
+                      data["name"] == "azure_bluet" or
+                      data["name"] == "red_tulip" or
+                      data["name"] == "orange_tulip" or
+                      data["name"] == "white_tulip" or
+                      data["name"] == "pink_tulip" or
+                      data["name"] == "oxeye_daisy" or
+                      data["name"] == "cornflower" or
+                      data["name"] == "wither_rose" or
+                      data["name"] == "lily_of_the_valley" or
+                      "potted_" in data["name"] or
+                      data["name"] == "sunflower" or
+                      data["name"] == "lilac" or
+                      data["name"] == "peony" or
+                      data["name"] == "poppy"):
+
+                    if "Flower" in seen:
+                        print(f"Duplicate type: 'Flower' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Flower"
+                        seen.add("Flower")
+                    continue
+
+                # Fence
+                elif "Fence" in data["displayName"]:
+                    if "Fence" in seen:
+                        print(f"Duplicate type: 'Fence' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Fence"
+                        seen.add("Fence")
+                    continue
+
+                # Carpet
+                elif "Carpet" in data["displayName"]:
+                    if "Carpet" in seen:
+                        print(f"Duplicate type: 'Carpet' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Carpet"
+                        seen.add("Carpet")
+                    continue
+
+                # Trapdoor
+                elif "Trapdoor" in data["displayName"]:
+                    if "Trapdoor" in seen:
+                        print(f"Duplicate type: 'Trapdoor' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Trapdoor"
+                        seen.add("Trapdoor")
+                    continue
+
+                # Bars
+                elif "Bars" in data["displayName"]:
+                    if "Bars" in seen:
+                        print (f"Duplicate type: 'Bars' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Bars"
+                        seen.add("Bars")
+                    continue
+
+                # Bricks
+                elif "Bricks" in data["displayName"]:
+                    if "Bricks" in seen:
+                        print (f"Duplicate type: 'Bricks' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Bricks"
+                        seen.add("Bricks")
+                    continue
+
+                # Anvil
+                elif "Anvil" in data["displayName"]:
+                    if "Anvil" in seen:
+                        print (f"Duplicate type: 'Anvil' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Anvil"
+                        seen.add("Anvil")
+                    continue
+
+                # Cauldron
+                elif "Cauldron" in data["displayName"]:
+                    if "Cauldron" in seen:
+                        print (f"Duplicate type: 'Cauldron' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Cauldron"
+                        seen.add("Cauldron")
+                    continue
+
+                # Terracotta
+                elif "Terracotta" in data["displayName"]:
+                    if "Terracotta" in seen:
+                        print (f"Duplicate type: 'Terracotta' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Terracotta"
+                        seen.add("Terracotta")
+                    continue
+
+                # Slab
+                elif "Slab" in data["displayName"]:
+                    if "Slab" in seen:
+                        print (f"Duplicate type: 'Slab' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Slab"
+                        seen.add("Slab")
+                    continue
+
+                elif "Bed" in data["displayName"]:
+                    if "Bed" in seen:
+                        print (f"Duplicate type: 'Bed' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Bed"
+                        seen.add("Bed")
+                    continue
+
+                elif "Shulker Box" in data["displayName"]:
+                    if "Shulker Box" in seen:
+                        print (f"Duplicate type: 'Shulker Box' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Shulker Box"
+                        seen.add("Shulker Box")
+                    continue
+
+                elif "Coral Block" in data["displayName"]:
+                    if "Coral Block" in seen:
+                        print (f"Duplicate type: 'Coral Block' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Coral Block"
+                        seen.add("Coral Block")
+                    continue
+
+                elif "Coral" in data["displayName"]:
+                    if data["displayName"] in seen:
+                        print(f"Duplicate name: {data['displayName']}")
+                        continue
+
+                    new_json['name'] = data["displayName"]
+                    seen.add(data["displayName"])
+
+                elif "Vines" in data["displayName"]:
+                    if "Vines" in seen:
+                        print (f"Duplicate type: 'Vines' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Vines"
+                        seen.add("Vines")
+                    continue
+
+                elif "Candle" in data["displayName"]:
+                    if "Candle" in seen:
+                        print (f"Duplicate type: 'Candle' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Candle"
+                        seen.add("Candle")
+                    continue
+
+                elif "Amethyst Cluster" in data["displayName"] or "Amethyst Bud" in data["displayName"]:
+                    if "Amethyst Cluster" in seen:
+                        print (f"Duplicate type: 'Amethyst Cluster' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Amethyst Cluster"
+                        seen.add("Amethyst Cluster")
+                    continue
+
+                elif "Dripleaf" in data["displayName"]:
+                    if "Dripleaf" in seen:
+                        print (f"Duplicate type: 'Dripleaf' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Dripleaf"
+                        seen.add("Dripleaf")
+                    continue
+
+                elif "Deepslate" in data["displayName"]:
+                    if "Deepslate" in seen:
+                        print (f"Duplicate type: 'Deepslate' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Deepslate"
+                        seen.add("Deepslate")
+                    continue
+
+                elif "Froglight" in data["displayName"]:
+                    if "Froglight" in seen:
+                        print (f"Duplicate type: 'Froglight' name: {data['displayName']}")
+                    else:
+                        new_json['name'] = "Froglight"
+                        seen.add("Froglight")
+                    continue
+
+
                 new_json['name'] = data["displayName"]
                 seen.add(data["displayName"])
 
@@ -44,13 +352,348 @@ def get_obj_names(objects, obj_type, out_path="../outs/"):
             continue
 
         if obj_type == "blocks":
-            new_json['action'] = ["Mining", "Placing", "Crafting", "Smelting", "Interacting"]
+            # new_json['action'] = ["Mining", "Placing", "Crafting", "Smelting", "Interacting"]
 
-            if data["name"] == "air":
+            # Pre-defined types:
+            # Planks
+            if data["displayName"] == "Planks":
+                new_json['action'] = ["Crafting", "Placing", "Collecting", "Smelting"]
                 continue
 
-            elif data["name"] == "water" or data["name"] == "lava":
-                new_json['action'] = ["Collecting", "Placing", "Interacting", "Swimming in"]
+            # Sapling / Propagule
+            elif data["displayName"] == "Sapling":
+                new_json['action'] = ["Planting", "Collecting"]
+                continue
+
+            elif data["displayName"] == "Log":
+                new_json['action'] = ["Placing", "Collecting", "Smelting"]
+                continue
+
+            # Breaking-only blocks
+            elif ("Fern" in data["displayName"] or
+                  "Bush" in data["displayName"] or
+                  "Seagrass" in data["displayName"] or
+                  "Dripleaf" in data["displayName"] or
+                  "Coral" in data["displayName"] or
+                  "Vines" in data["displayName"] or
+                  "Amethyst Cluster" in data["displayName"] or
+                  data["displayName"] == "Leaves" or
+                  data["displayName"] == "Grass" or
+                  data["displayName"] == "Spawner" or
+                  data["displayName"] == "Snow" or
+                  data["displayName"] == "Glow Lichen" or
+                  data["displayName"] == "Lily Pad" or
+                  data["displayName"] == "Nether Wart" or
+                  data["displayName"] == "Cocoa" or
+                  data["displayName"] == "Flower Pot" or
+                  data["displayName"] == "Tall Grass" or
+                  data["displayName"] == "Chorus Flower" or
+                  data["displayName"] == "Beetroots" or
+                  data["displayName"] == "Frosted Ice" or
+                  data["displayName"] == "Chorus Plant" or
+                  data["displayName"] == "End Gateway" or
+                  data["displayName"] == "Sea Pickle" or
+                  data["displayName"] == "Warped Fungus" or
+                  data["displayName"] == "Warped Roots" or
+                  data["displayName"] == "Nether Sprouts" or
+                  data["displayName"] == "Crimson Fungus" or
+                  data["displayName"] == "Crimson Roots" or
+                  data["displayName"] == "Bee Nest" or
+                  data["displayName"] == "Budding Amethyst" or
+                  data["displayName"] == "Pointed Dripstone" or
+                  data["displayName"] == "Azalea" or
+                  data["displayName"] == "Flowering Azalea" or
+                  data["displayName"] == "Mud" or
+                  data["displayName"] == "Frogspawn" or
+                  data["displayName"] == "Cobweb"):
+
+                new_json['action'] = ["Breaking", "Collecting"]
+                continue
+
+            elif data["displayName"] == "Wood":
+                new_json['action'] = ["Placing", "Collecting", "Crafting"]
+                continue
+
+            elif data["displayName"] == "Bamboo":
+                new_json['action'] = ["Planting", "Collecting", "Crafting"]
+                continue
+
+            elif data["displayName"] == "Glass":
+                new_json['action'] = ["Placing", "Breaking", "Dying"]
+                continue
+
+            elif data["displayName"] == "Wool" or data["displayName"] == "Terracotta" or data["displayName"] == "Candle":
+                new_json['action'] = ["Placing", "Collecting", "Dying"]
+                continue
+
+            elif (data["displayName"] == "Flower" or
+                  data["displayName"] == "Red Mushroom" or
+                  data["displayName"] == "Wheat Crops" or
+                  data["displayName"] == "Sugar Cane" or
+                  data["displayName"] == "Kelp" or
+                  data["displayName"] == "Kelp Plant" or
+                  data["displayName"] == "Brown Mushroom"):
+
+                new_json['action'] = ["Collecting", "Cooking", "Planting", "Crafting"]
+                continue
+
+            # Air
+            if data["name"] == "air":
+                print(f'IGNORED - "Air"')
+                continue
+
+            elif "Banner" in data["displayName"]:
+                print(f'IGNORED - "Banner": {data["displayName"]}')
+                continue
+
+            elif "Smooth" in data["displayName"]:
+                print(f'IGNORED - "Smooth Blocks": {data["displayName"]}')
+                continue
+
+            # Food
+            elif (data["name"] == "melon" or
+                  data["name"] == "turtle_egg" or
+                  data["name"] == "pumpkin"):
+                new_json['action'] = ["Planting", "Eating", "Collecting"]
+                continue
+
+            # Food Stem
+            elif (data["name"] == "melon_stem" or
+                  data["name"] == "pumpkin_stem"):
+                new_json['action'] = ["Planting", "Collecting"]
+                continue
+
+            elif data["name"] == "cake":
+                new_json['action'] = ["Placing", "Eating", "Making"]
+                continue
+
+            elif data["name"] == "carved_pumpkin":
+                new_json['action'] = ["Placing", "Collecting", "Crafting", "Equipping"]
+                continue
+
+            elif data["name"] == "nether_portal" or data["name"] == "end_portal":
+                new_json['action'] = ["Making", "Using"]
+                continue
+
+            elif data["name"] == "farmland":
+                new_json['action'] = ["Breaking", "Tilling", "Farming on"]
+                continue
+
+            # Water and Lava
+            elif (data["name"] == "water" or
+                  data["name"] == "lava"):
+                new_json['action'] = ["Collecting", "Placing", "Swimming in"]
+
+            # Beds
+            elif "Bed" in data["displayName"]:
+                new_json['action'] = ["Crafting", "Placing", "Sleeping on", "Breaking"]
+
+            # Smeltable Blocks
+            elif ("asdasada" in data["name"] or
+                  data["name"] == "stone" or
+                  data["name"] == "cobblestone" or
+                  data["name"] == "sand" or
+                  data["name"] == "red_sand" or
+                  data["name"] == "sponge" or
+                  data["name"] == "wet_sponge" or
+                  data["name"] == "cactus" or
+                  data["name"] == "netherrack" or
+                  data["name"] == "quartz_block" or
+                  data["name"] == "chiseled_quartz_block"):
+
+                new_json['action'] = ["Placing", "Collecting", "Smelting"]
+
+            # Craftable Blocks
+            elif ("Stairs" in data["displayName"] or
+                  "Bricks" in data["displayName"] or
+                  "Wall" in data["displayName"] or
+                  "Carpet" in data["displayName"] or
+                  "sandstone" in data["name"] or
+                  "Copper" in data["displayName"] or
+                  data["name"] == "granite" or
+                  data["name"] == "polished_granite" or
+                  data["name"] == "diorite" or
+                  data["name"] == "polished_diorite" or
+                  data["name"] == "andesite" or
+                  data["name"] == "polished_andesite" or
+                  data["name"] == "coarse_dirt" or
+                  data["name"] == "muddy_mangrove_roots" or
+                  data["name"] == "lapis_block" or
+                  data["name"] == "gold_block" or
+                  data["name"] == "iron_block" or
+                  data["name"] == "mossy_cobblestone" or
+                  data["name"] == "diamond_block" or
+                  data["name"] == "ice" or
+                  data["name"] == "snow_block" or
+                  data["name"] == "basalt" or
+                  data["name"] == "polished_basalt" or
+                  data["name"] == "glowstone" or
+                  data["name"] == "packed_mud" or
+                  data["name"] == "emerald_block" or
+                  data["name"] == "redstone_block" or
+                  data["name"] == "quartz_pillar" or
+                  data["name"] == "prismarine" or
+                  data["name"] == "dark_prismarine" or
+                  data["name"] == "slime_block" or
+                  data["name"] == "sea_lantern" or
+                  data["name"] == "coal_block" or
+                  data["name"] == "packed_ice" or
+                  data["name"] == "end_rod" or
+                  data["name"] == "purpur_block" or
+                  data["name"] == "purpur_pillar" or
+                  data["name"] == "dried_kelp_block" or
+                  data["name"] == "conduit" or
+                  data["name"] == "beehive" or
+                  data["name"] == "honey_block" or
+                  data["name"] == "honeycomb_block" or
+                  data["name"] == "respawn_anchor" or
+                  data["name"] == "lodestone" or
+                  data["name"] == "blackstone" or
+                  data["name"] == "polished_blackstone" or
+                  data["name"] == "chiseled_polished_blackstone" or
+                  data["name"] == "gilded_blackstone" or
+                  data["name"] == "amethyst_block"):
+
+                new_json['action'] = ["Placing", "Collecting", "Crafting"]
+
+            # Craftable and Smeltable Blocks
+            elif ("asdasada" in data["name"] or
+                  data["name"] == "planks" or
+                  data["name"] == "clay"):
+                new_json['action'] = ["Placing", "Collecting", "Crafting", "Smelting"]
+
+            # Non-craftable and non-smeltable Blocks
+            elif ("Concrete" in data["displayName"] or
+                  "Coral Block" in data["displayName"] or
+                  "Deepslate" in data["displayName"] or
+                  "Froglight" in data["displayName"] or
+                  data["name"] == "grass_block" or
+                  data["name"] == "dirt" or
+                  data["name"] == "podzol" or
+                  data["name"] == "gravel" or
+                  data["name"] == "obsidian" or
+                  data["name"] == "soul_sand" or
+                  data["name"] == "soul_soil" or
+                  data["name"] == "infested_stone" or
+                  data["name"] == "infested_cobblestone" or
+                  data["name"] == "infested_stone_bricks" or
+                  data["name"] == "infested_mossy_stone_bricks" or
+                  data["name"] == "infested_cracked_stone_bricks" or
+                  data["name"] == "infested_chiseled_stone_bricks" or
+                  data["name"] == "brown_mushroom_block" or
+                  data["name"] == "red_mushroom_block" or
+                  data["name"] == "mushroom_stem" or
+                  data["name"] == "mycelium" or
+                  data["name"] == "end_stone" or
+                  data["name"] == "dragon_egg" or
+                  data["name"] == "skeleton_skull" or
+                  data["name"] == "wither_skeleton_skull" or
+                  data["name"] == "zombie_head" or
+                  data["name"] == "player_head" or
+                  data["name"] == "creeper_head" or
+                  data["name"] == "dragon_head" or
+                  data["name"] == "dirt_path" or
+                  data["name"] == "magma_block" or
+                  data["name"] == "nether_wart_block" or
+                  data["name"] == "bone_block" or
+                  data["name"] == "blue_ice" or
+                  data["name"] == "warped_nylium" or
+                  data["name"] == "warped_wart_block" or
+                  data["name"] == "crimson_nylium" or
+                  data["name"] == "shroomlight" or
+                  data["name"] == "ancient_debris" or
+                  data["name"] == "crying_obsidian" or
+                  data["name"] == "tuff" or
+                  data["name"] == "calcite" or
+                  data["name"] == "powder_snow" or
+                  data["name"] == "sculk_sensor" or
+                  data["name"] == "sculk" or
+                  data["name"] == "sculk_vein" or
+                  data["name"] == "sculk_catalyst" or
+                  data["name"] == "sculk_shrieker" or
+                  data["name"] == "dripstone_block" or
+                  data["name"] == "moss_block"):
+
+                new_json['action'] = ["Placing", "Collecting"]
+
+            # Ores
+            elif "ore" in data["name"]:
+                new_json['action'] = ["Mining", "Smelting", "Collecting"]
+
+            # Non-Interactable Tool Blocks
+            elif ("Fence" in data["displayName"] or
+                  "Bars" in data["displayName"] or
+                  "Slab" in data["displayName"] or
+                  "rail" in data["name"] or
+                  data["name"] == "soul_torch" or
+                  data["name"] == "torch" or
+                  data["name"] == "redstone_torch" or
+                  data["name"] == "ladder" or
+                  data["name"] == "sticky_piston" or
+                  data["name"] == "piston" or
+                  data["name"] == "piston_head" or
+                  data["name"] == "bookshelf" or
+                  data["name"] == "redstone_wire" or
+                  data["name"] == "repeater" or
+                  data["name"] == "chain" or
+                  data["name"] == "redstone_lamp" or
+                  data["name"] == "beacon" or
+                  data["name"] == "comparator" or
+                  data["name"] == "daylight_detector" or
+                  data["name"] == "hopper" or
+                  data["name"] == "scaffolding" or
+                  data["name"] == "barrel" or
+                  data["name"] == "grindstone" or
+                  data["name"] == "bell" or
+                  data["name"] == "lantern" or
+                  data["name"] == "soul_lantern" or
+                  data["name"] == "campfire" or
+                  data["name"] == "soul_campfire" or
+                  data["name"] == "target" or
+                  data["name"] == "lightning_rod" or
+                  data["name"] == "jack_o_lantern"):
+
+                new_json['action'] = ["Placing", "Collecting", "Crafting"]
+
+            # Tool Blocks
+            elif ("Sign" in data["displayName"] or
+                  "Door" in data["displayName"] or
+                  "Trapdoor" in data["displayName"] or
+                  "Plate" in data["displayName"] or
+                  "Button" in data["displayName"] or
+                  "Cauldron" in data["displayName"] or
+                  "Shulker Box" in data["displayName"] or
+                  "Anvil" in data["displayName"] or
+                  data["name"] == "dispenser" or
+                  data["name"] == "note_block" or
+                  data["name"] == "tnt" or
+                  data["name"] == "chest" or
+                  data["name"] == "crafting_table" or
+                  data["name"] == "furnace" or
+                  data["name"] == "lever" or
+                  data["name"] == "jukebox" or
+                  data["name"] == "enchanting_table" or
+                  data["name"] == "brewing_stand" or
+                  data["name"] == "tripwire_hook" or
+                  data["name"] == "tripwire" or
+                  data["name"] == "dropper" or
+                  data["name"] == "loom" or
+                  data["name"] == "smoker" or
+                  data["name"] == "blast_furnace" or
+                  data["name"] == "cartography_table" or
+                  data["name"] == "fletching_table" or
+                  data["name"] == "lectern" or
+                  data["name"] == "smithing_table" or
+                  data["name"] == "stonecutter" or
+                  data["name"] == "observer" or
+                  data["name"] == "composter"):
+
+                new_json['action'] = ["Crafting", "Placing", "Collecting", "Using"]
+
+            else:
+                print(f'IGNORED - "Blocks" {key}: {data}')
+                continue
+
 
         elif obj_type == "items":
             if data["name"] == "redstone":
@@ -86,7 +729,8 @@ def get_obj_names(objects, obj_type, out_path="../outs/"):
                   data["name"] == "lingering_potion" or
                   data["name"] == "shulker_shell" or
                   data["name"] == "nautilus_shell"):
-                new_json['action'] = ["Crafting", "Interacting"]
+
+                new_json['action'] = ["Crafting", "Using"]
 
             # Tools
             elif (data["name"] == "elytra" or
@@ -160,7 +804,8 @@ def get_obj_names(objects, obj_type, out_path="../outs/"):
                   data["name"] == "leather_horse_armor" or
                   data["name"] == "shield" or
                   data["name"] == "crossbow"):
-                new_json['action'] = ["Crafting", "Equipping", "Enchanting", "Repairing"]
+
+                new_json['action'] = ["Crafting", "Enchanting", "Repairing", "Using", "Using Enhanced"]
 
             # Collectable Food
             elif (data["name"] == "apple" or
@@ -170,6 +815,7 @@ def get_obj_names(objects, obj_type, out_path="../outs/"):
                   data["name"] == "rotten_flesh" or
                   data["name"] == "mutton" or
                   data["name"] == "chorus_fruit"):
+
                 new_json['action'] = ["Collecting", "Eating"]
 
             # Collectable Food (Plantable)
@@ -177,6 +823,7 @@ def get_obj_names(objects, obj_type, out_path="../outs/"):
                   data["name"] == "potato" or
                   data["name"] == "sweet_berries" or
                   data["name"] == "glow_berries"):
+
                 new_json['action'] = ["Collecting", "Eating", "Planting"]
 
             # Cookable Food
@@ -201,6 +848,7 @@ def get_obj_names(objects, obj_type, out_path="../outs/"):
                   data["name"] == "cooked_mutton" or
                   data["name"] == "beetroot_soup" or
                   data["name"] == "suspicious_stew"):
+
                 new_json['action'] = ["Cooking", "Eating"]
 
             # Ores
@@ -247,6 +895,7 @@ def get_obj_names(objects, obj_type, out_path="../outs/"):
                   data["name"] == "iron_nugget" or
                   data["name"] == "heart_of_the_sea" or
                   data["name"] == "goat_horn"):
+
                 new_json['action'] = ["Crafting", "Collecting"]
 
             # Materials
@@ -272,6 +921,7 @@ def get_obj_names(objects, obj_type, out_path="../outs/"):
                   data["name"] == "prismarine_shard" or
                   data["name"] == "honeycomb" or
                   data["name"] == "echo_shard"):
+
                 new_json['action'] = ["Collecting"]
 
             # Seeds
@@ -280,6 +930,7 @@ def get_obj_names(objects, obj_type, out_path="../outs/"):
                   data["name"] == "melon_seeds" or
                   data["name"] == "beetroot_seeds" or
                   data["name"] == "beetroot"):
+
                 new_json['action'] = ["Crafting", "Collecting", "Planting"]
 
             # Buckets
@@ -298,6 +949,7 @@ def get_obj_names(objects, obj_type, out_path="../outs/"):
                   data["name"] == "knowledge_book" or
                   data["name"] == "phantom_membrane" or
                   data["name"] == "honey_bottle"):
+
                 new_json['action'] = ["Collecting", "Interacting"]
 
             # Spawn Eggs
@@ -332,7 +984,7 @@ def get_obj_names(objects, obj_type, out_path="../outs/"):
                     data ["name"] == "glow_item_frame" or
                     data ["name"] == "leash_knot"):
 
-                    new_json['action'] = ["Crafting", "Interacting", "Mining", "Placing"]
+                    new_json['action'] = ["Crafting", "Interacting", "Breaking", "Placing"]
 
                 elif data["name"] == "end_crystal":
                     new_json['action'] = ["Crafting", "Interacting", "Mining", "Attacking"]

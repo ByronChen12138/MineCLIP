@@ -1,4542 +1,544 @@
-Mining Stone
 Placing Stone
-Crafting Stone
+Collecting Stone
 Smelting Stone
-Interacting Stone
-Mining Granite
 Placing Granite
+Collecting Granite
 Crafting Granite
-Smelting Granite
-Interacting Granite
-Mining Polished Granite
 Placing Polished Granite
+Collecting Polished Granite
 Crafting Polished Granite
-Smelting Polished Granite
-Interacting Polished Granite
-Mining Diorite
 Placing Diorite
+Collecting Diorite
 Crafting Diorite
-Smelting Diorite
-Interacting Diorite
-Mining Polished Diorite
 Placing Polished Diorite
+Collecting Polished Diorite
 Crafting Polished Diorite
-Smelting Polished Diorite
-Interacting Polished Diorite
-Mining Andesite
 Placing Andesite
+Collecting Andesite
 Crafting Andesite
-Smelting Andesite
-Interacting Andesite
-Mining Polished Andesite
 Placing Polished Andesite
+Collecting Polished Andesite
 Crafting Polished Andesite
-Smelting Polished Andesite
-Interacting Polished Andesite
-Mining Grass Block
 Placing Grass Block
-Crafting Grass Block
-Smelting Grass Block
-Interacting Grass Block
-Mining Dirt
+Collecting Grass Block
 Placing Dirt
-Crafting Dirt
-Smelting Dirt
-Interacting Dirt
-Mining Coarse Dirt
+Collecting Dirt
 Placing Coarse Dirt
+Collecting Coarse Dirt
 Crafting Coarse Dirt
-Smelting Coarse Dirt
-Interacting Coarse Dirt
-Mining Podzol
 Placing Podzol
-Crafting Podzol
-Smelting Podzol
-Interacting Podzol
-Mining Cobblestone
+Collecting Podzol
 Placing Cobblestone
-Crafting Cobblestone
+Collecting Cobblestone
 Smelting Cobblestone
-Interacting Cobblestone
-Mining Oak Planks
-Placing Oak Planks
-Crafting Oak Planks
-Smelting Oak Planks
-Interacting Oak Planks
-Mining Spruce Planks
-Placing Spruce Planks
-Crafting Spruce Planks
-Smelting Spruce Planks
-Interacting Spruce Planks
-Mining Birch Planks
-Placing Birch Planks
-Crafting Birch Planks
-Smelting Birch Planks
-Interacting Birch Planks
-Mining Jungle Planks
-Placing Jungle Planks
-Crafting Jungle Planks
-Smelting Jungle Planks
-Interacting Jungle Planks
-Mining Acacia Planks
-Placing Acacia Planks
-Crafting Acacia Planks
-Smelting Acacia Planks
-Interacting Acacia Planks
-Mining Dark Oak Planks
-Placing Dark Oak Planks
-Crafting Dark Oak Planks
-Smelting Dark Oak Planks
-Interacting Dark Oak Planks
-Mining Mangrove Planks
-Placing Mangrove Planks
-Crafting Mangrove Planks
-Smelting Mangrove Planks
-Interacting Mangrove Planks
-Mining Oak Sapling
-Placing Oak Sapling
-Crafting Oak Sapling
-Smelting Oak Sapling
-Interacting Oak Sapling
-Mining Spruce Sapling
-Placing Spruce Sapling
-Crafting Spruce Sapling
-Smelting Spruce Sapling
-Interacting Spruce Sapling
-Mining Birch Sapling
-Placing Birch Sapling
-Crafting Birch Sapling
-Smelting Birch Sapling
-Interacting Birch Sapling
-Mining Jungle Sapling
-Placing Jungle Sapling
-Crafting Jungle Sapling
-Smelting Jungle Sapling
-Interacting Jungle Sapling
-Mining Acacia Sapling
-Placing Acacia Sapling
-Crafting Acacia Sapling
-Smelting Acacia Sapling
-Interacting Acacia Sapling
-Mining Dark Oak Sapling
-Placing Dark Oak Sapling
-Crafting Dark Oak Sapling
-Smelting Dark Oak Sapling
-Interacting Dark Oak Sapling
-Mining Mangrove Propagule
-Placing Mangrove Propagule
-Crafting Mangrove Propagule
-Smelting Mangrove Propagule
-Interacting Mangrove Propagule
-Mining Bedrock
-Placing Bedrock
-Crafting Bedrock
-Smelting Bedrock
-Interacting Bedrock
 Collecting Water
 Placing Water
-Interacting Water
 Swimming in Water
 Collecting Lava
 Placing Lava
-Interacting Lava
 Swimming in Lava
-Mining Sand
 Placing Sand
-Crafting Sand
+Collecting Sand
 Smelting Sand
-Interacting Sand
-Mining Red Sand
 Placing Red Sand
-Crafting Red Sand
+Collecting Red Sand
 Smelting Red Sand
-Interacting Red Sand
-Mining Gravel
 Placing Gravel
-Crafting Gravel
-Smelting Gravel
-Interacting Gravel
+Collecting Gravel
 Mining Gold Ore
-Placing Gold Ore
-Crafting Gold Ore
 Smelting Gold Ore
-Interacting Gold Ore
-Mining Deepslate Gold Ore
-Placing Deepslate Gold Ore
-Crafting Deepslate Gold Ore
-Smelting Deepslate Gold Ore
-Interacting Deepslate Gold Ore
+Collecting Gold Ore
 Mining Iron Ore
-Placing Iron Ore
-Crafting Iron Ore
 Smelting Iron Ore
-Interacting Iron Ore
-Mining Deepslate Iron Ore
-Placing Deepslate Iron Ore
-Crafting Deepslate Iron Ore
-Smelting Deepslate Iron Ore
-Interacting Deepslate Iron Ore
+Collecting Iron Ore
 Mining Coal Ore
-Placing Coal Ore
-Crafting Coal Ore
 Smelting Coal Ore
-Interacting Coal Ore
-Mining Deepslate Coal Ore
-Placing Deepslate Coal Ore
-Crafting Deepslate Coal Ore
-Smelting Deepslate Coal Ore
-Interacting Deepslate Coal Ore
+Collecting Coal Ore
 Mining Nether Gold Ore
-Placing Nether Gold Ore
-Crafting Nether Gold Ore
 Smelting Nether Gold Ore
-Interacting Nether Gold Ore
-Mining Oak Log
-Placing Oak Log
-Crafting Oak Log
-Smelting Oak Log
-Interacting Oak Log
-Mining Spruce Log
-Placing Spruce Log
-Crafting Spruce Log
-Smelting Spruce Log
-Interacting Spruce Log
-Mining Birch Log
-Placing Birch Log
-Crafting Birch Log
-Smelting Birch Log
-Interacting Birch Log
-Mining Jungle Log
-Placing Jungle Log
-Crafting Jungle Log
-Smelting Jungle Log
-Interacting Jungle Log
-Mining Acacia Log
-Placing Acacia Log
-Crafting Acacia Log
-Smelting Acacia Log
-Interacting Acacia Log
-Mining Dark Oak Log
-Placing Dark Oak Log
-Crafting Dark Oak Log
-Smelting Dark Oak Log
-Interacting Dark Oak Log
-Mining Mangrove Log
-Placing Mangrove Log
-Crafting Mangrove Log
-Smelting Mangrove Log
-Interacting Mangrove Log
-Mining Mangrove Roots
-Placing Mangrove Roots
-Crafting Mangrove Roots
-Smelting Mangrove Roots
-Interacting Mangrove Roots
-Mining Muddy Mangrove Roots
+Collecting Nether Gold Ore
 Placing Muddy Mangrove Roots
+Collecting Muddy Mangrove Roots
 Crafting Muddy Mangrove Roots
-Smelting Muddy Mangrove Roots
-Interacting Muddy Mangrove Roots
-Mining Stripped Spruce Log
-Placing Stripped Spruce Log
-Crafting Stripped Spruce Log
-Smelting Stripped Spruce Log
-Interacting Stripped Spruce Log
-Mining Stripped Birch Log
-Placing Stripped Birch Log
-Crafting Stripped Birch Log
-Smelting Stripped Birch Log
-Interacting Stripped Birch Log
-Mining Stripped Jungle Log
-Placing Stripped Jungle Log
-Crafting Stripped Jungle Log
-Smelting Stripped Jungle Log
-Interacting Stripped Jungle Log
-Mining Stripped Acacia Log
-Placing Stripped Acacia Log
-Crafting Stripped Acacia Log
-Smelting Stripped Acacia Log
-Interacting Stripped Acacia Log
-Mining Stripped Dark Oak Log
-Placing Stripped Dark Oak Log
-Crafting Stripped Dark Oak Log
-Smelting Stripped Dark Oak Log
-Interacting Stripped Dark Oak Log
-Mining Stripped Oak Log
-Placing Stripped Oak Log
-Crafting Stripped Oak Log
-Smelting Stripped Oak Log
-Interacting Stripped Oak Log
-Mining Stripped Mangrove Log
-Placing Stripped Mangrove Log
-Crafting Stripped Mangrove Log
-Smelting Stripped Mangrove Log
-Interacting Stripped Mangrove Log
-Mining Oak Wood
-Placing Oak Wood
-Crafting Oak Wood
-Smelting Oak Wood
-Interacting Oak Wood
-Mining Spruce Wood
-Placing Spruce Wood
-Crafting Spruce Wood
-Smelting Spruce Wood
-Interacting Spruce Wood
-Mining Birch Wood
-Placing Birch Wood
-Crafting Birch Wood
-Smelting Birch Wood
-Interacting Birch Wood
-Mining Jungle Wood
-Placing Jungle Wood
-Crafting Jungle Wood
-Smelting Jungle Wood
-Interacting Jungle Wood
-Mining Acacia Wood
-Placing Acacia Wood
-Crafting Acacia Wood
-Smelting Acacia Wood
-Interacting Acacia Wood
-Mining Dark Oak Wood
-Placing Dark Oak Wood
-Crafting Dark Oak Wood
-Smelting Dark Oak Wood
-Interacting Dark Oak Wood
-Mining Mangrove Wood
-Placing Mangrove Wood
-Crafting Mangrove Wood
-Smelting Mangrove Wood
-Interacting Mangrove Wood
-Mining Stripped Oak Wood
-Placing Stripped Oak Wood
-Crafting Stripped Oak Wood
-Smelting Stripped Oak Wood
-Interacting Stripped Oak Wood
-Mining Stripped Spruce Wood
-Placing Stripped Spruce Wood
-Crafting Stripped Spruce Wood
-Smelting Stripped Spruce Wood
-Interacting Stripped Spruce Wood
-Mining Stripped Birch Wood
-Placing Stripped Birch Wood
-Crafting Stripped Birch Wood
-Smelting Stripped Birch Wood
-Interacting Stripped Birch Wood
-Mining Stripped Jungle Wood
-Placing Stripped Jungle Wood
-Crafting Stripped Jungle Wood
-Smelting Stripped Jungle Wood
-Interacting Stripped Jungle Wood
-Mining Stripped Acacia Wood
-Placing Stripped Acacia Wood
-Crafting Stripped Acacia Wood
-Smelting Stripped Acacia Wood
-Interacting Stripped Acacia Wood
-Mining Stripped Dark Oak Wood
-Placing Stripped Dark Oak Wood
-Crafting Stripped Dark Oak Wood
-Smelting Stripped Dark Oak Wood
-Interacting Stripped Dark Oak Wood
-Mining Stripped Mangrove Wood
-Placing Stripped Mangrove Wood
-Crafting Stripped Mangrove Wood
-Smelting Stripped Mangrove Wood
-Interacting Stripped Mangrove Wood
-Mining Oak Leaves
-Placing Oak Leaves
-Crafting Oak Leaves
-Smelting Oak Leaves
-Interacting Oak Leaves
-Mining Spruce Leaves
-Placing Spruce Leaves
-Crafting Spruce Leaves
-Smelting Spruce Leaves
-Interacting Spruce Leaves
-Mining Birch Leaves
-Placing Birch Leaves
-Crafting Birch Leaves
-Smelting Birch Leaves
-Interacting Birch Leaves
-Mining Jungle Leaves
-Placing Jungle Leaves
-Crafting Jungle Leaves
-Smelting Jungle Leaves
-Interacting Jungle Leaves
-Mining Acacia Leaves
-Placing Acacia Leaves
-Crafting Acacia Leaves
-Smelting Acacia Leaves
-Interacting Acacia Leaves
-Mining Dark Oak Leaves
-Placing Dark Oak Leaves
-Crafting Dark Oak Leaves
-Smelting Dark Oak Leaves
-Interacting Dark Oak Leaves
-Mining Mangrove Leaves
-Placing Mangrove Leaves
-Crafting Mangrove Leaves
-Smelting Mangrove Leaves
-Interacting Mangrove Leaves
-Mining Azalea Leaves
-Placing Azalea Leaves
-Crafting Azalea Leaves
-Smelting Azalea Leaves
-Interacting Azalea Leaves
-Mining Flowering Azalea Leaves
-Placing Flowering Azalea Leaves
-Crafting Flowering Azalea Leaves
-Smelting Flowering Azalea Leaves
-Interacting Flowering Azalea Leaves
-Mining Sponge
 Placing Sponge
-Crafting Sponge
+Collecting Sponge
 Smelting Sponge
-Interacting Sponge
-Mining Wet Sponge
 Placing Wet Sponge
-Crafting Wet Sponge
+Collecting Wet Sponge
 Smelting Wet Sponge
-Interacting Wet Sponge
-Mining Glass
-Placing Glass
-Crafting Glass
-Smelting Glass
-Interacting Glass
 Mining Lapis Lazuli Ore
-Placing Lapis Lazuli Ore
-Crafting Lapis Lazuli Ore
 Smelting Lapis Lazuli Ore
-Interacting Lapis Lazuli Ore
-Mining Deepslate Lapis Lazuli Ore
-Placing Deepslate Lapis Lazuli Ore
-Crafting Deepslate Lapis Lazuli Ore
-Smelting Deepslate Lapis Lazuli Ore
-Interacting Deepslate Lapis Lazuli Ore
-Mining Block of Lapis Lazuli
+Collecting Lapis Lazuli Ore
 Placing Block of Lapis Lazuli
+Collecting Block of Lapis Lazuli
 Crafting Block of Lapis Lazuli
-Smelting Block of Lapis Lazuli
-Interacting Block of Lapis Lazuli
-Mining Dispenser
-Placing Dispenser
 Crafting Dispenser
-Smelting Dispenser
-Interacting Dispenser
-Mining Sandstone
+Placing Dispenser
+Collecting Dispenser
+Using Dispenser
 Placing Sandstone
+Collecting Sandstone
 Crafting Sandstone
-Smelting Sandstone
-Interacting Sandstone
-Mining Chiseled Sandstone
 Placing Chiseled Sandstone
+Collecting Chiseled Sandstone
 Crafting Chiseled Sandstone
-Smelting Chiseled Sandstone
-Interacting Chiseled Sandstone
-Mining Cut Sandstone
 Placing Cut Sandstone
+Collecting Cut Sandstone
 Crafting Cut Sandstone
-Smelting Cut Sandstone
-Interacting Cut Sandstone
-Mining Note Block
-Placing Note Block
 Crafting Note Block
-Smelting Note Block
-Interacting Note Block
-Mining White Bed
-Placing White Bed
-Crafting White Bed
-Smelting White Bed
-Interacting White Bed
-Mining Orange Bed
-Placing Orange Bed
-Crafting Orange Bed
-Smelting Orange Bed
-Interacting Orange Bed
-Mining Magenta Bed
-Placing Magenta Bed
-Crafting Magenta Bed
-Smelting Magenta Bed
-Interacting Magenta Bed
-Mining Light Blue Bed
-Placing Light Blue Bed
-Crafting Light Blue Bed
-Smelting Light Blue Bed
-Interacting Light Blue Bed
-Mining Yellow Bed
-Placing Yellow Bed
-Crafting Yellow Bed
-Smelting Yellow Bed
-Interacting Yellow Bed
-Mining Lime Bed
-Placing Lime Bed
-Crafting Lime Bed
-Smelting Lime Bed
-Interacting Lime Bed
-Mining Pink Bed
-Placing Pink Bed
-Crafting Pink Bed
-Smelting Pink Bed
-Interacting Pink Bed
-Mining Gray Bed
-Placing Gray Bed
-Crafting Gray Bed
-Smelting Gray Bed
-Interacting Gray Bed
-Mining Light Gray Bed
-Placing Light Gray Bed
-Crafting Light Gray Bed
-Smelting Light Gray Bed
-Interacting Light Gray Bed
-Mining Cyan Bed
-Placing Cyan Bed
-Crafting Cyan Bed
-Smelting Cyan Bed
-Interacting Cyan Bed
-Mining Purple Bed
-Placing Purple Bed
-Crafting Purple Bed
-Smelting Purple Bed
-Interacting Purple Bed
-Mining Blue Bed
-Placing Blue Bed
-Crafting Blue Bed
-Smelting Blue Bed
-Interacting Blue Bed
-Mining Brown Bed
-Placing Brown Bed
-Crafting Brown Bed
-Smelting Brown Bed
-Interacting Brown Bed
-Mining Green Bed
-Placing Green Bed
-Crafting Green Bed
-Smelting Green Bed
-Interacting Green Bed
-Mining Red Bed
-Placing Red Bed
-Crafting Red Bed
-Smelting Red Bed
-Interacting Red Bed
-Mining Black Bed
-Placing Black Bed
-Crafting Black Bed
-Smelting Black Bed
-Interacting Black Bed
-Mining Powered Rail
+Placing Note Block
+Collecting Note Block
+Using Note Block
 Placing Powered Rail
+Collecting Powered Rail
 Crafting Powered Rail
-Smelting Powered Rail
-Interacting Powered Rail
-Mining Detector Rail
 Placing Detector Rail
+Collecting Detector Rail
 Crafting Detector Rail
-Smelting Detector Rail
-Interacting Detector Rail
-Mining Sticky Piston
 Placing Sticky Piston
+Collecting Sticky Piston
 Crafting Sticky Piston
-Smelting Sticky Piston
-Interacting Sticky Piston
-Mining Cobweb
-Placing Cobweb
-Crafting Cobweb
-Smelting Cobweb
-Interacting Cobweb
-Mining Grass
-Placing Grass
-Crafting Grass
-Smelting Grass
-Interacting Grass
-Mining Fern
-Placing Fern
-Crafting Fern
-Smelting Fern
-Interacting Fern
-Mining Dead Bush
-Placing Dead Bush
-Crafting Dead Bush
-Smelting Dead Bush
-Interacting Dead Bush
-Mining Seagrass
-Placing Seagrass
-Crafting Seagrass
-Smelting Seagrass
-Interacting Seagrass
-Mining Tall Seagrass
-Placing Tall Seagrass
-Crafting Tall Seagrass
-Smelting Tall Seagrass
-Interacting Tall Seagrass
-Mining Piston
 Placing Piston
+Collecting Piston
 Crafting Piston
-Smelting Piston
-Interacting Piston
-Mining Piston Head
 Placing Piston Head
+Collecting Piston Head
 Crafting Piston Head
-Smelting Piston Head
-Interacting Piston Head
-Mining White Wool
-Placing White Wool
-Crafting White Wool
-Smelting White Wool
-Interacting White Wool
-Mining Orange Wool
-Placing Orange Wool
-Crafting Orange Wool
-Smelting Orange Wool
-Interacting Orange Wool
-Mining Magenta Wool
-Placing Magenta Wool
-Crafting Magenta Wool
-Smelting Magenta Wool
-Interacting Magenta Wool
-Mining Light Blue Wool
-Placing Light Blue Wool
-Crafting Light Blue Wool
-Smelting Light Blue Wool
-Interacting Light Blue Wool
-Mining Yellow Wool
-Placing Yellow Wool
-Crafting Yellow Wool
-Smelting Yellow Wool
-Interacting Yellow Wool
-Mining Lime Wool
-Placing Lime Wool
-Crafting Lime Wool
-Smelting Lime Wool
-Interacting Lime Wool
-Mining Pink Wool
-Placing Pink Wool
-Crafting Pink Wool
-Smelting Pink Wool
-Interacting Pink Wool
-Mining Gray Wool
-Placing Gray Wool
-Crafting Gray Wool
-Smelting Gray Wool
-Interacting Gray Wool
-Mining Light Gray Wool
-Placing Light Gray Wool
-Crafting Light Gray Wool
-Smelting Light Gray Wool
-Interacting Light Gray Wool
-Mining Cyan Wool
-Placing Cyan Wool
-Crafting Cyan Wool
-Smelting Cyan Wool
-Interacting Cyan Wool
-Mining Purple Wool
-Placing Purple Wool
-Crafting Purple Wool
-Smelting Purple Wool
-Interacting Purple Wool
-Mining Blue Wool
-Placing Blue Wool
-Crafting Blue Wool
-Smelting Blue Wool
-Interacting Blue Wool
-Mining Brown Wool
-Placing Brown Wool
-Crafting Brown Wool
-Smelting Brown Wool
-Interacting Brown Wool
-Mining Green Wool
-Placing Green Wool
-Crafting Green Wool
-Smelting Green Wool
-Interacting Green Wool
-Mining Red Wool
-Placing Red Wool
-Crafting Red Wool
-Smelting Red Wool
-Interacting Red Wool
-Mining Black Wool
-Placing Black Wool
-Crafting Black Wool
-Smelting Black Wool
-Interacting Black Wool
-Mining Moving Piston
-Placing Moving Piston
-Crafting Moving Piston
-Smelting Moving Piston
-Interacting Moving Piston
-Mining Dandelion
-Placing Dandelion
-Crafting Dandelion
-Smelting Dandelion
-Interacting Dandelion
-Mining Poppy
-Placing Poppy
-Crafting Poppy
-Smelting Poppy
-Interacting Poppy
-Mining Blue Orchid
-Placing Blue Orchid
-Crafting Blue Orchid
-Smelting Blue Orchid
-Interacting Blue Orchid
-Mining Allium
-Placing Allium
-Crafting Allium
-Smelting Allium
-Interacting Allium
-Mining Azure Bluet
-Placing Azure Bluet
-Crafting Azure Bluet
-Smelting Azure Bluet
-Interacting Azure Bluet
-Mining Red Tulip
-Placing Red Tulip
-Crafting Red Tulip
-Smelting Red Tulip
-Interacting Red Tulip
-Mining Orange Tulip
-Placing Orange Tulip
-Crafting Orange Tulip
-Smelting Orange Tulip
-Interacting Orange Tulip
-Mining White Tulip
-Placing White Tulip
-Crafting White Tulip
-Smelting White Tulip
-Interacting White Tulip
-Mining Pink Tulip
-Placing Pink Tulip
-Crafting Pink Tulip
-Smelting Pink Tulip
-Interacting Pink Tulip
-Mining Oxeye Daisy
-Placing Oxeye Daisy
-Crafting Oxeye Daisy
-Smelting Oxeye Daisy
-Interacting Oxeye Daisy
-Mining Cornflower
-Placing Cornflower
-Crafting Cornflower
-Smelting Cornflower
-Interacting Cornflower
-Mining Wither Rose
-Placing Wither Rose
-Crafting Wither Rose
-Smelting Wither Rose
-Interacting Wither Rose
-Mining Lily of the Valley
-Placing Lily of the Valley
-Crafting Lily of the Valley
-Smelting Lily of the Valley
-Interacting Lily of the Valley
-Mining Brown Mushroom
-Placing Brown Mushroom
-Crafting Brown Mushroom
-Smelting Brown Mushroom
-Interacting Brown Mushroom
-Mining Red Mushroom
-Placing Red Mushroom
-Crafting Red Mushroom
-Smelting Red Mushroom
-Interacting Red Mushroom
-Mining Block of Gold
 Placing Block of Gold
+Collecting Block of Gold
 Crafting Block of Gold
-Smelting Block of Gold
-Interacting Block of Gold
-Mining Block of Iron
 Placing Block of Iron
+Collecting Block of Iron
 Crafting Block of Iron
-Smelting Block of Iron
-Interacting Block of Iron
-Mining Bricks
-Placing Bricks
-Crafting Bricks
-Smelting Bricks
-Interacting Bricks
-Mining TNT
-Placing TNT
 Crafting TNT
-Smelting TNT
-Interacting TNT
-Mining Bookshelf
+Placing TNT
+Collecting TNT
+Using TNT
 Placing Bookshelf
+Collecting Bookshelf
 Crafting Bookshelf
-Smelting Bookshelf
-Interacting Bookshelf
-Mining Mossy Cobblestone
 Placing Mossy Cobblestone
+Collecting Mossy Cobblestone
 Crafting Mossy Cobblestone
-Smelting Mossy Cobblestone
-Interacting Mossy Cobblestone
-Mining Obsidian
 Placing Obsidian
-Crafting Obsidian
-Smelting Obsidian
-Interacting Obsidian
-Mining Torch
+Collecting Obsidian
 Placing Torch
+Collecting Torch
 Crafting Torch
-Smelting Torch
-Interacting Torch
-Mining Fire
-Placing Fire
-Crafting Fire
-Smelting Fire
-Interacting Fire
-Mining Soul Fire
-Placing Soul Fire
-Crafting Soul Fire
-Smelting Soul Fire
-Interacting Soul Fire
-Mining Spawner
-Placing Spawner
-Crafting Spawner
-Smelting Spawner
-Interacting Spawner
-Mining Oak Stairs
-Placing Oak Stairs
-Crafting Oak Stairs
-Smelting Oak Stairs
-Interacting Oak Stairs
-Mining Chest
-Placing Chest
 Crafting Chest
-Smelting Chest
-Interacting Chest
-Mining Redstone Wire
+Placing Chest
+Collecting Chest
+Using Chest
 Placing Redstone Wire
+Collecting Redstone Wire
 Crafting Redstone Wire
-Smelting Redstone Wire
-Interacting Redstone Wire
 Mining Diamond Ore
-Placing Diamond Ore
-Crafting Diamond Ore
 Smelting Diamond Ore
-Interacting Diamond Ore
-Mining Deepslate Diamond Ore
-Placing Deepslate Diamond Ore
-Crafting Deepslate Diamond Ore
-Smelting Deepslate Diamond Ore
-Interacting Deepslate Diamond Ore
-Mining Block of Diamond
+Collecting Diamond Ore
 Placing Block of Diamond
+Collecting Block of Diamond
 Crafting Block of Diamond
-Smelting Block of Diamond
-Interacting Block of Diamond
-Mining Crafting Table
-Placing Crafting Table
 Crafting Crafting Table
-Smelting Crafting Table
-Interacting Crafting Table
-Mining Wheat Crops
-Placing Wheat Crops
-Crafting Wheat Crops
-Smelting Wheat Crops
-Interacting Wheat Crops
-Mining Farmland
-Placing Farmland
-Crafting Farmland
-Smelting Farmland
-Interacting Farmland
-Mining Furnace
-Placing Furnace
+Placing Crafting Table
+Collecting Crafting Table
+Using Crafting Table
 Crafting Furnace
-Smelting Furnace
-Interacting Furnace
-Mining Oak Sign
-Placing Oak Sign
-Crafting Oak Sign
-Smelting Oak Sign
-Interacting Oak Sign
-Mining Spruce Sign
-Placing Spruce Sign
-Crafting Spruce Sign
-Smelting Spruce Sign
-Interacting Spruce Sign
-Mining Birch Sign
-Placing Birch Sign
-Crafting Birch Sign
-Smelting Birch Sign
-Interacting Birch Sign
-Mining Acacia Sign
-Placing Acacia Sign
-Crafting Acacia Sign
-Smelting Acacia Sign
-Interacting Acacia Sign
-Mining Jungle Sign
-Placing Jungle Sign
-Crafting Jungle Sign
-Smelting Jungle Sign
-Interacting Jungle Sign
-Mining Dark Oak Sign
-Placing Dark Oak Sign
-Crafting Dark Oak Sign
-Smelting Dark Oak Sign
-Interacting Dark Oak Sign
-Mining Mangrove Sign
-Placing Mangrove Sign
-Crafting Mangrove Sign
-Smelting Mangrove Sign
-Interacting Mangrove Sign
-Mining Oak Door
-Placing Oak Door
-Crafting Oak Door
-Smelting Oak Door
-Interacting Oak Door
-Mining Ladder
+Placing Furnace
+Collecting Furnace
+Using Furnace
 Placing Ladder
+Collecting Ladder
 Crafting Ladder
-Smelting Ladder
-Interacting Ladder
-Mining Rail
 Placing Rail
+Collecting Rail
 Crafting Rail
-Smelting Rail
-Interacting Rail
-Mining Cobblestone Stairs
-Placing Cobblestone Stairs
-Crafting Cobblestone Stairs
-Smelting Cobblestone Stairs
-Interacting Cobblestone Stairs
-Mining Lever
-Placing Lever
 Crafting Lever
-Smelting Lever
-Interacting Lever
-Mining Stone Pressure Plate
-Placing Stone Pressure Plate
-Crafting Stone Pressure Plate
-Smelting Stone Pressure Plate
-Interacting Stone Pressure Plate
-Mining Iron Door
-Placing Iron Door
-Crafting Iron Door
-Smelting Iron Door
-Interacting Iron Door
-Mining Oak Pressure Plate
-Placing Oak Pressure Plate
-Crafting Oak Pressure Plate
-Smelting Oak Pressure Plate
-Interacting Oak Pressure Plate
-Mining Spruce Pressure Plate
-Placing Spruce Pressure Plate
-Crafting Spruce Pressure Plate
-Smelting Spruce Pressure Plate
-Interacting Spruce Pressure Plate
-Mining Birch Pressure Plate
-Placing Birch Pressure Plate
-Crafting Birch Pressure Plate
-Smelting Birch Pressure Plate
-Interacting Birch Pressure Plate
-Mining Jungle Pressure Plate
-Placing Jungle Pressure Plate
-Crafting Jungle Pressure Plate
-Smelting Jungle Pressure Plate
-Interacting Jungle Pressure Plate
-Mining Acacia Pressure Plate
-Placing Acacia Pressure Plate
-Crafting Acacia Pressure Plate
-Smelting Acacia Pressure Plate
-Interacting Acacia Pressure Plate
-Mining Dark Oak Pressure Plate
-Placing Dark Oak Pressure Plate
-Crafting Dark Oak Pressure Plate
-Smelting Dark Oak Pressure Plate
-Interacting Dark Oak Pressure Plate
-Mining Mangrove Pressure Plate
-Placing Mangrove Pressure Plate
-Crafting Mangrove Pressure Plate
-Smelting Mangrove Pressure Plate
-Interacting Mangrove Pressure Plate
+Placing Lever
+Collecting Lever
+Using Lever
 Mining Redstone Ore
-Placing Redstone Ore
-Crafting Redstone Ore
 Smelting Redstone Ore
-Interacting Redstone Ore
-Mining Deepslate Redstone Ore
-Placing Deepslate Redstone Ore
-Crafting Deepslate Redstone Ore
-Smelting Deepslate Redstone Ore
-Interacting Deepslate Redstone Ore
-Mining Redstone Torch
+Collecting Redstone Ore
 Placing Redstone Torch
+Collecting Redstone Torch
 Crafting Redstone Torch
-Smelting Redstone Torch
-Interacting Redstone Torch
-Mining Stone Button
-Placing Stone Button
-Crafting Stone Button
-Smelting Stone Button
-Interacting Stone Button
-Mining Snow
-Placing Snow
-Crafting Snow
-Smelting Snow
-Interacting Snow
-Mining Ice
 Placing Ice
+Collecting Ice
 Crafting Ice
-Smelting Ice
-Interacting Ice
-Mining Snow Block
 Placing Snow Block
+Collecting Snow Block
 Crafting Snow Block
-Smelting Snow Block
-Interacting Snow Block
-Mining Cactus
 Placing Cactus
-Crafting Cactus
+Collecting Cactus
 Smelting Cactus
-Interacting Cactus
-Mining Clay
 Placing Clay
+Collecting Clay
 Crafting Clay
 Smelting Clay
-Interacting Clay
-Mining Sugar Cane
-Placing Sugar Cane
-Crafting Sugar Cane
-Smelting Sugar Cane
-Interacting Sugar Cane
-Mining Jukebox
-Placing Jukebox
 Crafting Jukebox
-Smelting Jukebox
-Interacting Jukebox
-Mining Oak Fence
-Placing Oak Fence
-Crafting Oak Fence
-Smelting Oak Fence
-Interacting Oak Fence
-Mining Pumpkin
-Placing Pumpkin
-Crafting Pumpkin
-Smelting Pumpkin
-Interacting Pumpkin
-Mining Netherrack
+Placing Jukebox
+Collecting Jukebox
+Using Jukebox
 Placing Netherrack
-Crafting Netherrack
+Collecting Netherrack
 Smelting Netherrack
-Interacting Netherrack
-Mining Soul Sand
 Placing Soul Sand
-Crafting Soul Sand
-Smelting Soul Sand
-Interacting Soul Sand
-Mining Soul Soil
+Collecting Soul Sand
 Placing Soul Soil
-Crafting Soul Soil
-Smelting Soul Soil
-Interacting Soul Soil
-Mining Basalt
+Collecting Soul Soil
 Placing Basalt
+Collecting Basalt
 Crafting Basalt
-Smelting Basalt
-Interacting Basalt
-Mining Polished Basalt
 Placing Polished Basalt
+Collecting Polished Basalt
 Crafting Polished Basalt
-Smelting Polished Basalt
-Interacting Polished Basalt
-Mining Soul Torch
 Placing Soul Torch
+Collecting Soul Torch
 Crafting Soul Torch
-Smelting Soul Torch
-Interacting Soul Torch
-Mining Glowstone
 Placing Glowstone
+Collecting Glowstone
 Crafting Glowstone
-Smelting Glowstone
-Interacting Glowstone
-Mining Nether Portal
-Placing Nether Portal
-Crafting Nether Portal
-Smelting Nether Portal
-Interacting Nether Portal
-Mining Carved Pumpkin
-Placing Carved Pumpkin
-Crafting Carved Pumpkin
-Smelting Carved Pumpkin
-Interacting Carved Pumpkin
-Mining Jack o'Lantern
 Placing Jack o'Lantern
+Collecting Jack o'Lantern
 Crafting Jack o'Lantern
-Smelting Jack o'Lantern
-Interacting Jack o'Lantern
-Mining Cake
-Placing Cake
-Crafting Cake
-Smelting Cake
-Interacting Cake
-Mining Redstone Repeater
 Placing Redstone Repeater
+Collecting Redstone Repeater
 Crafting Redstone Repeater
-Smelting Redstone Repeater
-Interacting Redstone Repeater
-Mining White Stained Glass
-Placing White Stained Glass
-Crafting White Stained Glass
-Smelting White Stained Glass
-Interacting White Stained Glass
-Mining Orange Stained Glass
-Placing Orange Stained Glass
-Crafting Orange Stained Glass
-Smelting Orange Stained Glass
-Interacting Orange Stained Glass
-Mining Magenta Stained Glass
-Placing Magenta Stained Glass
-Crafting Magenta Stained Glass
-Smelting Magenta Stained Glass
-Interacting Magenta Stained Glass
-Mining Light Blue Stained Glass
-Placing Light Blue Stained Glass
-Crafting Light Blue Stained Glass
-Smelting Light Blue Stained Glass
-Interacting Light Blue Stained Glass
-Mining Yellow Stained Glass
-Placing Yellow Stained Glass
-Crafting Yellow Stained Glass
-Smelting Yellow Stained Glass
-Interacting Yellow Stained Glass
-Mining Lime Stained Glass
-Placing Lime Stained Glass
-Crafting Lime Stained Glass
-Smelting Lime Stained Glass
-Interacting Lime Stained Glass
-Mining Pink Stained Glass
-Placing Pink Stained Glass
-Crafting Pink Stained Glass
-Smelting Pink Stained Glass
-Interacting Pink Stained Glass
-Mining Gray Stained Glass
-Placing Gray Stained Glass
-Crafting Gray Stained Glass
-Smelting Gray Stained Glass
-Interacting Gray Stained Glass
-Mining Light Gray Stained Glass
-Placing Light Gray Stained Glass
-Crafting Light Gray Stained Glass
-Smelting Light Gray Stained Glass
-Interacting Light Gray Stained Glass
-Mining Cyan Stained Glass
-Placing Cyan Stained Glass
-Crafting Cyan Stained Glass
-Smelting Cyan Stained Glass
-Interacting Cyan Stained Glass
-Mining Purple Stained Glass
-Placing Purple Stained Glass
-Crafting Purple Stained Glass
-Smelting Purple Stained Glass
-Interacting Purple Stained Glass
-Mining Blue Stained Glass
-Placing Blue Stained Glass
-Crafting Blue Stained Glass
-Smelting Blue Stained Glass
-Interacting Blue Stained Glass
-Mining Brown Stained Glass
-Placing Brown Stained Glass
-Crafting Brown Stained Glass
-Smelting Brown Stained Glass
-Interacting Brown Stained Glass
-Mining Green Stained Glass
-Placing Green Stained Glass
-Crafting Green Stained Glass
-Smelting Green Stained Glass
-Interacting Green Stained Glass
-Mining Red Stained Glass
-Placing Red Stained Glass
-Crafting Red Stained Glass
-Smelting Red Stained Glass
-Interacting Red Stained Glass
-Mining Black Stained Glass
-Placing Black Stained Glass
-Crafting Black Stained Glass
-Smelting Black Stained Glass
-Interacting Black Stained Glass
-Mining Oak Trapdoor
-Placing Oak Trapdoor
-Crafting Oak Trapdoor
-Smelting Oak Trapdoor
-Interacting Oak Trapdoor
-Mining Spruce Trapdoor
-Placing Spruce Trapdoor
-Crafting Spruce Trapdoor
-Smelting Spruce Trapdoor
-Interacting Spruce Trapdoor
-Mining Birch Trapdoor
-Placing Birch Trapdoor
-Crafting Birch Trapdoor
-Smelting Birch Trapdoor
-Interacting Birch Trapdoor
-Mining Jungle Trapdoor
-Placing Jungle Trapdoor
-Crafting Jungle Trapdoor
-Smelting Jungle Trapdoor
-Interacting Jungle Trapdoor
-Mining Acacia Trapdoor
-Placing Acacia Trapdoor
-Crafting Acacia Trapdoor
-Smelting Acacia Trapdoor
-Interacting Acacia Trapdoor
-Mining Dark Oak Trapdoor
-Placing Dark Oak Trapdoor
-Crafting Dark Oak Trapdoor
-Smelting Dark Oak Trapdoor
-Interacting Dark Oak Trapdoor
-Mining Mangrove Trapdoor
-Placing Mangrove Trapdoor
-Crafting Mangrove Trapdoor
-Smelting Mangrove Trapdoor
-Interacting Mangrove Trapdoor
-Mining Stone Bricks
-Placing Stone Bricks
-Crafting Stone Bricks
-Smelting Stone Bricks
-Interacting Stone Bricks
-Mining Mossy Stone Bricks
-Placing Mossy Stone Bricks
-Crafting Mossy Stone Bricks
-Smelting Mossy Stone Bricks
-Interacting Mossy Stone Bricks
-Mining Cracked Stone Bricks
-Placing Cracked Stone Bricks
-Crafting Cracked Stone Bricks
-Smelting Cracked Stone Bricks
-Interacting Cracked Stone Bricks
-Mining Chiseled Stone Bricks
-Placing Chiseled Stone Bricks
-Crafting Chiseled Stone Bricks
-Smelting Chiseled Stone Bricks
-Interacting Chiseled Stone Bricks
-Mining Packed Mud
 Placing Packed Mud
+Collecting Packed Mud
 Crafting Packed Mud
-Smelting Packed Mud
-Interacting Packed Mud
-Mining Mud Bricks
-Placing Mud Bricks
-Crafting Mud Bricks
-Smelting Mud Bricks
-Interacting Mud Bricks
-Mining Infested Stone
 Placing Infested Stone
-Crafting Infested Stone
-Smelting Infested Stone
-Interacting Infested Stone
-Mining Infested Cobblestone
+Collecting Infested Stone
 Placing Infested Cobblestone
-Crafting Infested Cobblestone
-Smelting Infested Cobblestone
-Interacting Infested Cobblestone
-Mining Infested Stone Bricks
-Placing Infested Stone Bricks
-Crafting Infested Stone Bricks
-Smelting Infested Stone Bricks
-Interacting Infested Stone Bricks
-Mining Infested Mossy Stone Bricks
-Placing Infested Mossy Stone Bricks
-Crafting Infested Mossy Stone Bricks
-Smelting Infested Mossy Stone Bricks
-Interacting Infested Mossy Stone Bricks
-Mining Infested Cracked Stone Bricks
-Placing Infested Cracked Stone Bricks
-Crafting Infested Cracked Stone Bricks
-Smelting Infested Cracked Stone Bricks
-Interacting Infested Cracked Stone Bricks
-Mining Infested Chiseled Stone Bricks
-Placing Infested Chiseled Stone Bricks
-Crafting Infested Chiseled Stone Bricks
-Smelting Infested Chiseled Stone Bricks
-Interacting Infested Chiseled Stone Bricks
-Mining Brown Mushroom Block
+Collecting Infested Cobblestone
 Placing Brown Mushroom Block
-Crafting Brown Mushroom Block
-Smelting Brown Mushroom Block
-Interacting Brown Mushroom Block
-Mining Red Mushroom Block
+Collecting Brown Mushroom Block
 Placing Red Mushroom Block
-Crafting Red Mushroom Block
-Smelting Red Mushroom Block
-Interacting Red Mushroom Block
-Mining Mushroom Stem
+Collecting Red Mushroom Block
 Placing Mushroom Stem
-Crafting Mushroom Stem
-Smelting Mushroom Stem
-Interacting Mushroom Stem
-Mining Iron Bars
-Placing Iron Bars
-Crafting Iron Bars
-Smelting Iron Bars
-Interacting Iron Bars
-Mining Chain
+Collecting Mushroom Stem
 Placing Chain
+Collecting Chain
 Crafting Chain
-Smelting Chain
-Interacting Chain
-Mining Glass Pane
-Placing Glass Pane
-Crafting Glass Pane
-Smelting Glass Pane
-Interacting Glass Pane
-Mining Melon
-Placing Melon
-Crafting Melon
-Smelting Melon
-Interacting Melon
-Mining Attached Pumpkin Stem
-Placing Attached Pumpkin Stem
-Crafting Attached Pumpkin Stem
-Smelting Attached Pumpkin Stem
-Interacting Attached Pumpkin Stem
-Mining Attached Melon Stem
-Placing Attached Melon Stem
-Crafting Attached Melon Stem
-Smelting Attached Melon Stem
-Interacting Attached Melon Stem
-Mining Pumpkin Stem
-Placing Pumpkin Stem
-Crafting Pumpkin Stem
-Smelting Pumpkin Stem
-Interacting Pumpkin Stem
-Mining Melon Stem
-Placing Melon Stem
-Crafting Melon Stem
-Smelting Melon Stem
-Interacting Melon Stem
-Mining Vines
-Placing Vines
-Crafting Vines
-Smelting Vines
-Interacting Vines
-Mining Glow Lichen
-Placing Glow Lichen
-Crafting Glow Lichen
-Smelting Glow Lichen
-Interacting Glow Lichen
-Mining Oak Fence Gate
-Placing Oak Fence Gate
-Crafting Oak Fence Gate
-Smelting Oak Fence Gate
-Interacting Oak Fence Gate
-Mining Brick Stairs
-Placing Brick Stairs
-Crafting Brick Stairs
-Smelting Brick Stairs
-Interacting Brick Stairs
-Mining Stone Brick Stairs
-Placing Stone Brick Stairs
-Crafting Stone Brick Stairs
-Smelting Stone Brick Stairs
-Interacting Stone Brick Stairs
-Mining Mud Brick Stairs
-Placing Mud Brick Stairs
-Crafting Mud Brick Stairs
-Smelting Mud Brick Stairs
-Interacting Mud Brick Stairs
-Mining Mycelium
 Placing Mycelium
-Crafting Mycelium
-Smelting Mycelium
-Interacting Mycelium
-Mining Lily Pad
-Placing Lily Pad
-Crafting Lily Pad
-Smelting Lily Pad
-Interacting Lily Pad
-Mining Nether Bricks
-Placing Nether Bricks
-Crafting Nether Bricks
-Smelting Nether Bricks
-Interacting Nether Bricks
-Mining Nether Brick Fence
-Placing Nether Brick Fence
-Crafting Nether Brick Fence
-Smelting Nether Brick Fence
-Interacting Nether Brick Fence
-Mining Nether Brick Stairs
-Placing Nether Brick Stairs
-Crafting Nether Brick Stairs
-Smelting Nether Brick Stairs
-Interacting Nether Brick Stairs
-Mining Nether Wart
-Placing Nether Wart
-Crafting Nether Wart
-Smelting Nether Wart
-Interacting Nether Wart
-Mining Enchanting Table
-Placing Enchanting Table
+Collecting Mycelium
 Crafting Enchanting Table
-Smelting Enchanting Table
-Interacting Enchanting Table
-Mining Brewing Stand
-Placing Brewing Stand
+Placing Enchanting Table
+Collecting Enchanting Table
+Using Enchanting Table
 Crafting Brewing Stand
-Smelting Brewing Stand
-Interacting Brewing Stand
-Mining Cauldron
-Placing Cauldron
-Crafting Cauldron
-Smelting Cauldron
-Interacting Cauldron
-Mining Water Cauldron
-Placing Water Cauldron
-Crafting Water Cauldron
-Smelting Water Cauldron
-Interacting Water Cauldron
-Mining Lava Cauldron
-Placing Lava Cauldron
-Crafting Lava Cauldron
-Smelting Lava Cauldron
-Interacting Lava Cauldron
-Mining Powder Snow Cauldron
-Placing Powder Snow Cauldron
-Crafting Powder Snow Cauldron
-Smelting Powder Snow Cauldron
-Interacting Powder Snow Cauldron
-Mining End Portal
-Placing End Portal
-Crafting End Portal
-Smelting End Portal
-Interacting End Portal
-Mining End Portal Frame
-Placing End Portal Frame
-Crafting End Portal Frame
-Smelting End Portal Frame
-Interacting End Portal Frame
-Mining End Stone
+Placing Brewing Stand
+Collecting Brewing Stand
+Using Brewing Stand
 Placing End Stone
-Crafting End Stone
-Smelting End Stone
-Interacting End Stone
-Mining Dragon Egg
+Collecting End Stone
 Placing Dragon Egg
-Crafting Dragon Egg
-Smelting Dragon Egg
-Interacting Dragon Egg
-Mining Redstone Lamp
+Collecting Dragon Egg
 Placing Redstone Lamp
+Collecting Redstone Lamp
 Crafting Redstone Lamp
-Smelting Redstone Lamp
-Interacting Redstone Lamp
-Mining Cocoa
-Placing Cocoa
-Crafting Cocoa
-Smelting Cocoa
-Interacting Cocoa
-Mining Sandstone Stairs
-Placing Sandstone Stairs
-Crafting Sandstone Stairs
-Smelting Sandstone Stairs
-Interacting Sandstone Stairs
 Mining Emerald Ore
-Placing Emerald Ore
-Crafting Emerald Ore
 Smelting Emerald Ore
-Interacting Emerald Ore
-Mining Deepslate Emerald Ore
-Placing Deepslate Emerald Ore
-Crafting Deepslate Emerald Ore
-Smelting Deepslate Emerald Ore
-Interacting Deepslate Emerald Ore
-Mining Ender Chest
-Placing Ender Chest
-Crafting Ender Chest
-Smelting Ender Chest
-Interacting Ender Chest
-Mining Tripwire Hook
-Placing Tripwire Hook
+Collecting Emerald Ore
 Crafting Tripwire Hook
-Smelting Tripwire Hook
-Interacting Tripwire Hook
-Mining Tripwire
-Placing Tripwire
+Placing Tripwire Hook
+Collecting Tripwire Hook
+Using Tripwire Hook
 Crafting Tripwire
-Smelting Tripwire
-Interacting Tripwire
-Mining Block of Emerald
+Placing Tripwire
+Collecting Tripwire
+Using Tripwire
 Placing Block of Emerald
+Collecting Block of Emerald
 Crafting Block of Emerald
-Smelting Block of Emerald
-Interacting Block of Emerald
-Mining Spruce Stairs
-Placing Spruce Stairs
-Crafting Spruce Stairs
-Smelting Spruce Stairs
-Interacting Spruce Stairs
-Mining Birch Stairs
-Placing Birch Stairs
-Crafting Birch Stairs
-Smelting Birch Stairs
-Interacting Birch Stairs
-Mining Jungle Stairs
-Placing Jungle Stairs
-Crafting Jungle Stairs
-Smelting Jungle Stairs
-Interacting Jungle Stairs
-Mining Command Block
-Placing Command Block
-Crafting Command Block
-Smelting Command Block
-Interacting Command Block
-Mining Beacon
 Placing Beacon
+Collecting Beacon
 Crafting Beacon
-Smelting Beacon
-Interacting Beacon
-Mining Cobblestone Wall
-Placing Cobblestone Wall
-Crafting Cobblestone Wall
-Smelting Cobblestone Wall
-Interacting Cobblestone Wall
-Mining Mossy Cobblestone Wall
-Placing Mossy Cobblestone Wall
-Crafting Mossy Cobblestone Wall
-Smelting Mossy Cobblestone Wall
-Interacting Mossy Cobblestone Wall
-Mining Flower Pot
-Placing Flower Pot
-Crafting Flower Pot
-Smelting Flower Pot
-Interacting Flower Pot
-Mining Potted Oak Sapling
-Placing Potted Oak Sapling
-Crafting Potted Oak Sapling
-Smelting Potted Oak Sapling
-Interacting Potted Oak Sapling
-Mining Potted Spruce Sapling
-Placing Potted Spruce Sapling
-Crafting Potted Spruce Sapling
-Smelting Potted Spruce Sapling
-Interacting Potted Spruce Sapling
-Mining Potted Birch Sapling
-Placing Potted Birch Sapling
-Crafting Potted Birch Sapling
-Smelting Potted Birch Sapling
-Interacting Potted Birch Sapling
-Mining Potted Jungle Sapling
-Placing Potted Jungle Sapling
-Crafting Potted Jungle Sapling
-Smelting Potted Jungle Sapling
-Interacting Potted Jungle Sapling
-Mining Potted Acacia Sapling
-Placing Potted Acacia Sapling
-Crafting Potted Acacia Sapling
-Smelting Potted Acacia Sapling
-Interacting Potted Acacia Sapling
-Mining Potted Dark Oak Sapling
-Placing Potted Dark Oak Sapling
-Crafting Potted Dark Oak Sapling
-Smelting Potted Dark Oak Sapling
-Interacting Potted Dark Oak Sapling
-Mining Potted Mangrove Propagule
-Placing Potted Mangrove Propagule
-Crafting Potted Mangrove Propagule
-Smelting Potted Mangrove Propagule
-Interacting Potted Mangrove Propagule
-Mining Potted Fern
-Placing Potted Fern
-Crafting Potted Fern
-Smelting Potted Fern
-Interacting Potted Fern
-Mining Potted Dandelion
-Placing Potted Dandelion
-Crafting Potted Dandelion
-Smelting Potted Dandelion
-Interacting Potted Dandelion
-Mining Potted Poppy
-Placing Potted Poppy
-Crafting Potted Poppy
-Smelting Potted Poppy
-Interacting Potted Poppy
-Mining Potted Blue Orchid
-Placing Potted Blue Orchid
-Crafting Potted Blue Orchid
-Smelting Potted Blue Orchid
-Interacting Potted Blue Orchid
-Mining Potted Allium
-Placing Potted Allium
-Crafting Potted Allium
-Smelting Potted Allium
-Interacting Potted Allium
-Mining Potted Azure Bluet
-Placing Potted Azure Bluet
-Crafting Potted Azure Bluet
-Smelting Potted Azure Bluet
-Interacting Potted Azure Bluet
-Mining Potted Red Tulip
-Placing Potted Red Tulip
-Crafting Potted Red Tulip
-Smelting Potted Red Tulip
-Interacting Potted Red Tulip
-Mining Potted Orange Tulip
-Placing Potted Orange Tulip
-Crafting Potted Orange Tulip
-Smelting Potted Orange Tulip
-Interacting Potted Orange Tulip
-Mining Potted White Tulip
-Placing Potted White Tulip
-Crafting Potted White Tulip
-Smelting Potted White Tulip
-Interacting Potted White Tulip
-Mining Potted Pink Tulip
-Placing Potted Pink Tulip
-Crafting Potted Pink Tulip
-Smelting Potted Pink Tulip
-Interacting Potted Pink Tulip
-Mining Potted Oxeye Daisy
-Placing Potted Oxeye Daisy
-Crafting Potted Oxeye Daisy
-Smelting Potted Oxeye Daisy
-Interacting Potted Oxeye Daisy
-Mining Potted Cornflower
-Placing Potted Cornflower
-Crafting Potted Cornflower
-Smelting Potted Cornflower
-Interacting Potted Cornflower
-Mining Potted Lily of the Valley
-Placing Potted Lily of the Valley
-Crafting Potted Lily of the Valley
-Smelting Potted Lily of the Valley
-Interacting Potted Lily of the Valley
-Mining Potted Wither Rose
-Placing Potted Wither Rose
-Crafting Potted Wither Rose
-Smelting Potted Wither Rose
-Interacting Potted Wither Rose
-Mining Potted Red Mushroom
-Placing Potted Red Mushroom
-Crafting Potted Red Mushroom
-Smelting Potted Red Mushroom
-Interacting Potted Red Mushroom
-Mining Potted Brown Mushroom
-Placing Potted Brown Mushroom
-Crafting Potted Brown Mushroom
-Smelting Potted Brown Mushroom
-Interacting Potted Brown Mushroom
-Mining Potted Dead Bush
-Placing Potted Dead Bush
-Crafting Potted Dead Bush
-Smelting Potted Dead Bush
-Interacting Potted Dead Bush
-Mining Potted Cactus
-Placing Potted Cactus
-Crafting Potted Cactus
-Smelting Potted Cactus
-Interacting Potted Cactus
-Mining Carrots
-Placing Carrots
-Crafting Carrots
-Smelting Carrots
-Interacting Carrots
-Mining Potatoes
-Placing Potatoes
-Crafting Potatoes
-Smelting Potatoes
-Interacting Potatoes
-Mining Oak Button
-Placing Oak Button
-Crafting Oak Button
-Smelting Oak Button
-Interacting Oak Button
-Mining Spruce Button
-Placing Spruce Button
-Crafting Spruce Button
-Smelting Spruce Button
-Interacting Spruce Button
-Mining Birch Button
-Placing Birch Button
-Crafting Birch Button
-Smelting Birch Button
-Interacting Birch Button
-Mining Jungle Button
-Placing Jungle Button
-Crafting Jungle Button
-Smelting Jungle Button
-Interacting Jungle Button
-Mining Acacia Button
-Placing Acacia Button
-Crafting Acacia Button
-Smelting Acacia Button
-Interacting Acacia Button
-Mining Dark Oak Button
-Placing Dark Oak Button
-Crafting Dark Oak Button
-Smelting Dark Oak Button
-Interacting Dark Oak Button
-Mining Mangrove Button
-Placing Mangrove Button
-Crafting Mangrove Button
-Smelting Mangrove Button
-Interacting Mangrove Button
-Mining Skeleton Skull
 Placing Skeleton Skull
-Crafting Skeleton Skull
-Smelting Skeleton Skull
-Interacting Skeleton Skull
-Mining Wither Skeleton Skull
+Collecting Skeleton Skull
 Placing Wither Skeleton Skull
-Crafting Wither Skeleton Skull
-Smelting Wither Skeleton Skull
-Interacting Wither Skeleton Skull
-Mining Zombie Head
+Collecting Wither Skeleton Skull
 Placing Zombie Head
-Crafting Zombie Head
-Smelting Zombie Head
-Interacting Zombie Head
-Mining Player Head
+Collecting Zombie Head
 Placing Player Head
-Crafting Player Head
-Smelting Player Head
-Interacting Player Head
-Mining Creeper Head
+Collecting Player Head
 Placing Creeper Head
-Crafting Creeper Head
-Smelting Creeper Head
-Interacting Creeper Head
-Mining Dragon Head
+Collecting Creeper Head
 Placing Dragon Head
-Crafting Dragon Head
-Smelting Dragon Head
-Interacting Dragon Head
-Mining Anvil
-Placing Anvil
-Crafting Anvil
-Smelting Anvil
-Interacting Anvil
-Mining Chipped Anvil
-Placing Chipped Anvil
-Crafting Chipped Anvil
-Smelting Chipped Anvil
-Interacting Chipped Anvil
-Mining Damaged Anvil
-Placing Damaged Anvil
-Crafting Damaged Anvil
-Smelting Damaged Anvil
-Interacting Damaged Anvil
-Mining Trapped Chest
-Placing Trapped Chest
-Crafting Trapped Chest
-Smelting Trapped Chest
-Interacting Trapped Chest
-Mining Light Weighted Pressure Plate
-Placing Light Weighted Pressure Plate
-Crafting Light Weighted Pressure Plate
-Smelting Light Weighted Pressure Plate
-Interacting Light Weighted Pressure Plate
-Mining Heavy Weighted Pressure Plate
-Placing Heavy Weighted Pressure Plate
-Crafting Heavy Weighted Pressure Plate
-Smelting Heavy Weighted Pressure Plate
-Interacting Heavy Weighted Pressure Plate
-Mining Redstone Comparator
+Collecting Dragon Head
 Placing Redstone Comparator
+Collecting Redstone Comparator
 Crafting Redstone Comparator
-Smelting Redstone Comparator
-Interacting Redstone Comparator
-Mining Daylight Detector
 Placing Daylight Detector
+Collecting Daylight Detector
 Crafting Daylight Detector
-Smelting Daylight Detector
-Interacting Daylight Detector
-Mining Block of Redstone
 Placing Block of Redstone
+Collecting Block of Redstone
 Crafting Block of Redstone
-Smelting Block of Redstone
-Interacting Block of Redstone
 Mining Nether Quartz Ore
-Placing Nether Quartz Ore
-Crafting Nether Quartz Ore
 Smelting Nether Quartz Ore
-Interacting Nether Quartz Ore
-Mining Hopper
+Collecting Nether Quartz Ore
 Placing Hopper
+Collecting Hopper
 Crafting Hopper
-Smelting Hopper
-Interacting Hopper
-Mining Block of Quartz
 Placing Block of Quartz
-Crafting Block of Quartz
+Collecting Block of Quartz
 Smelting Block of Quartz
-Interacting Block of Quartz
-Mining Chiseled Quartz Block
 Placing Chiseled Quartz Block
-Crafting Chiseled Quartz Block
+Collecting Chiseled Quartz Block
 Smelting Chiseled Quartz Block
-Interacting Chiseled Quartz Block
-Mining Quartz Pillar
 Placing Quartz Pillar
+Collecting Quartz Pillar
 Crafting Quartz Pillar
-Smelting Quartz Pillar
-Interacting Quartz Pillar
-Mining Quartz Stairs
-Placing Quartz Stairs
-Crafting Quartz Stairs
-Smelting Quartz Stairs
-Interacting Quartz Stairs
-Mining Activator Rail
 Placing Activator Rail
+Collecting Activator Rail
 Crafting Activator Rail
-Smelting Activator Rail
-Interacting Activator Rail
-Mining Dropper
-Placing Dropper
 Crafting Dropper
-Smelting Dropper
-Interacting Dropper
-Mining White Terracotta
-Placing White Terracotta
-Crafting White Terracotta
-Smelting White Terracotta
-Interacting White Terracotta
-Mining Orange Terracotta
-Placing Orange Terracotta
-Crafting Orange Terracotta
-Smelting Orange Terracotta
-Interacting Orange Terracotta
-Mining Magenta Terracotta
-Placing Magenta Terracotta
-Crafting Magenta Terracotta
-Smelting Magenta Terracotta
-Interacting Magenta Terracotta
-Mining Light Blue Terracotta
-Placing Light Blue Terracotta
-Crafting Light Blue Terracotta
-Smelting Light Blue Terracotta
-Interacting Light Blue Terracotta
-Mining Yellow Terracotta
-Placing Yellow Terracotta
-Crafting Yellow Terracotta
-Smelting Yellow Terracotta
-Interacting Yellow Terracotta
-Mining Lime Terracotta
-Placing Lime Terracotta
-Crafting Lime Terracotta
-Smelting Lime Terracotta
-Interacting Lime Terracotta
-Mining Pink Terracotta
-Placing Pink Terracotta
-Crafting Pink Terracotta
-Smelting Pink Terracotta
-Interacting Pink Terracotta
-Mining Gray Terracotta
-Placing Gray Terracotta
-Crafting Gray Terracotta
-Smelting Gray Terracotta
-Interacting Gray Terracotta
-Mining Light Gray Terracotta
-Placing Light Gray Terracotta
-Crafting Light Gray Terracotta
-Smelting Light Gray Terracotta
-Interacting Light Gray Terracotta
-Mining Cyan Terracotta
-Placing Cyan Terracotta
-Crafting Cyan Terracotta
-Smelting Cyan Terracotta
-Interacting Cyan Terracotta
-Mining Purple Terracotta
-Placing Purple Terracotta
-Crafting Purple Terracotta
-Smelting Purple Terracotta
-Interacting Purple Terracotta
-Mining Blue Terracotta
-Placing Blue Terracotta
-Crafting Blue Terracotta
-Smelting Blue Terracotta
-Interacting Blue Terracotta
-Mining Brown Terracotta
-Placing Brown Terracotta
-Crafting Brown Terracotta
-Smelting Brown Terracotta
-Interacting Brown Terracotta
-Mining Green Terracotta
-Placing Green Terracotta
-Crafting Green Terracotta
-Smelting Green Terracotta
-Interacting Green Terracotta
-Mining Red Terracotta
-Placing Red Terracotta
-Crafting Red Terracotta
-Smelting Red Terracotta
-Interacting Red Terracotta
-Mining Black Terracotta
-Placing Black Terracotta
-Crafting Black Terracotta
-Smelting Black Terracotta
-Interacting Black Terracotta
-Mining White Stained Glass Pane
-Placing White Stained Glass Pane
-Crafting White Stained Glass Pane
-Smelting White Stained Glass Pane
-Interacting White Stained Glass Pane
-Mining Orange Stained Glass Pane
-Placing Orange Stained Glass Pane
-Crafting Orange Stained Glass Pane
-Smelting Orange Stained Glass Pane
-Interacting Orange Stained Glass Pane
-Mining Magenta Stained Glass Pane
-Placing Magenta Stained Glass Pane
-Crafting Magenta Stained Glass Pane
-Smelting Magenta Stained Glass Pane
-Interacting Magenta Stained Glass Pane
-Mining Light Blue Stained Glass Pane
-Placing Light Blue Stained Glass Pane
-Crafting Light Blue Stained Glass Pane
-Smelting Light Blue Stained Glass Pane
-Interacting Light Blue Stained Glass Pane
-Mining Yellow Stained Glass Pane
-Placing Yellow Stained Glass Pane
-Crafting Yellow Stained Glass Pane
-Smelting Yellow Stained Glass Pane
-Interacting Yellow Stained Glass Pane
-Mining Lime Stained Glass Pane
-Placing Lime Stained Glass Pane
-Crafting Lime Stained Glass Pane
-Smelting Lime Stained Glass Pane
-Interacting Lime Stained Glass Pane
-Mining Pink Stained Glass Pane
-Placing Pink Stained Glass Pane
-Crafting Pink Stained Glass Pane
-Smelting Pink Stained Glass Pane
-Interacting Pink Stained Glass Pane
-Mining Gray Stained Glass Pane
-Placing Gray Stained Glass Pane
-Crafting Gray Stained Glass Pane
-Smelting Gray Stained Glass Pane
-Interacting Gray Stained Glass Pane
-Mining Light Gray Stained Glass Pane
-Placing Light Gray Stained Glass Pane
-Crafting Light Gray Stained Glass Pane
-Smelting Light Gray Stained Glass Pane
-Interacting Light Gray Stained Glass Pane
-Mining Cyan Stained Glass Pane
-Placing Cyan Stained Glass Pane
-Crafting Cyan Stained Glass Pane
-Smelting Cyan Stained Glass Pane
-Interacting Cyan Stained Glass Pane
-Mining Purple Stained Glass Pane
-Placing Purple Stained Glass Pane
-Crafting Purple Stained Glass Pane
-Smelting Purple Stained Glass Pane
-Interacting Purple Stained Glass Pane
-Mining Blue Stained Glass Pane
-Placing Blue Stained Glass Pane
-Crafting Blue Stained Glass Pane
-Smelting Blue Stained Glass Pane
-Interacting Blue Stained Glass Pane
-Mining Brown Stained Glass Pane
-Placing Brown Stained Glass Pane
-Crafting Brown Stained Glass Pane
-Smelting Brown Stained Glass Pane
-Interacting Brown Stained Glass Pane
-Mining Green Stained Glass Pane
-Placing Green Stained Glass Pane
-Crafting Green Stained Glass Pane
-Smelting Green Stained Glass Pane
-Interacting Green Stained Glass Pane
-Mining Red Stained Glass Pane
-Placing Red Stained Glass Pane
-Crafting Red Stained Glass Pane
-Smelting Red Stained Glass Pane
-Interacting Red Stained Glass Pane
-Mining Black Stained Glass Pane
-Placing Black Stained Glass Pane
-Crafting Black Stained Glass Pane
-Smelting Black Stained Glass Pane
-Interacting Black Stained Glass Pane
-Mining Acacia Stairs
-Placing Acacia Stairs
-Crafting Acacia Stairs
-Smelting Acacia Stairs
-Interacting Acacia Stairs
-Mining Dark Oak Stairs
-Placing Dark Oak Stairs
-Crafting Dark Oak Stairs
-Smelting Dark Oak Stairs
-Interacting Dark Oak Stairs
-Mining Mangrove Stairs
-Placing Mangrove Stairs
-Crafting Mangrove Stairs
-Smelting Mangrove Stairs
-Interacting Mangrove Stairs
-Mining Slime Block
+Placing Dropper
+Collecting Dropper
+Using Dropper
 Placing Slime Block
+Collecting Slime Block
 Crafting Slime Block
-Smelting Slime Block
-Interacting Slime Block
-Mining Barrier
-Placing Barrier
-Crafting Barrier
-Smelting Barrier
-Interacting Barrier
-Mining Light
-Placing Light
-Crafting Light
-Smelting Light
-Interacting Light
-Mining Iron Trapdoor
-Placing Iron Trapdoor
-Crafting Iron Trapdoor
-Smelting Iron Trapdoor
-Interacting Iron Trapdoor
-Mining Prismarine
 Placing Prismarine
+Collecting Prismarine
 Crafting Prismarine
-Smelting Prismarine
-Interacting Prismarine
-Mining Prismarine Bricks
-Placing Prismarine Bricks
-Crafting Prismarine Bricks
-Smelting Prismarine Bricks
-Interacting Prismarine Bricks
-Mining Dark Prismarine
 Placing Dark Prismarine
+Collecting Dark Prismarine
 Crafting Dark Prismarine
-Smelting Dark Prismarine
-Interacting Dark Prismarine
-Mining Prismarine Stairs
-Placing Prismarine Stairs
-Crafting Prismarine Stairs
-Smelting Prismarine Stairs
-Interacting Prismarine Stairs
-Mining Prismarine Brick Stairs
-Placing Prismarine Brick Stairs
-Crafting Prismarine Brick Stairs
-Smelting Prismarine Brick Stairs
-Interacting Prismarine Brick Stairs
-Mining Dark Prismarine Stairs
-Placing Dark Prismarine Stairs
-Crafting Dark Prismarine Stairs
-Smelting Dark Prismarine Stairs
-Interacting Dark Prismarine Stairs
-Mining Prismarine Slab
-Placing Prismarine Slab
-Crafting Prismarine Slab
-Smelting Prismarine Slab
-Interacting Prismarine Slab
-Mining Prismarine Brick Slab
-Placing Prismarine Brick Slab
-Crafting Prismarine Brick Slab
-Smelting Prismarine Brick Slab
-Interacting Prismarine Brick Slab
-Mining Dark Prismarine Slab
-Placing Dark Prismarine Slab
-Crafting Dark Prismarine Slab
-Smelting Dark Prismarine Slab
-Interacting Dark Prismarine Slab
-Mining Sea Lantern
 Placing Sea Lantern
+Collecting Sea Lantern
 Crafting Sea Lantern
-Smelting Sea Lantern
-Interacting Sea Lantern
-Mining Hay Bale
-Placing Hay Bale
-Crafting Hay Bale
-Smelting Hay Bale
-Interacting Hay Bale
-Mining White Carpet
-Placing White Carpet
-Crafting White Carpet
-Smelting White Carpet
-Interacting White Carpet
-Mining Orange Carpet
-Placing Orange Carpet
-Crafting Orange Carpet
-Smelting Orange Carpet
-Interacting Orange Carpet
-Mining Magenta Carpet
-Placing Magenta Carpet
-Crafting Magenta Carpet
-Smelting Magenta Carpet
-Interacting Magenta Carpet
-Mining Light Blue Carpet
-Placing Light Blue Carpet
-Crafting Light Blue Carpet
-Smelting Light Blue Carpet
-Interacting Light Blue Carpet
-Mining Yellow Carpet
-Placing Yellow Carpet
-Crafting Yellow Carpet
-Smelting Yellow Carpet
-Interacting Yellow Carpet
-Mining Lime Carpet
-Placing Lime Carpet
-Crafting Lime Carpet
-Smelting Lime Carpet
-Interacting Lime Carpet
-Mining Pink Carpet
-Placing Pink Carpet
-Crafting Pink Carpet
-Smelting Pink Carpet
-Interacting Pink Carpet
-Mining Gray Carpet
-Placing Gray Carpet
-Crafting Gray Carpet
-Smelting Gray Carpet
-Interacting Gray Carpet
-Mining Light Gray Carpet
-Placing Light Gray Carpet
-Crafting Light Gray Carpet
-Smelting Light Gray Carpet
-Interacting Light Gray Carpet
-Mining Cyan Carpet
-Placing Cyan Carpet
-Crafting Cyan Carpet
-Smelting Cyan Carpet
-Interacting Cyan Carpet
-Mining Purple Carpet
-Placing Purple Carpet
-Crafting Purple Carpet
-Smelting Purple Carpet
-Interacting Purple Carpet
-Mining Blue Carpet
-Placing Blue Carpet
-Crafting Blue Carpet
-Smelting Blue Carpet
-Interacting Blue Carpet
-Mining Brown Carpet
-Placing Brown Carpet
-Crafting Brown Carpet
-Smelting Brown Carpet
-Interacting Brown Carpet
-Mining Green Carpet
-Placing Green Carpet
-Crafting Green Carpet
-Smelting Green Carpet
-Interacting Green Carpet
-Mining Red Carpet
-Placing Red Carpet
-Crafting Red Carpet
-Smelting Red Carpet
-Interacting Red Carpet
-Mining Black Carpet
-Placing Black Carpet
-Crafting Black Carpet
-Smelting Black Carpet
-Interacting Black Carpet
-Mining Terracotta
-Placing Terracotta
-Crafting Terracotta
-Smelting Terracotta
-Interacting Terracotta
-Mining Block of Coal
 Placing Block of Coal
+Collecting Block of Coal
 Crafting Block of Coal
-Smelting Block of Coal
-Interacting Block of Coal
-Mining Packed Ice
 Placing Packed Ice
+Collecting Packed Ice
 Crafting Packed Ice
-Smelting Packed Ice
-Interacting Packed Ice
-Mining Sunflower
-Placing Sunflower
-Crafting Sunflower
-Smelting Sunflower
-Interacting Sunflower
-Mining Lilac
-Placing Lilac
-Crafting Lilac
-Smelting Lilac
-Interacting Lilac
-Mining Rose Bush
-Placing Rose Bush
-Crafting Rose Bush
-Smelting Rose Bush
-Interacting Rose Bush
-Mining Peony
-Placing Peony
-Crafting Peony
-Smelting Peony
-Interacting Peony
-Mining Tall Grass
-Placing Tall Grass
-Crafting Tall Grass
-Smelting Tall Grass
-Interacting Tall Grass
-Mining Large Fern
-Placing Large Fern
-Crafting Large Fern
-Smelting Large Fern
-Interacting Large Fern
-Mining White Banner
-Placing White Banner
-Crafting White Banner
-Smelting White Banner
-Interacting White Banner
-Mining Orange Banner
-Placing Orange Banner
-Crafting Orange Banner
-Smelting Orange Banner
-Interacting Orange Banner
-Mining Magenta Banner
-Placing Magenta Banner
-Crafting Magenta Banner
-Smelting Magenta Banner
-Interacting Magenta Banner
-Mining Light Blue Banner
-Placing Light Blue Banner
-Crafting Light Blue Banner
-Smelting Light Blue Banner
-Interacting Light Blue Banner
-Mining Yellow Banner
-Placing Yellow Banner
-Crafting Yellow Banner
-Smelting Yellow Banner
-Interacting Yellow Banner
-Mining Lime Banner
-Placing Lime Banner
-Crafting Lime Banner
-Smelting Lime Banner
-Interacting Lime Banner
-Mining Pink Banner
-Placing Pink Banner
-Crafting Pink Banner
-Smelting Pink Banner
-Interacting Pink Banner
-Mining Gray Banner
-Placing Gray Banner
-Crafting Gray Banner
-Smelting Gray Banner
-Interacting Gray Banner
-Mining Light Gray Banner
-Placing Light Gray Banner
-Crafting Light Gray Banner
-Smelting Light Gray Banner
-Interacting Light Gray Banner
-Mining Cyan Banner
-Placing Cyan Banner
-Crafting Cyan Banner
-Smelting Cyan Banner
-Interacting Cyan Banner
-Mining Purple Banner
-Placing Purple Banner
-Crafting Purple Banner
-Smelting Purple Banner
-Interacting Purple Banner
-Mining Blue Banner
-Placing Blue Banner
-Crafting Blue Banner
-Smelting Blue Banner
-Interacting Blue Banner
-Mining Brown Banner
-Placing Brown Banner
-Crafting Brown Banner
-Smelting Brown Banner
-Interacting Brown Banner
-Mining Green Banner
-Placing Green Banner
-Crafting Green Banner
-Smelting Green Banner
-Interacting Green Banner
-Mining Red Banner
-Placing Red Banner
-Crafting Red Banner
-Smelting Red Banner
-Interacting Red Banner
-Mining Black Banner
-Placing Black Banner
-Crafting Black Banner
-Smelting Black Banner
-Interacting Black Banner
-Mining Red Sandstone
 Placing Red Sandstone
+Collecting Red Sandstone
 Crafting Red Sandstone
-Smelting Red Sandstone
-Interacting Red Sandstone
-Mining Chiseled Red Sandstone
 Placing Chiseled Red Sandstone
+Collecting Chiseled Red Sandstone
 Crafting Chiseled Red Sandstone
-Smelting Chiseled Red Sandstone
-Interacting Chiseled Red Sandstone
-Mining Cut Red Sandstone
 Placing Cut Red Sandstone
+Collecting Cut Red Sandstone
 Crafting Cut Red Sandstone
-Smelting Cut Red Sandstone
-Interacting Cut Red Sandstone
-Mining Red Sandstone Stairs
-Placing Red Sandstone Stairs
-Crafting Red Sandstone Stairs
-Smelting Red Sandstone Stairs
-Interacting Red Sandstone Stairs
-Mining Oak Slab
-Placing Oak Slab
-Crafting Oak Slab
-Smelting Oak Slab
-Interacting Oak Slab
-Mining Spruce Slab
-Placing Spruce Slab
-Crafting Spruce Slab
-Smelting Spruce Slab
-Interacting Spruce Slab
-Mining Birch Slab
-Placing Birch Slab
-Crafting Birch Slab
-Smelting Birch Slab
-Interacting Birch Slab
-Mining Jungle Slab
-Placing Jungle Slab
-Crafting Jungle Slab
-Smelting Jungle Slab
-Interacting Jungle Slab
-Mining Acacia Slab
-Placing Acacia Slab
-Crafting Acacia Slab
-Smelting Acacia Slab
-Interacting Acacia Slab
-Mining Dark Oak Slab
-Placing Dark Oak Slab
-Crafting Dark Oak Slab
-Smelting Dark Oak Slab
-Interacting Dark Oak Slab
-Mining Mangrove Slab
-Placing Mangrove Slab
-Crafting Mangrove Slab
-Smelting Mangrove Slab
-Interacting Mangrove Slab
-Mining Stone Slab
-Placing Stone Slab
-Crafting Stone Slab
-Smelting Stone Slab
-Interacting Stone Slab
-Mining Smooth Stone Slab
-Placing Smooth Stone Slab
-Crafting Smooth Stone Slab
-Smelting Smooth Stone Slab
-Interacting Smooth Stone Slab
-Mining Sandstone Slab
-Placing Sandstone Slab
-Crafting Sandstone Slab
-Smelting Sandstone Slab
-Interacting Sandstone Slab
-Mining Cut Sandstone Slab
-Placing Cut Sandstone Slab
-Crafting Cut Sandstone Slab
-Smelting Cut Sandstone Slab
-Interacting Cut Sandstone Slab
-Mining Petrified Oak Slab
-Placing Petrified Oak Slab
-Crafting Petrified Oak Slab
-Smelting Petrified Oak Slab
-Interacting Petrified Oak Slab
-Mining Cobblestone Slab
-Placing Cobblestone Slab
-Crafting Cobblestone Slab
-Smelting Cobblestone Slab
-Interacting Cobblestone Slab
-Mining Brick Slab
-Placing Brick Slab
-Crafting Brick Slab
-Smelting Brick Slab
-Interacting Brick Slab
-Mining Stone Brick Slab
-Placing Stone Brick Slab
-Crafting Stone Brick Slab
-Smelting Stone Brick Slab
-Interacting Stone Brick Slab
-Mining Mud Brick Slab
-Placing Mud Brick Slab
-Crafting Mud Brick Slab
-Smelting Mud Brick Slab
-Interacting Mud Brick Slab
-Mining Nether Brick Slab
-Placing Nether Brick Slab
-Crafting Nether Brick Slab
-Smelting Nether Brick Slab
-Interacting Nether Brick Slab
-Mining Quartz Slab
-Placing Quartz Slab
-Crafting Quartz Slab
-Smelting Quartz Slab
-Interacting Quartz Slab
-Mining Red Sandstone Slab
-Placing Red Sandstone Slab
-Crafting Red Sandstone Slab
-Smelting Red Sandstone Slab
-Interacting Red Sandstone Slab
-Mining Cut Red Sandstone Slab
-Placing Cut Red Sandstone Slab
-Crafting Cut Red Sandstone Slab
-Smelting Cut Red Sandstone Slab
-Interacting Cut Red Sandstone Slab
-Mining Purpur Slab
-Placing Purpur Slab
-Crafting Purpur Slab
-Smelting Purpur Slab
-Interacting Purpur Slab
-Mining Smooth Stone
-Placing Smooth Stone
-Crafting Smooth Stone
-Smelting Smooth Stone
-Interacting Smooth Stone
-Mining Smooth Sandstone
-Placing Smooth Sandstone
-Crafting Smooth Sandstone
-Smelting Smooth Sandstone
-Interacting Smooth Sandstone
-Mining Smooth Quartz Block
-Placing Smooth Quartz Block
-Crafting Smooth Quartz Block
-Smelting Smooth Quartz Block
-Interacting Smooth Quartz Block
-Mining Smooth Red Sandstone
-Placing Smooth Red Sandstone
-Crafting Smooth Red Sandstone
-Smelting Smooth Red Sandstone
-Interacting Smooth Red Sandstone
-Mining Spruce Fence Gate
-Placing Spruce Fence Gate
-Crafting Spruce Fence Gate
-Smelting Spruce Fence Gate
-Interacting Spruce Fence Gate
-Mining Birch Fence Gate
-Placing Birch Fence Gate
-Crafting Birch Fence Gate
-Smelting Birch Fence Gate
-Interacting Birch Fence Gate
-Mining Jungle Fence Gate
-Placing Jungle Fence Gate
-Crafting Jungle Fence Gate
-Smelting Jungle Fence Gate
-Interacting Jungle Fence Gate
-Mining Acacia Fence Gate
-Placing Acacia Fence Gate
-Crafting Acacia Fence Gate
-Smelting Acacia Fence Gate
-Interacting Acacia Fence Gate
-Mining Dark Oak Fence Gate
-Placing Dark Oak Fence Gate
-Crafting Dark Oak Fence Gate
-Smelting Dark Oak Fence Gate
-Interacting Dark Oak Fence Gate
-Mining Mangrove Fence Gate
-Placing Mangrove Fence Gate
-Crafting Mangrove Fence Gate
-Smelting Mangrove Fence Gate
-Interacting Mangrove Fence Gate
-Mining Spruce Fence
-Placing Spruce Fence
-Crafting Spruce Fence
-Smelting Spruce Fence
-Interacting Spruce Fence
-Mining Birch Fence
-Placing Birch Fence
-Crafting Birch Fence
-Smelting Birch Fence
-Interacting Birch Fence
-Mining Jungle Fence
-Placing Jungle Fence
-Crafting Jungle Fence
-Smelting Jungle Fence
-Interacting Jungle Fence
-Mining Acacia Fence
-Placing Acacia Fence
-Crafting Acacia Fence
-Smelting Acacia Fence
-Interacting Acacia Fence
-Mining Dark Oak Fence
-Placing Dark Oak Fence
-Crafting Dark Oak Fence
-Smelting Dark Oak Fence
-Interacting Dark Oak Fence
-Mining Mangrove Fence
-Placing Mangrove Fence
-Crafting Mangrove Fence
-Smelting Mangrove Fence
-Interacting Mangrove Fence
-Mining Spruce Door
-Placing Spruce Door
-Crafting Spruce Door
-Smelting Spruce Door
-Interacting Spruce Door
-Mining Birch Door
-Placing Birch Door
-Crafting Birch Door
-Smelting Birch Door
-Interacting Birch Door
-Mining Jungle Door
-Placing Jungle Door
-Crafting Jungle Door
-Smelting Jungle Door
-Interacting Jungle Door
-Mining Acacia Door
-Placing Acacia Door
-Crafting Acacia Door
-Smelting Acacia Door
-Interacting Acacia Door
-Mining Dark Oak Door
-Placing Dark Oak Door
-Crafting Dark Oak Door
-Smelting Dark Oak Door
-Interacting Dark Oak Door
-Mining Mangrove Door
-Placing Mangrove Door
-Crafting Mangrove Door
-Smelting Mangrove Door
-Interacting Mangrove Door
-Mining End Rod
 Placing End Rod
+Collecting End Rod
 Crafting End Rod
-Smelting End Rod
-Interacting End Rod
-Mining Chorus Plant
-Placing Chorus Plant
-Crafting Chorus Plant
-Smelting Chorus Plant
-Interacting Chorus Plant
-Mining Chorus Flower
-Placing Chorus Flower
-Crafting Chorus Flower
-Smelting Chorus Flower
-Interacting Chorus Flower
-Mining Purpur Block
 Placing Purpur Block
+Collecting Purpur Block
 Crafting Purpur Block
-Smelting Purpur Block
-Interacting Purpur Block
-Mining Purpur Pillar
 Placing Purpur Pillar
+Collecting Purpur Pillar
 Crafting Purpur Pillar
-Smelting Purpur Pillar
-Interacting Purpur Pillar
-Mining Purpur Stairs
-Placing Purpur Stairs
-Crafting Purpur Stairs
-Smelting Purpur Stairs
-Interacting Purpur Stairs
-Mining End Stone Bricks
-Placing End Stone Bricks
-Crafting End Stone Bricks
-Smelting End Stone Bricks
-Interacting End Stone Bricks
-Mining Beetroots
-Placing Beetroots
-Crafting Beetroots
-Smelting Beetroots
-Interacting Beetroots
-Mining Dirt Path
 Placing Dirt Path
-Crafting Dirt Path
-Smelting Dirt Path
-Interacting Dirt Path
-Mining End Gateway
-Placing End Gateway
-Crafting End Gateway
-Smelting End Gateway
-Interacting End Gateway
-Mining Repeating Command Block
-Placing Repeating Command Block
-Crafting Repeating Command Block
-Smelting Repeating Command Block
-Interacting Repeating Command Block
-Mining Chain Command Block
-Placing Chain Command Block
-Crafting Chain Command Block
-Smelting Chain Command Block
-Interacting Chain Command Block
-Mining Frosted Ice
-Placing Frosted Ice
-Crafting Frosted Ice
-Smelting Frosted Ice
-Interacting Frosted Ice
-Mining Magma Block
+Collecting Dirt Path
 Placing Magma Block
-Crafting Magma Block
-Smelting Magma Block
-Interacting Magma Block
-Mining Nether Wart Block
+Collecting Magma Block
 Placing Nether Wart Block
-Crafting Nether Wart Block
-Smelting Nether Wart Block
-Interacting Nether Wart Block
-Mining Red Nether Bricks
-Placing Red Nether Bricks
-Crafting Red Nether Bricks
-Smelting Red Nether Bricks
-Interacting Red Nether Bricks
-Mining Bone Block
+Collecting Nether Wart Block
 Placing Bone Block
-Crafting Bone Block
-Smelting Bone Block
-Interacting Bone Block
-Mining Structure Void
-Placing Structure Void
-Crafting Structure Void
-Smelting Structure Void
-Interacting Structure Void
-Mining Observer
-Placing Observer
+Collecting Bone Block
 Crafting Observer
-Smelting Observer
-Interacting Observer
-Mining Shulker Box
-Placing Shulker Box
-Crafting Shulker Box
-Smelting Shulker Box
-Interacting Shulker Box
-Mining White Shulker Box
-Placing White Shulker Box
-Crafting White Shulker Box
-Smelting White Shulker Box
-Interacting White Shulker Box
-Mining Orange Shulker Box
-Placing Orange Shulker Box
-Crafting Orange Shulker Box
-Smelting Orange Shulker Box
-Interacting Orange Shulker Box
-Mining Magenta Shulker Box
-Placing Magenta Shulker Box
-Crafting Magenta Shulker Box
-Smelting Magenta Shulker Box
-Interacting Magenta Shulker Box
-Mining Light Blue Shulker Box
-Placing Light Blue Shulker Box
-Crafting Light Blue Shulker Box
-Smelting Light Blue Shulker Box
-Interacting Light Blue Shulker Box
-Mining Yellow Shulker Box
-Placing Yellow Shulker Box
-Crafting Yellow Shulker Box
-Smelting Yellow Shulker Box
-Interacting Yellow Shulker Box
-Mining Lime Shulker Box
-Placing Lime Shulker Box
-Crafting Lime Shulker Box
-Smelting Lime Shulker Box
-Interacting Lime Shulker Box
-Mining Pink Shulker Box
-Placing Pink Shulker Box
-Crafting Pink Shulker Box
-Smelting Pink Shulker Box
-Interacting Pink Shulker Box
-Mining Gray Shulker Box
-Placing Gray Shulker Box
-Crafting Gray Shulker Box
-Smelting Gray Shulker Box
-Interacting Gray Shulker Box
-Mining Light Gray Shulker Box
-Placing Light Gray Shulker Box
-Crafting Light Gray Shulker Box
-Smelting Light Gray Shulker Box
-Interacting Light Gray Shulker Box
-Mining Cyan Shulker Box
-Placing Cyan Shulker Box
-Crafting Cyan Shulker Box
-Smelting Cyan Shulker Box
-Interacting Cyan Shulker Box
-Mining Purple Shulker Box
-Placing Purple Shulker Box
-Crafting Purple Shulker Box
-Smelting Purple Shulker Box
-Interacting Purple Shulker Box
-Mining Blue Shulker Box
-Placing Blue Shulker Box
-Crafting Blue Shulker Box
-Smelting Blue Shulker Box
-Interacting Blue Shulker Box
-Mining Brown Shulker Box
-Placing Brown Shulker Box
-Crafting Brown Shulker Box
-Smelting Brown Shulker Box
-Interacting Brown Shulker Box
-Mining Green Shulker Box
-Placing Green Shulker Box
-Crafting Green Shulker Box
-Smelting Green Shulker Box
-Interacting Green Shulker Box
-Mining Red Shulker Box
-Placing Red Shulker Box
-Crafting Red Shulker Box
-Smelting Red Shulker Box
-Interacting Red Shulker Box
-Mining Black Shulker Box
-Placing Black Shulker Box
-Crafting Black Shulker Box
-Smelting Black Shulker Box
-Interacting Black Shulker Box
-Mining White Glazed Terracotta
-Placing White Glazed Terracotta
-Crafting White Glazed Terracotta
-Smelting White Glazed Terracotta
-Interacting White Glazed Terracotta
-Mining Orange Glazed Terracotta
-Placing Orange Glazed Terracotta
-Crafting Orange Glazed Terracotta
-Smelting Orange Glazed Terracotta
-Interacting Orange Glazed Terracotta
-Mining Magenta Glazed Terracotta
-Placing Magenta Glazed Terracotta
-Crafting Magenta Glazed Terracotta
-Smelting Magenta Glazed Terracotta
-Interacting Magenta Glazed Terracotta
-Mining Light Blue Glazed Terracotta
-Placing Light Blue Glazed Terracotta
-Crafting Light Blue Glazed Terracotta
-Smelting Light Blue Glazed Terracotta
-Interacting Light Blue Glazed Terracotta
-Mining Yellow Glazed Terracotta
-Placing Yellow Glazed Terracotta
-Crafting Yellow Glazed Terracotta
-Smelting Yellow Glazed Terracotta
-Interacting Yellow Glazed Terracotta
-Mining Lime Glazed Terracotta
-Placing Lime Glazed Terracotta
-Crafting Lime Glazed Terracotta
-Smelting Lime Glazed Terracotta
-Interacting Lime Glazed Terracotta
-Mining Pink Glazed Terracotta
-Placing Pink Glazed Terracotta
-Crafting Pink Glazed Terracotta
-Smelting Pink Glazed Terracotta
-Interacting Pink Glazed Terracotta
-Mining Gray Glazed Terracotta
-Placing Gray Glazed Terracotta
-Crafting Gray Glazed Terracotta
-Smelting Gray Glazed Terracotta
-Interacting Gray Glazed Terracotta
-Mining Light Gray Glazed Terracotta
-Placing Light Gray Glazed Terracotta
-Crafting Light Gray Glazed Terracotta
-Smelting Light Gray Glazed Terracotta
-Interacting Light Gray Glazed Terracotta
-Mining Cyan Glazed Terracotta
-Placing Cyan Glazed Terracotta
-Crafting Cyan Glazed Terracotta
-Smelting Cyan Glazed Terracotta
-Interacting Cyan Glazed Terracotta
-Mining Purple Glazed Terracotta
-Placing Purple Glazed Terracotta
-Crafting Purple Glazed Terracotta
-Smelting Purple Glazed Terracotta
-Interacting Purple Glazed Terracotta
-Mining Blue Glazed Terracotta
-Placing Blue Glazed Terracotta
-Crafting Blue Glazed Terracotta
-Smelting Blue Glazed Terracotta
-Interacting Blue Glazed Terracotta
-Mining Brown Glazed Terracotta
-Placing Brown Glazed Terracotta
-Crafting Brown Glazed Terracotta
-Smelting Brown Glazed Terracotta
-Interacting Brown Glazed Terracotta
-Mining Green Glazed Terracotta
-Placing Green Glazed Terracotta
-Crafting Green Glazed Terracotta
-Smelting Green Glazed Terracotta
-Interacting Green Glazed Terracotta
-Mining Red Glazed Terracotta
-Placing Red Glazed Terracotta
-Crafting Red Glazed Terracotta
-Smelting Red Glazed Terracotta
-Interacting Red Glazed Terracotta
-Mining Black Glazed Terracotta
-Placing Black Glazed Terracotta
-Crafting Black Glazed Terracotta
-Smelting Black Glazed Terracotta
-Interacting Black Glazed Terracotta
-Mining White Concrete
-Placing White Concrete
-Crafting White Concrete
-Smelting White Concrete
-Interacting White Concrete
-Mining Orange Concrete
-Placing Orange Concrete
-Crafting Orange Concrete
-Smelting Orange Concrete
-Interacting Orange Concrete
-Mining Magenta Concrete
-Placing Magenta Concrete
-Crafting Magenta Concrete
-Smelting Magenta Concrete
-Interacting Magenta Concrete
-Mining Light Blue Concrete
-Placing Light Blue Concrete
-Crafting Light Blue Concrete
-Smelting Light Blue Concrete
-Interacting Light Blue Concrete
-Mining Yellow Concrete
-Placing Yellow Concrete
-Crafting Yellow Concrete
-Smelting Yellow Concrete
-Interacting Yellow Concrete
-Mining Lime Concrete
-Placing Lime Concrete
-Crafting Lime Concrete
-Smelting Lime Concrete
-Interacting Lime Concrete
-Mining Pink Concrete
-Placing Pink Concrete
-Crafting Pink Concrete
-Smelting Pink Concrete
-Interacting Pink Concrete
-Mining Gray Concrete
-Placing Gray Concrete
-Crafting Gray Concrete
-Smelting Gray Concrete
-Interacting Gray Concrete
-Mining Light Gray Concrete
-Placing Light Gray Concrete
-Crafting Light Gray Concrete
-Smelting Light Gray Concrete
-Interacting Light Gray Concrete
-Mining Cyan Concrete
-Placing Cyan Concrete
-Crafting Cyan Concrete
-Smelting Cyan Concrete
-Interacting Cyan Concrete
-Mining Purple Concrete
-Placing Purple Concrete
-Crafting Purple Concrete
-Smelting Purple Concrete
-Interacting Purple Concrete
-Mining Blue Concrete
-Placing Blue Concrete
-Crafting Blue Concrete
-Smelting Blue Concrete
-Interacting Blue Concrete
-Mining Brown Concrete
-Placing Brown Concrete
-Crafting Brown Concrete
-Smelting Brown Concrete
-Interacting Brown Concrete
-Mining Green Concrete
-Placing Green Concrete
-Crafting Green Concrete
-Smelting Green Concrete
-Interacting Green Concrete
-Mining Red Concrete
-Placing Red Concrete
-Crafting Red Concrete
-Smelting Red Concrete
-Interacting Red Concrete
-Mining Black Concrete
-Placing Black Concrete
-Crafting Black Concrete
-Smelting Black Concrete
-Interacting Black Concrete
-Mining White Concrete Powder
-Placing White Concrete Powder
-Crafting White Concrete Powder
-Smelting White Concrete Powder
-Interacting White Concrete Powder
-Mining Orange Concrete Powder
-Placing Orange Concrete Powder
-Crafting Orange Concrete Powder
-Smelting Orange Concrete Powder
-Interacting Orange Concrete Powder
-Mining Magenta Concrete Powder
-Placing Magenta Concrete Powder
-Crafting Magenta Concrete Powder
-Smelting Magenta Concrete Powder
-Interacting Magenta Concrete Powder
-Mining Light Blue Concrete Powder
-Placing Light Blue Concrete Powder
-Crafting Light Blue Concrete Powder
-Smelting Light Blue Concrete Powder
-Interacting Light Blue Concrete Powder
-Mining Yellow Concrete Powder
-Placing Yellow Concrete Powder
-Crafting Yellow Concrete Powder
-Smelting Yellow Concrete Powder
-Interacting Yellow Concrete Powder
-Mining Lime Concrete Powder
-Placing Lime Concrete Powder
-Crafting Lime Concrete Powder
-Smelting Lime Concrete Powder
-Interacting Lime Concrete Powder
-Mining Pink Concrete Powder
-Placing Pink Concrete Powder
-Crafting Pink Concrete Powder
-Smelting Pink Concrete Powder
-Interacting Pink Concrete Powder
-Mining Gray Concrete Powder
-Placing Gray Concrete Powder
-Crafting Gray Concrete Powder
-Smelting Gray Concrete Powder
-Interacting Gray Concrete Powder
-Mining Light Gray Concrete Powder
-Placing Light Gray Concrete Powder
-Crafting Light Gray Concrete Powder
-Smelting Light Gray Concrete Powder
-Interacting Light Gray Concrete Powder
-Mining Cyan Concrete Powder
-Placing Cyan Concrete Powder
-Crafting Cyan Concrete Powder
-Smelting Cyan Concrete Powder
-Interacting Cyan Concrete Powder
-Mining Purple Concrete Powder
-Placing Purple Concrete Powder
-Crafting Purple Concrete Powder
-Smelting Purple Concrete Powder
-Interacting Purple Concrete Powder
-Mining Blue Concrete Powder
-Placing Blue Concrete Powder
-Crafting Blue Concrete Powder
-Smelting Blue Concrete Powder
-Interacting Blue Concrete Powder
-Mining Brown Concrete Powder
-Placing Brown Concrete Powder
-Crafting Brown Concrete Powder
-Smelting Brown Concrete Powder
-Interacting Brown Concrete Powder
-Mining Green Concrete Powder
-Placing Green Concrete Powder
-Crafting Green Concrete Powder
-Smelting Green Concrete Powder
-Interacting Green Concrete Powder
-Mining Red Concrete Powder
-Placing Red Concrete Powder
-Crafting Red Concrete Powder
-Smelting Red Concrete Powder
-Interacting Red Concrete Powder
-Mining Black Concrete Powder
-Placing Black Concrete Powder
-Crafting Black Concrete Powder
-Smelting Black Concrete Powder
-Interacting Black Concrete Powder
-Mining Kelp
-Placing Kelp
-Crafting Kelp
-Smelting Kelp
-Interacting Kelp
-Mining Kelp Plant
-Placing Kelp Plant
-Crafting Kelp Plant
-Smelting Kelp Plant
-Interacting Kelp Plant
-Mining Dried Kelp Block
+Placing Observer
+Collecting Observer
+Using Observer
 Placing Dried Kelp Block
+Collecting Dried Kelp Block
 Crafting Dried Kelp Block
-Smelting Dried Kelp Block
-Interacting Dried Kelp Block
-Mining Turtle Egg
-Placing Turtle Egg
-Crafting Turtle Egg
-Smelting Turtle Egg
-Interacting Turtle Egg
-Mining Dead Tube Coral Block
-Placing Dead Tube Coral Block
-Crafting Dead Tube Coral Block
-Smelting Dead Tube Coral Block
-Interacting Dead Tube Coral Block
-Mining Dead Brain Coral Block
-Placing Dead Brain Coral Block
-Crafting Dead Brain Coral Block
-Smelting Dead Brain Coral Block
-Interacting Dead Brain Coral Block
-Mining Dead Bubble Coral Block
-Placing Dead Bubble Coral Block
-Crafting Dead Bubble Coral Block
-Smelting Dead Bubble Coral Block
-Interacting Dead Bubble Coral Block
-Mining Dead Fire Coral Block
-Placing Dead Fire Coral Block
-Crafting Dead Fire Coral Block
-Smelting Dead Fire Coral Block
-Interacting Dead Fire Coral Block
-Mining Dead Horn Coral Block
-Placing Dead Horn Coral Block
-Crafting Dead Horn Coral Block
-Smelting Dead Horn Coral Block
-Interacting Dead Horn Coral Block
-Mining Tube Coral Block
-Placing Tube Coral Block
-Crafting Tube Coral Block
-Smelting Tube Coral Block
-Interacting Tube Coral Block
-Mining Brain Coral Block
-Placing Brain Coral Block
-Crafting Brain Coral Block
-Smelting Brain Coral Block
-Interacting Brain Coral Block
-Mining Bubble Coral Block
-Placing Bubble Coral Block
-Crafting Bubble Coral Block
-Smelting Bubble Coral Block
-Interacting Bubble Coral Block
-Mining Fire Coral Block
-Placing Fire Coral Block
-Crafting Fire Coral Block
-Smelting Fire Coral Block
-Interacting Fire Coral Block
-Mining Horn Coral Block
-Placing Horn Coral Block
-Crafting Horn Coral Block
-Smelting Horn Coral Block
-Interacting Horn Coral Block
-Mining Dead Tube Coral
-Placing Dead Tube Coral
-Crafting Dead Tube Coral
-Smelting Dead Tube Coral
-Interacting Dead Tube Coral
-Mining Dead Brain Coral
-Placing Dead Brain Coral
-Crafting Dead Brain Coral
-Smelting Dead Brain Coral
-Interacting Dead Brain Coral
-Mining Dead Bubble Coral
-Placing Dead Bubble Coral
-Crafting Dead Bubble Coral
-Smelting Dead Bubble Coral
-Interacting Dead Bubble Coral
-Mining Dead Fire Coral
-Placing Dead Fire Coral
-Crafting Dead Fire Coral
-Smelting Dead Fire Coral
-Interacting Dead Fire Coral
-Mining Dead Horn Coral
-Placing Dead Horn Coral
-Crafting Dead Horn Coral
-Smelting Dead Horn Coral
-Interacting Dead Horn Coral
-Mining Tube Coral
-Placing Tube Coral
-Crafting Tube Coral
-Smelting Tube Coral
-Interacting Tube Coral
-Mining Brain Coral
-Placing Brain Coral
-Crafting Brain Coral
-Smelting Brain Coral
-Interacting Brain Coral
-Mining Bubble Coral
-Placing Bubble Coral
-Crafting Bubble Coral
-Smelting Bubble Coral
-Interacting Bubble Coral
-Mining Fire Coral
-Placing Fire Coral
-Crafting Fire Coral
-Smelting Fire Coral
-Interacting Fire Coral
-Mining Horn Coral
-Placing Horn Coral
-Crafting Horn Coral
-Smelting Horn Coral
-Interacting Horn Coral
-Mining Dead Tube Coral Fan
-Placing Dead Tube Coral Fan
-Crafting Dead Tube Coral Fan
-Smelting Dead Tube Coral Fan
-Interacting Dead Tube Coral Fan
-Mining Dead Brain Coral Fan
-Placing Dead Brain Coral Fan
-Crafting Dead Brain Coral Fan
-Smelting Dead Brain Coral Fan
-Interacting Dead Brain Coral Fan
-Mining Dead Bubble Coral Fan
-Placing Dead Bubble Coral Fan
-Crafting Dead Bubble Coral Fan
-Smelting Dead Bubble Coral Fan
-Interacting Dead Bubble Coral Fan
-Mining Dead Fire Coral Fan
-Placing Dead Fire Coral Fan
-Crafting Dead Fire Coral Fan
-Smelting Dead Fire Coral Fan
-Interacting Dead Fire Coral Fan
-Mining Dead Horn Coral Fan
-Placing Dead Horn Coral Fan
-Crafting Dead Horn Coral Fan
-Smelting Dead Horn Coral Fan
-Interacting Dead Horn Coral Fan
-Mining Tube Coral Fan
-Placing Tube Coral Fan
-Crafting Tube Coral Fan
-Smelting Tube Coral Fan
-Interacting Tube Coral Fan
-Mining Brain Coral Fan
-Placing Brain Coral Fan
-Crafting Brain Coral Fan
-Smelting Brain Coral Fan
-Interacting Brain Coral Fan
-Mining Bubble Coral Fan
-Placing Bubble Coral Fan
-Crafting Bubble Coral Fan
-Smelting Bubble Coral Fan
-Interacting Bubble Coral Fan
-Mining Fire Coral Fan
-Placing Fire Coral Fan
-Crafting Fire Coral Fan
-Smelting Fire Coral Fan
-Interacting Fire Coral Fan
-Mining Horn Coral Fan
-Placing Horn Coral Fan
-Crafting Horn Coral Fan
-Smelting Horn Coral Fan
-Interacting Horn Coral Fan
-Mining Dead Tube Coral Wall Fan
-Placing Dead Tube Coral Wall Fan
-Crafting Dead Tube Coral Wall Fan
-Smelting Dead Tube Coral Wall Fan
-Interacting Dead Tube Coral Wall Fan
-Mining Dead Brain Coral Wall Fan
-Placing Dead Brain Coral Wall Fan
-Crafting Dead Brain Coral Wall Fan
-Smelting Dead Brain Coral Wall Fan
-Interacting Dead Brain Coral Wall Fan
-Mining Dead Bubble Coral Wall Fan
-Placing Dead Bubble Coral Wall Fan
-Crafting Dead Bubble Coral Wall Fan
-Smelting Dead Bubble Coral Wall Fan
-Interacting Dead Bubble Coral Wall Fan
-Mining Dead Fire Coral Wall Fan
-Placing Dead Fire Coral Wall Fan
-Crafting Dead Fire Coral Wall Fan
-Smelting Dead Fire Coral Wall Fan
-Interacting Dead Fire Coral Wall Fan
-Mining Dead Horn Coral Wall Fan
-Placing Dead Horn Coral Wall Fan
-Crafting Dead Horn Coral Wall Fan
-Smelting Dead Horn Coral Wall Fan
-Interacting Dead Horn Coral Wall Fan
-Mining Tube Coral Wall Fan
-Placing Tube Coral Wall Fan
-Crafting Tube Coral Wall Fan
-Smelting Tube Coral Wall Fan
-Interacting Tube Coral Wall Fan
-Mining Brain Coral Wall Fan
-Placing Brain Coral Wall Fan
-Crafting Brain Coral Wall Fan
-Smelting Brain Coral Wall Fan
-Interacting Brain Coral Wall Fan
-Mining Bubble Coral Wall Fan
-Placing Bubble Coral Wall Fan
-Crafting Bubble Coral Wall Fan
-Smelting Bubble Coral Wall Fan
-Interacting Bubble Coral Wall Fan
-Mining Fire Coral Wall Fan
-Placing Fire Coral Wall Fan
-Crafting Fire Coral Wall Fan
-Smelting Fire Coral Wall Fan
-Interacting Fire Coral Wall Fan
-Mining Horn Coral Wall Fan
-Placing Horn Coral Wall Fan
-Crafting Horn Coral Wall Fan
-Smelting Horn Coral Wall Fan
-Interacting Horn Coral Wall Fan
-Mining Sea Pickle
-Placing Sea Pickle
-Crafting Sea Pickle
-Smelting Sea Pickle
-Interacting Sea Pickle
-Mining Blue Ice
 Placing Blue Ice
-Crafting Blue Ice
-Smelting Blue Ice
-Interacting Blue Ice
-Mining Conduit
+Collecting Blue Ice
 Placing Conduit
+Collecting Conduit
 Crafting Conduit
-Smelting Conduit
-Interacting Conduit
-Mining Bamboo Shoot
-Placing Bamboo Shoot
-Crafting Bamboo Shoot
-Smelting Bamboo Shoot
-Interacting Bamboo Shoot
-Mining Bamboo
-Placing Bamboo
-Crafting Bamboo
-Smelting Bamboo
-Interacting Bamboo
-Mining Potted Bamboo
-Placing Potted Bamboo
-Crafting Potted Bamboo
-Smelting Potted Bamboo
-Interacting Potted Bamboo
-Mining Void Air
-Placing Void Air
-Crafting Void Air
-Smelting Void Air
-Interacting Void Air
-Mining Cave Air
-Placing Cave Air
-Crafting Cave Air
-Smelting Cave Air
-Interacting Cave Air
-Mining Bubble Column
-Placing Bubble Column
-Crafting Bubble Column
-Smelting Bubble Column
-Interacting Bubble Column
-Mining Polished Granite Stairs
-Placing Polished Granite Stairs
-Crafting Polished Granite Stairs
-Smelting Polished Granite Stairs
-Interacting Polished Granite Stairs
-Mining Smooth Red Sandstone Stairs
-Placing Smooth Red Sandstone Stairs
-Crafting Smooth Red Sandstone Stairs
-Smelting Smooth Red Sandstone Stairs
-Interacting Smooth Red Sandstone Stairs
-Mining Mossy Stone Brick Stairs
-Placing Mossy Stone Brick Stairs
-Crafting Mossy Stone Brick Stairs
-Smelting Mossy Stone Brick Stairs
-Interacting Mossy Stone Brick Stairs
-Mining Polished Diorite Stairs
-Placing Polished Diorite Stairs
-Crafting Polished Diorite Stairs
-Smelting Polished Diorite Stairs
-Interacting Polished Diorite Stairs
-Mining Mossy Cobblestone Stairs
-Placing Mossy Cobblestone Stairs
-Crafting Mossy Cobblestone Stairs
-Smelting Mossy Cobblestone Stairs
-Interacting Mossy Cobblestone Stairs
-Mining End Stone Brick Stairs
-Placing End Stone Brick Stairs
-Crafting End Stone Brick Stairs
-Smelting End Stone Brick Stairs
-Interacting End Stone Brick Stairs
-Mining Stone Stairs
-Placing Stone Stairs
-Crafting Stone Stairs
-Smelting Stone Stairs
-Interacting Stone Stairs
-Mining Smooth Sandstone Stairs
-Placing Smooth Sandstone Stairs
-Crafting Smooth Sandstone Stairs
-Smelting Smooth Sandstone Stairs
-Interacting Smooth Sandstone Stairs
-Mining Smooth Quartz Stairs
-Placing Smooth Quartz Stairs
-Crafting Smooth Quartz Stairs
-Smelting Smooth Quartz Stairs
-Interacting Smooth Quartz Stairs
-Mining Granite Stairs
-Placing Granite Stairs
-Crafting Granite Stairs
-Smelting Granite Stairs
-Interacting Granite Stairs
-Mining Andesite Stairs
-Placing Andesite Stairs
-Crafting Andesite Stairs
-Smelting Andesite Stairs
-Interacting Andesite Stairs
-Mining Red Nether Brick Stairs
-Placing Red Nether Brick Stairs
-Crafting Red Nether Brick Stairs
-Smelting Red Nether Brick Stairs
-Interacting Red Nether Brick Stairs
-Mining Polished Andesite Stairs
-Placing Polished Andesite Stairs
-Crafting Polished Andesite Stairs
-Smelting Polished Andesite Stairs
-Interacting Polished Andesite Stairs
-Mining Diorite Stairs
-Placing Diorite Stairs
-Crafting Diorite Stairs
-Smelting Diorite Stairs
-Interacting Diorite Stairs
-Mining Polished Granite Slab
-Placing Polished Granite Slab
-Crafting Polished Granite Slab
-Smelting Polished Granite Slab
-Interacting Polished Granite Slab
-Mining Smooth Red Sandstone Slab
-Placing Smooth Red Sandstone Slab
-Crafting Smooth Red Sandstone Slab
-Smelting Smooth Red Sandstone Slab
-Interacting Smooth Red Sandstone Slab
-Mining Mossy Stone Brick Slab
-Placing Mossy Stone Brick Slab
-Crafting Mossy Stone Brick Slab
-Smelting Mossy Stone Brick Slab
-Interacting Mossy Stone Brick Slab
-Mining Polished Diorite Slab
-Placing Polished Diorite Slab
-Crafting Polished Diorite Slab
-Smelting Polished Diorite Slab
-Interacting Polished Diorite Slab
-Mining Mossy Cobblestone Slab
-Placing Mossy Cobblestone Slab
-Crafting Mossy Cobblestone Slab
-Smelting Mossy Cobblestone Slab
-Interacting Mossy Cobblestone Slab
-Mining End Stone Brick Slab
-Placing End Stone Brick Slab
-Crafting End Stone Brick Slab
-Smelting End Stone Brick Slab
-Interacting End Stone Brick Slab
-Mining Smooth Sandstone Slab
-Placing Smooth Sandstone Slab
-Crafting Smooth Sandstone Slab
-Smelting Smooth Sandstone Slab
-Interacting Smooth Sandstone Slab
-Mining Smooth Quartz Slab
-Placing Smooth Quartz Slab
-Crafting Smooth Quartz Slab
-Smelting Smooth Quartz Slab
-Interacting Smooth Quartz Slab
-Mining Granite Slab
-Placing Granite Slab
-Crafting Granite Slab
-Smelting Granite Slab
-Interacting Granite Slab
-Mining Andesite Slab
-Placing Andesite Slab
-Crafting Andesite Slab
-Smelting Andesite Slab
-Interacting Andesite Slab
-Mining Red Nether Brick Slab
-Placing Red Nether Brick Slab
-Crafting Red Nether Brick Slab
-Smelting Red Nether Brick Slab
-Interacting Red Nether Brick Slab
-Mining Polished Andesite Slab
-Placing Polished Andesite Slab
-Crafting Polished Andesite Slab
-Smelting Polished Andesite Slab
-Interacting Polished Andesite Slab
-Mining Diorite Slab
-Placing Diorite Slab
-Crafting Diorite Slab
-Smelting Diorite Slab
-Interacting Diorite Slab
-Mining Brick Wall
-Placing Brick Wall
-Crafting Brick Wall
-Smelting Brick Wall
-Interacting Brick Wall
-Mining Prismarine Wall
-Placing Prismarine Wall
-Crafting Prismarine Wall
-Smelting Prismarine Wall
-Interacting Prismarine Wall
-Mining Red Sandstone Wall
-Placing Red Sandstone Wall
-Crafting Red Sandstone Wall
-Smelting Red Sandstone Wall
-Interacting Red Sandstone Wall
-Mining Mossy Stone Brick Wall
-Placing Mossy Stone Brick Wall
-Crafting Mossy Stone Brick Wall
-Smelting Mossy Stone Brick Wall
-Interacting Mossy Stone Brick Wall
-Mining Granite Wall
-Placing Granite Wall
-Crafting Granite Wall
-Smelting Granite Wall
-Interacting Granite Wall
-Mining Stone Brick Wall
-Placing Stone Brick Wall
-Crafting Stone Brick Wall
-Smelting Stone Brick Wall
-Interacting Stone Brick Wall
-Mining Mud Brick Wall
-Placing Mud Brick Wall
-Crafting Mud Brick Wall
-Smelting Mud Brick Wall
-Interacting Mud Brick Wall
-Mining Nether Brick Wall
-Placing Nether Brick Wall
-Crafting Nether Brick Wall
-Smelting Nether Brick Wall
-Interacting Nether Brick Wall
-Mining Andesite Wall
-Placing Andesite Wall
-Crafting Andesite Wall
-Smelting Andesite Wall
-Interacting Andesite Wall
-Mining Red Nether Brick Wall
-Placing Red Nether Brick Wall
-Crafting Red Nether Brick Wall
-Smelting Red Nether Brick Wall
-Interacting Red Nether Brick Wall
-Mining Sandstone Wall
-Placing Sandstone Wall
-Crafting Sandstone Wall
-Smelting Sandstone Wall
-Interacting Sandstone Wall
-Mining End Stone Brick Wall
-Placing End Stone Brick Wall
-Crafting End Stone Brick Wall
-Smelting End Stone Brick Wall
-Interacting End Stone Brick Wall
-Mining Diorite Wall
-Placing Diorite Wall
-Crafting Diorite Wall
-Smelting Diorite Wall
-Interacting Diorite Wall
-Mining Scaffolding
 Placing Scaffolding
+Collecting Scaffolding
 Crafting Scaffolding
-Smelting Scaffolding
-Interacting Scaffolding
-Mining Loom
-Placing Loom
 Crafting Loom
-Smelting Loom
-Interacting Loom
-Mining Barrel
+Placing Loom
+Collecting Loom
+Using Loom
 Placing Barrel
+Collecting Barrel
 Crafting Barrel
-Smelting Barrel
-Interacting Barrel
-Mining Smoker
-Placing Smoker
 Crafting Smoker
-Smelting Smoker
-Interacting Smoker
-Mining Blast Furnace
-Placing Blast Furnace
+Placing Smoker
+Collecting Smoker
+Using Smoker
 Crafting Blast Furnace
-Smelting Blast Furnace
-Interacting Blast Furnace
-Mining Cartography Table
-Placing Cartography Table
+Placing Blast Furnace
+Collecting Blast Furnace
+Using Blast Furnace
 Crafting Cartography Table
-Smelting Cartography Table
-Interacting Cartography Table
-Mining Fletching Table
-Placing Fletching Table
+Placing Cartography Table
+Collecting Cartography Table
+Using Cartography Table
 Crafting Fletching Table
-Smelting Fletching Table
-Interacting Fletching Table
-Mining Grindstone
+Placing Fletching Table
+Collecting Fletching Table
+Using Fletching Table
 Placing Grindstone
+Collecting Grindstone
 Crafting Grindstone
-Smelting Grindstone
-Interacting Grindstone
-Mining Lectern
-Placing Lectern
 Crafting Lectern
-Smelting Lectern
-Interacting Lectern
-Mining Smithing Table
-Placing Smithing Table
+Placing Lectern
+Collecting Lectern
+Using Lectern
 Crafting Smithing Table
-Smelting Smithing Table
-Interacting Smithing Table
-Mining Stonecutter
-Placing Stonecutter
+Placing Smithing Table
+Collecting Smithing Table
+Using Smithing Table
 Crafting Stonecutter
-Smelting Stonecutter
-Interacting Stonecutter
-Mining Bell
+Placing Stonecutter
+Collecting Stonecutter
+Using Stonecutter
 Placing Bell
+Collecting Bell
 Crafting Bell
-Smelting Bell
-Interacting Bell
-Mining Lantern
 Placing Lantern
+Collecting Lantern
 Crafting Lantern
-Smelting Lantern
-Interacting Lantern
-Mining Soul Lantern
 Placing Soul Lantern
+Collecting Soul Lantern
 Crafting Soul Lantern
-Smelting Soul Lantern
-Interacting Soul Lantern
-Mining Campfire
 Placing Campfire
+Collecting Campfire
 Crafting Campfire
-Smelting Campfire
-Interacting Campfire
-Mining Soul Campfire
 Placing Soul Campfire
+Collecting Soul Campfire
 Crafting Soul Campfire
-Smelting Soul Campfire
-Interacting Soul Campfire
-Mining Sweet Berry Bush
-Placing Sweet Berry Bush
-Crafting Sweet Berry Bush
-Smelting Sweet Berry Bush
-Interacting Sweet Berry Bush
-Mining Warped Stem
-Placing Warped Stem
-Crafting Warped Stem
-Smelting Warped Stem
-Interacting Warped Stem
-Mining Stripped Warped Stem
-Placing Stripped Warped Stem
-Crafting Stripped Warped Stem
-Smelting Stripped Warped Stem
-Interacting Stripped Warped Stem
-Mining Warped Hyphae
-Placing Warped Hyphae
-Crafting Warped Hyphae
-Smelting Warped Hyphae
-Interacting Warped Hyphae
-Mining Stripped Warped Hyphae
-Placing Stripped Warped Hyphae
-Crafting Stripped Warped Hyphae
-Smelting Stripped Warped Hyphae
-Interacting Stripped Warped Hyphae
-Mining Warped Nylium
 Placing Warped Nylium
-Crafting Warped Nylium
-Smelting Warped Nylium
-Interacting Warped Nylium
-Mining Warped Fungus
-Placing Warped Fungus
-Crafting Warped Fungus
-Smelting Warped Fungus
-Interacting Warped Fungus
-Mining Warped Wart Block
+Collecting Warped Nylium
 Placing Warped Wart Block
-Crafting Warped Wart Block
-Smelting Warped Wart Block
-Interacting Warped Wart Block
-Mining Warped Roots
-Placing Warped Roots
-Crafting Warped Roots
-Smelting Warped Roots
-Interacting Warped Roots
-Mining Nether Sprouts
-Placing Nether Sprouts
-Crafting Nether Sprouts
-Smelting Nether Sprouts
-Interacting Nether Sprouts
-Mining Crimson Stem
-Placing Crimson Stem
-Crafting Crimson Stem
-Smelting Crimson Stem
-Interacting Crimson Stem
-Mining Stripped Crimson Stem
-Placing Stripped Crimson Stem
-Crafting Stripped Crimson Stem
-Smelting Stripped Crimson Stem
-Interacting Stripped Crimson Stem
-Mining Crimson Hyphae
-Placing Crimson Hyphae
-Crafting Crimson Hyphae
-Smelting Crimson Hyphae
-Interacting Crimson Hyphae
-Mining Stripped Crimson Hyphae
-Placing Stripped Crimson Hyphae
-Crafting Stripped Crimson Hyphae
-Smelting Stripped Crimson Hyphae
-Interacting Stripped Crimson Hyphae
-Mining Crimson Nylium
+Collecting Warped Wart Block
 Placing Crimson Nylium
-Crafting Crimson Nylium
-Smelting Crimson Nylium
-Interacting Crimson Nylium
-Mining Crimson Fungus
-Placing Crimson Fungus
-Crafting Crimson Fungus
-Smelting Crimson Fungus
-Interacting Crimson Fungus
-Mining Shroomlight
+Collecting Crimson Nylium
 Placing Shroomlight
-Crafting Shroomlight
-Smelting Shroomlight
-Interacting Shroomlight
-Mining Weeping Vines
-Placing Weeping Vines
-Crafting Weeping Vines
-Smelting Weeping Vines
-Interacting Weeping Vines
-Mining Weeping Vines Plant
-Placing Weeping Vines Plant
-Crafting Weeping Vines Plant
-Smelting Weeping Vines Plant
-Interacting Weeping Vines Plant
-Mining Twisting Vines
-Placing Twisting Vines
-Crafting Twisting Vines
-Smelting Twisting Vines
-Interacting Twisting Vines
-Mining Twisting Vines Plant
-Placing Twisting Vines Plant
-Crafting Twisting Vines Plant
-Smelting Twisting Vines Plant
-Interacting Twisting Vines Plant
-Mining Crimson Roots
-Placing Crimson Roots
-Crafting Crimson Roots
-Smelting Crimson Roots
-Interacting Crimson Roots
-Mining Crimson Planks
-Placing Crimson Planks
-Crafting Crimson Planks
-Smelting Crimson Planks
-Interacting Crimson Planks
-Mining Warped Planks
-Placing Warped Planks
-Crafting Warped Planks
-Smelting Warped Planks
-Interacting Warped Planks
-Mining Crimson Slab
-Placing Crimson Slab
-Crafting Crimson Slab
-Smelting Crimson Slab
-Interacting Crimson Slab
-Mining Warped Slab
-Placing Warped Slab
-Crafting Warped Slab
-Smelting Warped Slab
-Interacting Warped Slab
-Mining Crimson Pressure Plate
-Placing Crimson Pressure Plate
-Crafting Crimson Pressure Plate
-Smelting Crimson Pressure Plate
-Interacting Crimson Pressure Plate
-Mining Warped Pressure Plate
-Placing Warped Pressure Plate
-Crafting Warped Pressure Plate
-Smelting Warped Pressure Plate
-Interacting Warped Pressure Plate
-Mining Crimson Fence
-Placing Crimson Fence
-Crafting Crimson Fence
-Smelting Crimson Fence
-Interacting Crimson Fence
-Mining Warped Fence
-Placing Warped Fence
-Crafting Warped Fence
-Smelting Warped Fence
-Interacting Warped Fence
-Mining Crimson Trapdoor
-Placing Crimson Trapdoor
-Crafting Crimson Trapdoor
-Smelting Crimson Trapdoor
-Interacting Crimson Trapdoor
-Mining Warped Trapdoor
-Placing Warped Trapdoor
-Crafting Warped Trapdoor
-Smelting Warped Trapdoor
-Interacting Warped Trapdoor
-Mining Crimson Fence Gate
-Placing Crimson Fence Gate
-Crafting Crimson Fence Gate
-Smelting Crimson Fence Gate
-Interacting Crimson Fence Gate
-Mining Warped Fence Gate
-Placing Warped Fence Gate
-Crafting Warped Fence Gate
-Smelting Warped Fence Gate
-Interacting Warped Fence Gate
-Mining Crimson Stairs
-Placing Crimson Stairs
-Crafting Crimson Stairs
-Smelting Crimson Stairs
-Interacting Crimson Stairs
-Mining Warped Stairs
-Placing Warped Stairs
-Crafting Warped Stairs
-Smelting Warped Stairs
-Interacting Warped Stairs
-Mining Crimson Button
-Placing Crimson Button
-Crafting Crimson Button
-Smelting Crimson Button
-Interacting Crimson Button
-Mining Warped Button
-Placing Warped Button
-Crafting Warped Button
-Smelting Warped Button
-Interacting Warped Button
-Mining Crimson Door
-Placing Crimson Door
-Crafting Crimson Door
-Smelting Crimson Door
-Interacting Crimson Door
-Mining Warped Door
-Placing Warped Door
-Crafting Warped Door
-Smelting Warped Door
-Interacting Warped Door
-Mining Crimson Sign
-Placing Crimson Sign
-Crafting Crimson Sign
-Smelting Crimson Sign
-Interacting Crimson Sign
-Mining Warped Sign
-Placing Warped Sign
-Crafting Warped Sign
-Smelting Warped Sign
-Interacting Warped Sign
-Mining Structure Block
-Placing Structure Block
-Crafting Structure Block
-Smelting Structure Block
-Interacting Structure Block
-Mining Jigsaw Block
-Placing Jigsaw Block
-Crafting Jigsaw Block
-Smelting Jigsaw Block
-Interacting Jigsaw Block
-Mining Composter
-Placing Composter
+Collecting Shroomlight
 Crafting Composter
-Smelting Composter
-Interacting Composter
-Mining Target
+Placing Composter
+Collecting Composter
+Using Composter
 Placing Target
+Collecting Target
 Crafting Target
-Smelting Target
-Interacting Target
-Mining Bee Nest
-Placing Bee Nest
-Crafting Bee Nest
-Smelting Bee Nest
-Interacting Bee Nest
-Mining Beehive
 Placing Beehive
+Collecting Beehive
 Crafting Beehive
-Smelting Beehive
-Interacting Beehive
-Mining Honey Block
 Placing Honey Block
+Collecting Honey Block
 Crafting Honey Block
-Smelting Honey Block
-Interacting Honey Block
-Mining Honeycomb Block
 Placing Honeycomb Block
+Collecting Honeycomb Block
 Crafting Honeycomb Block
-Smelting Honeycomb Block
-Interacting Honeycomb Block
-Mining Block of Netherite
-Placing Block of Netherite
-Crafting Block of Netherite
-Smelting Block of Netherite
-Interacting Block of Netherite
-Mining Ancient Debris
 Placing Ancient Debris
-Crafting Ancient Debris
-Smelting Ancient Debris
-Interacting Ancient Debris
-Mining Crying Obsidian
+Collecting Ancient Debris
 Placing Crying Obsidian
-Crafting Crying Obsidian
-Smelting Crying Obsidian
-Interacting Crying Obsidian
-Mining Respawn Anchor
+Collecting Crying Obsidian
 Placing Respawn Anchor
+Collecting Respawn Anchor
 Crafting Respawn Anchor
-Smelting Respawn Anchor
-Interacting Respawn Anchor
-Mining Potted Crimson Fungus
-Placing Potted Crimson Fungus
-Crafting Potted Crimson Fungus
-Smelting Potted Crimson Fungus
-Interacting Potted Crimson Fungus
-Mining Potted Warped Fungus
-Placing Potted Warped Fungus
-Crafting Potted Warped Fungus
-Smelting Potted Warped Fungus
-Interacting Potted Warped Fungus
-Mining Potted Crimson Roots
-Placing Potted Crimson Roots
-Crafting Potted Crimson Roots
-Smelting Potted Crimson Roots
-Interacting Potted Crimson Roots
-Mining Potted Warped Roots
-Placing Potted Warped Roots
-Crafting Potted Warped Roots
-Smelting Potted Warped Roots
-Interacting Potted Warped Roots
-Mining Lodestone
 Placing Lodestone
+Collecting Lodestone
 Crafting Lodestone
-Smelting Lodestone
-Interacting Lodestone
-Mining Blackstone
 Placing Blackstone
+Collecting Blackstone
 Crafting Blackstone
-Smelting Blackstone
-Interacting Blackstone
-Mining Blackstone Stairs
-Placing Blackstone Stairs
-Crafting Blackstone Stairs
-Smelting Blackstone Stairs
-Interacting Blackstone Stairs
-Mining Blackstone Wall
-Placing Blackstone Wall
-Crafting Blackstone Wall
-Smelting Blackstone Wall
-Interacting Blackstone Wall
-Mining Blackstone Slab
-Placing Blackstone Slab
-Crafting Blackstone Slab
-Smelting Blackstone Slab
-Interacting Blackstone Slab
-Mining Polished Blackstone
 Placing Polished Blackstone
+Collecting Polished Blackstone
 Crafting Polished Blackstone
-Smelting Polished Blackstone
-Interacting Polished Blackstone
-Mining Polished Blackstone Bricks
-Placing Polished Blackstone Bricks
-Crafting Polished Blackstone Bricks
-Smelting Polished Blackstone Bricks
-Interacting Polished Blackstone Bricks
-Mining Cracked Polished Blackstone Bricks
-Placing Cracked Polished Blackstone Bricks
-Crafting Cracked Polished Blackstone Bricks
-Smelting Cracked Polished Blackstone Bricks
-Interacting Cracked Polished Blackstone Bricks
-Mining Chiseled Polished Blackstone
 Placing Chiseled Polished Blackstone
+Collecting Chiseled Polished Blackstone
 Crafting Chiseled Polished Blackstone
-Smelting Chiseled Polished Blackstone
-Interacting Chiseled Polished Blackstone
-Mining Polished Blackstone Brick Slab
-Placing Polished Blackstone Brick Slab
-Crafting Polished Blackstone Brick Slab
-Smelting Polished Blackstone Brick Slab
-Interacting Polished Blackstone Brick Slab
-Mining Polished Blackstone Brick Stairs
-Placing Polished Blackstone Brick Stairs
-Crafting Polished Blackstone Brick Stairs
-Smelting Polished Blackstone Brick Stairs
-Interacting Polished Blackstone Brick Stairs
-Mining Polished Blackstone Brick Wall
-Placing Polished Blackstone Brick Wall
-Crafting Polished Blackstone Brick Wall
-Smelting Polished Blackstone Brick Wall
-Interacting Polished Blackstone Brick Wall
-Mining Gilded Blackstone
 Placing Gilded Blackstone
+Collecting Gilded Blackstone
 Crafting Gilded Blackstone
-Smelting Gilded Blackstone
-Interacting Gilded Blackstone
-Mining Polished Blackstone Stairs
-Placing Polished Blackstone Stairs
-Crafting Polished Blackstone Stairs
-Smelting Polished Blackstone Stairs
-Interacting Polished Blackstone Stairs
-Mining Polished Blackstone Slab
-Placing Polished Blackstone Slab
-Crafting Polished Blackstone Slab
-Smelting Polished Blackstone Slab
-Interacting Polished Blackstone Slab
-Mining Polished Blackstone Pressure Plate
-Placing Polished Blackstone Pressure Plate
-Crafting Polished Blackstone Pressure Plate
-Smelting Polished Blackstone Pressure Plate
-Interacting Polished Blackstone Pressure Plate
-Mining Polished Blackstone Button
-Placing Polished Blackstone Button
-Crafting Polished Blackstone Button
-Smelting Polished Blackstone Button
-Interacting Polished Blackstone Button
-Mining Polished Blackstone Wall
-Placing Polished Blackstone Wall
-Crafting Polished Blackstone Wall
-Smelting Polished Blackstone Wall
-Interacting Polished Blackstone Wall
-Mining Chiseled Nether Bricks
-Placing Chiseled Nether Bricks
-Crafting Chiseled Nether Bricks
-Smelting Chiseled Nether Bricks
-Interacting Chiseled Nether Bricks
-Mining Cracked Nether Bricks
-Placing Cracked Nether Bricks
-Crafting Cracked Nether Bricks
-Smelting Cracked Nether Bricks
-Interacting Cracked Nether Bricks
-Mining Quartz Bricks
-Placing Quartz Bricks
-Crafting Quartz Bricks
-Smelting Quartz Bricks
-Interacting Quartz Bricks
-Mining Candle
-Placing Candle
-Crafting Candle
-Smelting Candle
-Interacting Candle
-Mining White Candle
-Placing White Candle
-Crafting White Candle
-Smelting White Candle
-Interacting White Candle
-Mining Orange Candle
-Placing Orange Candle
-Crafting Orange Candle
-Smelting Orange Candle
-Interacting Orange Candle
-Mining Magenta Candle
-Placing Magenta Candle
-Crafting Magenta Candle
-Smelting Magenta Candle
-Interacting Magenta Candle
-Mining Light Blue Candle
-Placing Light Blue Candle
-Crafting Light Blue Candle
-Smelting Light Blue Candle
-Interacting Light Blue Candle
-Mining Yellow Candle
-Placing Yellow Candle
-Crafting Yellow Candle
-Smelting Yellow Candle
-Interacting Yellow Candle
-Mining Lime Candle
-Placing Lime Candle
-Crafting Lime Candle
-Smelting Lime Candle
-Interacting Lime Candle
-Mining Pink Candle
-Placing Pink Candle
-Crafting Pink Candle
-Smelting Pink Candle
-Interacting Pink Candle
-Mining Gray Candle
-Placing Gray Candle
-Crafting Gray Candle
-Smelting Gray Candle
-Interacting Gray Candle
-Mining Light Gray Candle
-Placing Light Gray Candle
-Crafting Light Gray Candle
-Smelting Light Gray Candle
-Interacting Light Gray Candle
-Mining Cyan Candle
-Placing Cyan Candle
-Crafting Cyan Candle
-Smelting Cyan Candle
-Interacting Cyan Candle
-Mining Purple Candle
-Placing Purple Candle
-Crafting Purple Candle
-Smelting Purple Candle
-Interacting Purple Candle
-Mining Blue Candle
-Placing Blue Candle
-Crafting Blue Candle
-Smelting Blue Candle
-Interacting Blue Candle
-Mining Brown Candle
-Placing Brown Candle
-Crafting Brown Candle
-Smelting Brown Candle
-Interacting Brown Candle
-Mining Green Candle
-Placing Green Candle
-Crafting Green Candle
-Smelting Green Candle
-Interacting Green Candle
-Mining Red Candle
-Placing Red Candle
-Crafting Red Candle
-Smelting Red Candle
-Interacting Red Candle
-Mining Black Candle
-Placing Black Candle
-Crafting Black Candle
-Smelting Black Candle
-Interacting Black Candle
-Mining Cake with Candle
-Placing Cake with Candle
-Crafting Cake with Candle
-Smelting Cake with Candle
-Interacting Cake with Candle
-Mining Cake with White Candle
-Placing Cake with White Candle
-Crafting Cake with White Candle
-Smelting Cake with White Candle
-Interacting Cake with White Candle
-Mining Cake with Orange Candle
-Placing Cake with Orange Candle
-Crafting Cake with Orange Candle
-Smelting Cake with Orange Candle
-Interacting Cake with Orange Candle
-Mining Cake with Magenta Candle
-Placing Cake with Magenta Candle
-Crafting Cake with Magenta Candle
-Smelting Cake with Magenta Candle
-Interacting Cake with Magenta Candle
-Mining Cake with Light Blue Candle
-Placing Cake with Light Blue Candle
-Crafting Cake with Light Blue Candle
-Smelting Cake with Light Blue Candle
-Interacting Cake with Light Blue Candle
-Mining Cake with Yellow Candle
-Placing Cake with Yellow Candle
-Crafting Cake with Yellow Candle
-Smelting Cake with Yellow Candle
-Interacting Cake with Yellow Candle
-Mining Cake with Lime Candle
-Placing Cake with Lime Candle
-Crafting Cake with Lime Candle
-Smelting Cake with Lime Candle
-Interacting Cake with Lime Candle
-Mining Cake with Pink Candle
-Placing Cake with Pink Candle
-Crafting Cake with Pink Candle
-Smelting Cake with Pink Candle
-Interacting Cake with Pink Candle
-Mining Cake with Gray Candle
-Placing Cake with Gray Candle
-Crafting Cake with Gray Candle
-Smelting Cake with Gray Candle
-Interacting Cake with Gray Candle
-Mining Cake with Light Gray Candle
-Placing Cake with Light Gray Candle
-Crafting Cake with Light Gray Candle
-Smelting Cake with Light Gray Candle
-Interacting Cake with Light Gray Candle
-Mining Cake with Cyan Candle
-Placing Cake with Cyan Candle
-Crafting Cake with Cyan Candle
-Smelting Cake with Cyan Candle
-Interacting Cake with Cyan Candle
-Mining Cake with Purple Candle
-Placing Cake with Purple Candle
-Crafting Cake with Purple Candle
-Smelting Cake with Purple Candle
-Interacting Cake with Purple Candle
-Mining Cake with Blue Candle
-Placing Cake with Blue Candle
-Crafting Cake with Blue Candle
-Smelting Cake with Blue Candle
-Interacting Cake with Blue Candle
-Mining Cake with Brown Candle
-Placing Cake with Brown Candle
-Crafting Cake with Brown Candle
-Smelting Cake with Brown Candle
-Interacting Cake with Brown Candle
-Mining Cake with Green Candle
-Placing Cake with Green Candle
-Crafting Cake with Green Candle
-Smelting Cake with Green Candle
-Interacting Cake with Green Candle
-Mining Cake with Red Candle
-Placing Cake with Red Candle
-Crafting Cake with Red Candle
-Smelting Cake with Red Candle
-Interacting Cake with Red Candle
-Mining Cake with Black Candle
-Placing Cake with Black Candle
-Crafting Cake with Black Candle
-Smelting Cake with Black Candle
-Interacting Cake with Black Candle
-Mining Block of Amethyst
 Placing Block of Amethyst
+Collecting Block of Amethyst
 Crafting Block of Amethyst
-Smelting Block of Amethyst
-Interacting Block of Amethyst
-Mining Budding Amethyst
-Placing Budding Amethyst
-Crafting Budding Amethyst
-Smelting Budding Amethyst
-Interacting Budding Amethyst
-Mining Amethyst Cluster
-Placing Amethyst Cluster
-Crafting Amethyst Cluster
-Smelting Amethyst Cluster
-Interacting Amethyst Cluster
-Mining Large Amethyst Bud
-Placing Large Amethyst Bud
-Crafting Large Amethyst Bud
-Smelting Large Amethyst Bud
-Interacting Large Amethyst Bud
-Mining Medium Amethyst Bud
-Placing Medium Amethyst Bud
-Crafting Medium Amethyst Bud
-Smelting Medium Amethyst Bud
-Interacting Medium Amethyst Bud
-Mining Small Amethyst Bud
-Placing Small Amethyst Bud
-Crafting Small Amethyst Bud
-Smelting Small Amethyst Bud
-Interacting Small Amethyst Bud
-Mining Tuff
 Placing Tuff
-Crafting Tuff
-Smelting Tuff
-Interacting Tuff
-Mining Calcite
+Collecting Tuff
 Placing Calcite
-Crafting Calcite
-Smelting Calcite
-Interacting Calcite
-Mining Tinted Glass
-Placing Tinted Glass
-Crafting Tinted Glass
-Smelting Tinted Glass
-Interacting Tinted Glass
-Mining Powder Snow
+Collecting Calcite
 Placing Powder Snow
-Crafting Powder Snow
-Smelting Powder Snow
-Interacting Powder Snow
-Mining Sculk Sensor
+Collecting Powder Snow
 Placing Sculk Sensor
-Crafting Sculk Sensor
-Smelting Sculk Sensor
-Interacting Sculk Sensor
-Mining Sculk
+Collecting Sculk Sensor
 Placing Sculk
-Crafting Sculk
-Smelting Sculk
-Interacting Sculk
-Mining Sculk Vein
+Collecting Sculk
 Placing Sculk Vein
-Crafting Sculk Vein
-Smelting Sculk Vein
-Interacting Sculk Vein
-Mining Sculk Catalyst
+Collecting Sculk Vein
 Placing Sculk Catalyst
-Crafting Sculk Catalyst
-Smelting Sculk Catalyst
-Interacting Sculk Catalyst
-Mining Sculk Shrieker
+Collecting Sculk Catalyst
 Placing Sculk Shrieker
-Crafting Sculk Shrieker
-Smelting Sculk Shrieker
-Interacting Sculk Shrieker
-Mining Oxidized Copper
-Placing Oxidized Copper
-Crafting Oxidized Copper
-Smelting Oxidized Copper
-Interacting Oxidized Copper
-Mining Weathered Copper
-Placing Weathered Copper
-Crafting Weathered Copper
-Smelting Weathered Copper
-Interacting Weathered Copper
-Mining Exposed Copper
-Placing Exposed Copper
-Crafting Exposed Copper
-Smelting Exposed Copper
-Interacting Exposed Copper
-Mining Block of Copper
-Placing Block of Copper
-Crafting Block of Copper
-Smelting Block of Copper
-Interacting Block of Copper
-Mining Copper Ore
-Placing Copper Ore
-Crafting Copper Ore
-Smelting Copper Ore
-Interacting Copper Ore
-Mining Deepslate Copper Ore
-Placing Deepslate Copper Ore
-Crafting Deepslate Copper Ore
-Smelting Deepslate Copper Ore
-Interacting Deepslate Copper Ore
-Mining Oxidized Cut Copper
-Placing Oxidized Cut Copper
-Crafting Oxidized Cut Copper
-Smelting Oxidized Cut Copper
-Interacting Oxidized Cut Copper
-Mining Weathered Cut Copper
-Placing Weathered Cut Copper
-Crafting Weathered Cut Copper
-Smelting Weathered Cut Copper
-Interacting Weathered Cut Copper
-Mining Exposed Cut Copper
-Placing Exposed Cut Copper
-Crafting Exposed Cut Copper
-Smelting Exposed Cut Copper
-Interacting Exposed Cut Copper
-Mining Cut Copper
-Placing Cut Copper
-Crafting Cut Copper
-Smelting Cut Copper
-Interacting Cut Copper
-Mining Oxidized Cut Copper Stairs
-Placing Oxidized Cut Copper Stairs
-Crafting Oxidized Cut Copper Stairs
-Smelting Oxidized Cut Copper Stairs
-Interacting Oxidized Cut Copper Stairs
-Mining Weathered Cut Copper Stairs
-Placing Weathered Cut Copper Stairs
-Crafting Weathered Cut Copper Stairs
-Smelting Weathered Cut Copper Stairs
-Interacting Weathered Cut Copper Stairs
-Mining Exposed Cut Copper Stairs
-Placing Exposed Cut Copper Stairs
-Crafting Exposed Cut Copper Stairs
-Smelting Exposed Cut Copper Stairs
-Interacting Exposed Cut Copper Stairs
-Mining Cut Copper Stairs
-Placing Cut Copper Stairs
-Crafting Cut Copper Stairs
-Smelting Cut Copper Stairs
-Interacting Cut Copper Stairs
-Mining Oxidized Cut Copper Slab
-Placing Oxidized Cut Copper Slab
-Crafting Oxidized Cut Copper Slab
-Smelting Oxidized Cut Copper Slab
-Interacting Oxidized Cut Copper Slab
-Mining Weathered Cut Copper Slab
-Placing Weathered Cut Copper Slab
-Crafting Weathered Cut Copper Slab
-Smelting Weathered Cut Copper Slab
-Interacting Weathered Cut Copper Slab
-Mining Exposed Cut Copper Slab
-Placing Exposed Cut Copper Slab
-Crafting Exposed Cut Copper Slab
-Smelting Exposed Cut Copper Slab
-Interacting Exposed Cut Copper Slab
-Mining Cut Copper Slab
-Placing Cut Copper Slab
-Crafting Cut Copper Slab
-Smelting Cut Copper Slab
-Interacting Cut Copper Slab
-Mining Waxed Block of Copper
-Placing Waxed Block of Copper
-Crafting Waxed Block of Copper
-Smelting Waxed Block of Copper
-Interacting Waxed Block of Copper
-Mining Waxed Weathered Copper
-Placing Waxed Weathered Copper
-Crafting Waxed Weathered Copper
-Smelting Waxed Weathered Copper
-Interacting Waxed Weathered Copper
-Mining Waxed Exposed Copper
-Placing Waxed Exposed Copper
-Crafting Waxed Exposed Copper
-Smelting Waxed Exposed Copper
-Interacting Waxed Exposed Copper
-Mining Waxed Oxidized Copper
-Placing Waxed Oxidized Copper
-Crafting Waxed Oxidized Copper
-Smelting Waxed Oxidized Copper
-Interacting Waxed Oxidized Copper
-Mining Waxed Oxidized Cut Copper
-Placing Waxed Oxidized Cut Copper
-Crafting Waxed Oxidized Cut Copper
-Smelting Waxed Oxidized Cut Copper
-Interacting Waxed Oxidized Cut Copper
-Mining Waxed Weathered Cut Copper
-Placing Waxed Weathered Cut Copper
-Crafting Waxed Weathered Cut Copper
-Smelting Waxed Weathered Cut Copper
-Interacting Waxed Weathered Cut Copper
-Mining Waxed Exposed Cut Copper
-Placing Waxed Exposed Cut Copper
-Crafting Waxed Exposed Cut Copper
-Smelting Waxed Exposed Cut Copper
-Interacting Waxed Exposed Cut Copper
-Mining Waxed Cut Copper
-Placing Waxed Cut Copper
-Crafting Waxed Cut Copper
-Smelting Waxed Cut Copper
-Interacting Waxed Cut Copper
-Mining Waxed Oxidized Cut Copper Stairs
-Placing Waxed Oxidized Cut Copper Stairs
-Crafting Waxed Oxidized Cut Copper Stairs
-Smelting Waxed Oxidized Cut Copper Stairs
-Interacting Waxed Oxidized Cut Copper Stairs
-Mining Waxed Weathered Cut Copper Stairs
-Placing Waxed Weathered Cut Copper Stairs
-Crafting Waxed Weathered Cut Copper Stairs
-Smelting Waxed Weathered Cut Copper Stairs
-Interacting Waxed Weathered Cut Copper Stairs
-Mining Waxed Exposed Cut Copper Stairs
-Placing Waxed Exposed Cut Copper Stairs
-Crafting Waxed Exposed Cut Copper Stairs
-Smelting Waxed Exposed Cut Copper Stairs
-Interacting Waxed Exposed Cut Copper Stairs
-Mining Waxed Cut Copper Stairs
-Placing Waxed Cut Copper Stairs
-Crafting Waxed Cut Copper Stairs
-Smelting Waxed Cut Copper Stairs
-Interacting Waxed Cut Copper Stairs
-Mining Waxed Oxidized Cut Copper Slab
-Placing Waxed Oxidized Cut Copper Slab
-Crafting Waxed Oxidized Cut Copper Slab
-Smelting Waxed Oxidized Cut Copper Slab
-Interacting Waxed Oxidized Cut Copper Slab
-Mining Waxed Weathered Cut Copper Slab
-Placing Waxed Weathered Cut Copper Slab
-Crafting Waxed Weathered Cut Copper Slab
-Smelting Waxed Weathered Cut Copper Slab
-Interacting Waxed Weathered Cut Copper Slab
-Mining Waxed Exposed Cut Copper Slab
-Placing Waxed Exposed Cut Copper Slab
-Crafting Waxed Exposed Cut Copper Slab
-Smelting Waxed Exposed Cut Copper Slab
-Interacting Waxed Exposed Cut Copper Slab
-Mining Waxed Cut Copper Slab
-Placing Waxed Cut Copper Slab
-Crafting Waxed Cut Copper Slab
-Smelting Waxed Cut Copper Slab
-Interacting Waxed Cut Copper Slab
-Mining Lightning Rod
+Collecting Sculk Shrieker
 Placing Lightning Rod
+Collecting Lightning Rod
 Crafting Lightning Rod
-Smelting Lightning Rod
-Interacting Lightning Rod
-Mining Pointed Dripstone
-Placing Pointed Dripstone
-Crafting Pointed Dripstone
-Smelting Pointed Dripstone
-Interacting Pointed Dripstone
-Mining Dripstone Block
 Placing Dripstone Block
-Crafting Dripstone Block
-Smelting Dripstone Block
-Interacting Dripstone Block
-Mining Cave Vines
-Placing Cave Vines
-Crafting Cave Vines
-Smelting Cave Vines
-Interacting Cave Vines
-Mining Cave Vines Plant
-Placing Cave Vines Plant
-Crafting Cave Vines Plant
-Smelting Cave Vines Plant
-Interacting Cave Vines Plant
+Collecting Dripstone Block
 Mining Spore Blossom
-Placing Spore Blossom
-Crafting Spore Blossom
 Smelting Spore Blossom
-Interacting Spore Blossom
-Mining Azalea
-Placing Azalea
-Crafting Azalea
-Smelting Azalea
-Interacting Azalea
-Mining Flowering Azalea
-Placing Flowering Azalea
-Crafting Flowering Azalea
-Smelting Flowering Azalea
-Interacting Flowering Azalea
-Mining Moss Carpet
-Placing Moss Carpet
-Crafting Moss Carpet
-Smelting Moss Carpet
-Interacting Moss Carpet
-Mining Moss Block
+Collecting Spore Blossom
 Placing Moss Block
-Crafting Moss Block
-Smelting Moss Block
-Interacting Moss Block
-Mining Big Dripleaf
-Placing Big Dripleaf
-Crafting Big Dripleaf
-Smelting Big Dripleaf
-Interacting Big Dripleaf
-Mining Big Dripleaf Stem
-Placing Big Dripleaf Stem
-Crafting Big Dripleaf Stem
-Smelting Big Dripleaf Stem
-Interacting Big Dripleaf Stem
-Mining Small Dripleaf
-Placing Small Dripleaf
-Crafting Small Dripleaf
-Smelting Small Dripleaf
-Interacting Small Dripleaf
-Mining Hanging Roots
-Placing Hanging Roots
-Crafting Hanging Roots
-Smelting Hanging Roots
-Interacting Hanging Roots
-Mining Rooted Dirt
-Placing Rooted Dirt
-Crafting Rooted Dirt
-Smelting Rooted Dirt
-Interacting Rooted Dirt
-Mining Mud
-Placing Mud
-Crafting Mud
-Smelting Mud
-Interacting Mud
-Mining Deepslate
-Placing Deepslate
-Crafting Deepslate
-Smelting Deepslate
-Interacting Deepslate
-Mining Cobbled Deepslate
-Placing Cobbled Deepslate
-Crafting Cobbled Deepslate
-Smelting Cobbled Deepslate
-Interacting Cobbled Deepslate
-Mining Cobbled Deepslate Stairs
-Placing Cobbled Deepslate Stairs
-Crafting Cobbled Deepslate Stairs
-Smelting Cobbled Deepslate Stairs
-Interacting Cobbled Deepslate Stairs
-Mining Cobbled Deepslate Slab
-Placing Cobbled Deepslate Slab
-Crafting Cobbled Deepslate Slab
-Smelting Cobbled Deepslate Slab
-Interacting Cobbled Deepslate Slab
-Mining Cobbled Deepslate Wall
-Placing Cobbled Deepslate Wall
-Crafting Cobbled Deepslate Wall
-Smelting Cobbled Deepslate Wall
-Interacting Cobbled Deepslate Wall
-Mining Polished Deepslate
-Placing Polished Deepslate
-Crafting Polished Deepslate
-Smelting Polished Deepslate
-Interacting Polished Deepslate
-Mining Polished Deepslate Stairs
-Placing Polished Deepslate Stairs
-Crafting Polished Deepslate Stairs
-Smelting Polished Deepslate Stairs
-Interacting Polished Deepslate Stairs
-Mining Polished Deepslate Slab
-Placing Polished Deepslate Slab
-Crafting Polished Deepslate Slab
-Smelting Polished Deepslate Slab
-Interacting Polished Deepslate Slab
-Mining Polished Deepslate Wall
-Placing Polished Deepslate Wall
-Crafting Polished Deepslate Wall
-Smelting Polished Deepslate Wall
-Interacting Polished Deepslate Wall
-Mining Deepslate Tiles
-Placing Deepslate Tiles
-Crafting Deepslate Tiles
-Smelting Deepslate Tiles
-Interacting Deepslate Tiles
-Mining Deepslate Tile Stairs
-Placing Deepslate Tile Stairs
-Crafting Deepslate Tile Stairs
-Smelting Deepslate Tile Stairs
-Interacting Deepslate Tile Stairs
-Mining Deepslate Tile Slab
-Placing Deepslate Tile Slab
-Crafting Deepslate Tile Slab
-Smelting Deepslate Tile Slab
-Interacting Deepslate Tile Slab
-Mining Deepslate Tile Wall
-Placing Deepslate Tile Wall
-Crafting Deepslate Tile Wall
-Smelting Deepslate Tile Wall
-Interacting Deepslate Tile Wall
-Mining Deepslate Bricks
-Placing Deepslate Bricks
-Crafting Deepslate Bricks
-Smelting Deepslate Bricks
-Interacting Deepslate Bricks
-Mining Deepslate Brick Stairs
-Placing Deepslate Brick Stairs
-Crafting Deepslate Brick Stairs
-Smelting Deepslate Brick Stairs
-Interacting Deepslate Brick Stairs
-Mining Deepslate Brick Slab
-Placing Deepslate Brick Slab
-Crafting Deepslate Brick Slab
-Smelting Deepslate Brick Slab
-Interacting Deepslate Brick Slab
-Mining Deepslate Brick Wall
-Placing Deepslate Brick Wall
-Crafting Deepslate Brick Wall
-Smelting Deepslate Brick Wall
-Interacting Deepslate Brick Wall
-Mining Chiseled Deepslate
-Placing Chiseled Deepslate
-Crafting Chiseled Deepslate
-Smelting Chiseled Deepslate
-Interacting Chiseled Deepslate
-Mining Cracked Deepslate Bricks
-Placing Cracked Deepslate Bricks
-Crafting Cracked Deepslate Bricks
-Smelting Cracked Deepslate Bricks
-Interacting Cracked Deepslate Bricks
-Mining Cracked Deepslate Tiles
-Placing Cracked Deepslate Tiles
-Crafting Cracked Deepslate Tiles
-Smelting Cracked Deepslate Tiles
-Interacting Cracked Deepslate Tiles
-Mining Infested Deepslate
-Placing Infested Deepslate
-Crafting Infested Deepslate
-Smelting Infested Deepslate
-Interacting Infested Deepslate
-Mining Smooth Basalt
-Placing Smooth Basalt
-Crafting Smooth Basalt
-Smelting Smooth Basalt
-Interacting Smooth Basalt
-Mining Block of Raw Iron
-Placing Block of Raw Iron
-Crafting Block of Raw Iron
-Smelting Block of Raw Iron
-Interacting Block of Raw Iron
-Mining Block of Raw Copper
-Placing Block of Raw Copper
-Crafting Block of Raw Copper
-Smelting Block of Raw Copper
-Interacting Block of Raw Copper
-Mining Block of Raw Gold
-Placing Block of Raw Gold
-Crafting Block of Raw Gold
-Smelting Block of Raw Gold
-Interacting Block of Raw Gold
-Mining Potted Azalea
-Placing Potted Azalea
-Crafting Potted Azalea
-Smelting Potted Azalea
-Interacting Potted Azalea
-Mining Potted Flowering Azalea
-Placing Potted Flowering Azalea
-Crafting Potted Flowering Azalea
-Smelting Potted Flowering Azalea
-Interacting Potted Flowering Azalea
-Mining Ochre Froglight
-Placing Ochre Froglight
-Crafting Ochre Froglight
-Smelting Ochre Froglight
-Interacting Ochre Froglight
-Mining Verdant Froglight
-Placing Verdant Froglight
-Crafting Verdant Froglight
-Smelting Verdant Froglight
-Interacting Verdant Froglight
-Mining Pearlescent Froglight
-Placing Pearlescent Froglight
-Crafting Pearlescent Froglight
-Smelting Pearlescent Froglight
-Interacting Pearlescent Froglight
-Mining Frogspawn
-Placing Frogspawn
-Crafting Frogspawn
-Smelting Frogspawn
-Interacting Frogspawn
-Mining Reinforced Deepslate
-Placing Reinforced Deepslate
-Crafting Reinforced Deepslate
-Smelting Reinforced Deepslate
-Interacting Reinforced Deepslate
+Collecting Moss Block
 Crafting Redstone Dust
 Placing Redstone Dust
 Mining Redstone Dust
 Crafting Saddle
-Interacting Saddle
+Using Saddle
 Crafting Elytra
-Equipping Elytra
 Enchanting Elytra
 Repairing Elytra
+Using Elytra
+Using Enhanced Elytra
 Crafting Oak Boat
-Interacting Oak Boat
+Using Oak Boat
 Crafting Oak Boat with Chest
-Interacting Oak Boat with Chest
+Using Oak Boat with Chest
 Crafting Spruce Boat
-Interacting Spruce Boat
+Using Spruce Boat
 Crafting Spruce Boat with Chest
-Interacting Spruce Boat with Chest
+Using Spruce Boat with Chest
 Crafting Birch Boat
-Interacting Birch Boat
+Using Birch Boat
 Crafting Birch Boat with Chest
-Interacting Birch Boat with Chest
+Using Birch Boat with Chest
 Crafting Jungle Boat
-Interacting Jungle Boat
+Using Jungle Boat
 Crafting Jungle Boat with Chest
-Interacting Jungle Boat with Chest
+Using Jungle Boat with Chest
 Crafting Acacia Boat
-Interacting Acacia Boat
+Using Acacia Boat
 Crafting Acacia Boat with Chest
-Interacting Acacia Boat with Chest
+Using Acacia Boat with Chest
 Crafting Dark Oak Boat
-Interacting Dark Oak Boat
+Using Dark Oak Boat
 Crafting Dark Oak Boat with Chest
-Interacting Dark Oak Boat with Chest
+Using Dark Oak Boat with Chest
 Crafting Mangrove Boat
-Interacting Mangrove Boat
+Using Mangrove Boat
 Crafting Mangrove Boat with Chest
-Interacting Mangrove Boat with Chest
+Using Mangrove Boat with Chest
 Crafting Turtle Shell
-Equipping Turtle Shell
 Enchanting Turtle Shell
 Repairing Turtle Shell
+Using Turtle Shell
+Using Enhanced Turtle Shell
 Crafting Flint and Steel
-Equipping Flint and Steel
 Enchanting Flint and Steel
 Repairing Flint and Steel
+Using Flint and Steel
+Using Enhanced Flint and Steel
 Collecting Apple
 Eating Apple
 Crafting Bow
-Equipping Bow
 Enchanting Bow
 Repairing Bow
+Using Bow
+Using Enhanced Bow
 Collecting Coal
 Smelting Coal
 Collecting Charcoal
@@ -4555,10 +557,6 @@ Collecting Raw Iron
 Smelting Raw Iron
 Collecting Iron Ingot
 Smelting Iron Ingot
-Collecting Raw Copper
-Smelting Raw Copper
-Collecting Copper Ingot
-Smelting Copper Ingot
 Collecting Raw Gold
 Smelting Raw Gold
 Collecting Gold Ingot
@@ -4567,126 +565,131 @@ Collecting Netherite Ingot
 Smelting Netherite Ingot
 Collecting Netherite Scrap
 Smelting Netherite Scrap
-Crafting Wooden Sword
-Equipping Wooden Sword
-Enchanting Wooden Sword
-Repairing Wooden Sword
-Crafting Wooden Shovel
-Equipping Wooden Shovel
-Enchanting Wooden Shovel
-Repairing Wooden Shovel
-Crafting Wooden Pickaxe
-Equipping Wooden Pickaxe
-Enchanting Wooden Pickaxe
-Repairing Wooden Pickaxe
-Crafting Wooden Axe
-Equipping Wooden Axe
-Enchanting Wooden Axe
-Repairing Wooden Axe
-Crafting Wooden Hoe
-Equipping Wooden Hoe
-Enchanting Wooden Hoe
-Repairing Wooden Hoe
 Crafting Stone Sword
-Equipping Stone Sword
 Enchanting Stone Sword
 Repairing Stone Sword
+Using Stone Sword
+Using Enhanced Stone Sword
 Crafting Stone Shovel
-Equipping Stone Shovel
 Enchanting Stone Shovel
 Repairing Stone Shovel
+Using Stone Shovel
+Using Enhanced Stone Shovel
 Crafting Stone Pickaxe
-Equipping Stone Pickaxe
 Enchanting Stone Pickaxe
 Repairing Stone Pickaxe
+Using Stone Pickaxe
+Using Enhanced Stone Pickaxe
 Crafting Stone Axe
-Equipping Stone Axe
 Enchanting Stone Axe
 Repairing Stone Axe
+Using Stone Axe
+Using Enhanced Stone Axe
 Crafting Stone Hoe
-Equipping Stone Hoe
 Enchanting Stone Hoe
 Repairing Stone Hoe
+Using Stone Hoe
+Using Enhanced Stone Hoe
 Crafting Golden Sword
-Equipping Golden Sword
 Enchanting Golden Sword
 Repairing Golden Sword
+Using Golden Sword
+Using Enhanced Golden Sword
 Crafting Golden Shovel
-Equipping Golden Shovel
 Enchanting Golden Shovel
 Repairing Golden Shovel
+Using Golden Shovel
+Using Enhanced Golden Shovel
 Crafting Golden Pickaxe
-Equipping Golden Pickaxe
 Enchanting Golden Pickaxe
 Repairing Golden Pickaxe
+Using Golden Pickaxe
+Using Enhanced Golden Pickaxe
 Crafting Golden Axe
-Equipping Golden Axe
 Enchanting Golden Axe
 Repairing Golden Axe
+Using Golden Axe
+Using Enhanced Golden Axe
 Crafting Golden Hoe
-Equipping Golden Hoe
 Enchanting Golden Hoe
 Repairing Golden Hoe
+Using Golden Hoe
+Using Enhanced Golden Hoe
 Crafting Iron Sword
-Equipping Iron Sword
 Enchanting Iron Sword
 Repairing Iron Sword
+Using Iron Sword
+Using Enhanced Iron Sword
 Crafting Iron Shovel
-Equipping Iron Shovel
 Enchanting Iron Shovel
 Repairing Iron Shovel
+Using Iron Shovel
+Using Enhanced Iron Shovel
 Crafting Iron Pickaxe
-Equipping Iron Pickaxe
 Enchanting Iron Pickaxe
 Repairing Iron Pickaxe
+Using Iron Pickaxe
+Using Enhanced Iron Pickaxe
 Crafting Iron Axe
-Equipping Iron Axe
 Enchanting Iron Axe
 Repairing Iron Axe
+Using Iron Axe
+Using Enhanced Iron Axe
 Crafting Iron Hoe
-Equipping Iron Hoe
 Enchanting Iron Hoe
 Repairing Iron Hoe
+Using Iron Hoe
+Using Enhanced Iron Hoe
 Crafting Diamond Sword
-Equipping Diamond Sword
 Enchanting Diamond Sword
 Repairing Diamond Sword
+Using Diamond Sword
+Using Enhanced Diamond Sword
 Crafting Diamond Shovel
-Equipping Diamond Shovel
 Enchanting Diamond Shovel
 Repairing Diamond Shovel
+Using Diamond Shovel
+Using Enhanced Diamond Shovel
 Crafting Diamond Pickaxe
-Equipping Diamond Pickaxe
 Enchanting Diamond Pickaxe
 Repairing Diamond Pickaxe
+Using Diamond Pickaxe
+Using Enhanced Diamond Pickaxe
 Crafting Diamond Axe
-Equipping Diamond Axe
 Enchanting Diamond Axe
 Repairing Diamond Axe
+Using Diamond Axe
+Using Enhanced Diamond Axe
 Crafting Diamond Hoe
-Equipping Diamond Hoe
 Enchanting Diamond Hoe
 Repairing Diamond Hoe
+Using Diamond Hoe
+Using Enhanced Diamond Hoe
 Crafting Netherite Sword
-Equipping Netherite Sword
 Enchanting Netherite Sword
 Repairing Netherite Sword
+Using Netherite Sword
+Using Enhanced Netherite Sword
 Crafting Netherite Shovel
-Equipping Netherite Shovel
 Enchanting Netherite Shovel
 Repairing Netherite Shovel
+Using Netherite Shovel
+Using Enhanced Netherite Shovel
 Crafting Netherite Pickaxe
-Equipping Netherite Pickaxe
 Enchanting Netherite Pickaxe
 Repairing Netherite Pickaxe
+Using Netherite Pickaxe
+Using Enhanced Netherite Pickaxe
 Crafting Netherite Axe
-Equipping Netherite Axe
 Enchanting Netherite Axe
 Repairing Netherite Axe
+Using Netherite Axe
+Using Enhanced Netherite Axe
 Crafting Netherite Hoe
-Equipping Netherite Hoe
 Enchanting Netherite Hoe
 Repairing Netherite Hoe
+Using Netherite Hoe
+Using Enhanced Netherite Hoe
 Crafting Stick
 Collecting Stick
 Crafting Bowl
@@ -4701,101 +704,125 @@ Planting Wheat Seeds
 Cooking Bread
 Eating Bread
 Crafting Leather Cap
-Equipping Leather Cap
 Enchanting Leather Cap
 Repairing Leather Cap
+Using Leather Cap
+Using Enhanced Leather Cap
 Crafting Leather Tunic
-Equipping Leather Tunic
 Enchanting Leather Tunic
 Repairing Leather Tunic
+Using Leather Tunic
+Using Enhanced Leather Tunic
 Crafting Leather Pants
-Equipping Leather Pants
 Enchanting Leather Pants
 Repairing Leather Pants
+Using Leather Pants
+Using Enhanced Leather Pants
 Crafting Leather Boots
-Equipping Leather Boots
 Enchanting Leather Boots
 Repairing Leather Boots
+Using Leather Boots
+Using Enhanced Leather Boots
 Crafting Chainmail Helmet
-Equipping Chainmail Helmet
 Enchanting Chainmail Helmet
 Repairing Chainmail Helmet
+Using Chainmail Helmet
+Using Enhanced Chainmail Helmet
 Crafting Chainmail Chestplate
-Equipping Chainmail Chestplate
 Enchanting Chainmail Chestplate
 Repairing Chainmail Chestplate
+Using Chainmail Chestplate
+Using Enhanced Chainmail Chestplate
 Crafting Chainmail Leggings
-Equipping Chainmail Leggings
 Enchanting Chainmail Leggings
 Repairing Chainmail Leggings
+Using Chainmail Leggings
+Using Enhanced Chainmail Leggings
 Crafting Chainmail Boots
-Equipping Chainmail Boots
 Enchanting Chainmail Boots
 Repairing Chainmail Boots
+Using Chainmail Boots
+Using Enhanced Chainmail Boots
 Crafting Iron Helmet
-Equipping Iron Helmet
 Enchanting Iron Helmet
 Repairing Iron Helmet
+Using Iron Helmet
+Using Enhanced Iron Helmet
 Crafting Iron Chestplate
-Equipping Iron Chestplate
 Enchanting Iron Chestplate
 Repairing Iron Chestplate
+Using Iron Chestplate
+Using Enhanced Iron Chestplate
 Crafting Iron Leggings
-Equipping Iron Leggings
 Enchanting Iron Leggings
 Repairing Iron Leggings
+Using Iron Leggings
+Using Enhanced Iron Leggings
 Crafting Iron Boots
-Equipping Iron Boots
 Enchanting Iron Boots
 Repairing Iron Boots
+Using Iron Boots
+Using Enhanced Iron Boots
 Crafting Diamond Helmet
-Equipping Diamond Helmet
 Enchanting Diamond Helmet
 Repairing Diamond Helmet
+Using Diamond Helmet
+Using Enhanced Diamond Helmet
 Crafting Diamond Chestplate
-Equipping Diamond Chestplate
 Enchanting Diamond Chestplate
 Repairing Diamond Chestplate
+Using Diamond Chestplate
+Using Enhanced Diamond Chestplate
 Crafting Diamond Leggings
-Equipping Diamond Leggings
 Enchanting Diamond Leggings
 Repairing Diamond Leggings
+Using Diamond Leggings
+Using Enhanced Diamond Leggings
 Crafting Diamond Boots
-Equipping Diamond Boots
 Enchanting Diamond Boots
 Repairing Diamond Boots
+Using Diamond Boots
+Using Enhanced Diamond Boots
 Crafting Golden Helmet
-Equipping Golden Helmet
 Enchanting Golden Helmet
 Repairing Golden Helmet
+Using Golden Helmet
+Using Enhanced Golden Helmet
 Crafting Golden Chestplate
-Equipping Golden Chestplate
 Enchanting Golden Chestplate
 Repairing Golden Chestplate
+Using Golden Chestplate
+Using Enhanced Golden Chestplate
 Crafting Golden Leggings
-Equipping Golden Leggings
 Enchanting Golden Leggings
 Repairing Golden Leggings
+Using Golden Leggings
+Using Enhanced Golden Leggings
 Crafting Golden Boots
-Equipping Golden Boots
 Enchanting Golden Boots
 Repairing Golden Boots
+Using Golden Boots
+Using Enhanced Golden Boots
 Crafting Netherite Helmet
-Equipping Netherite Helmet
 Enchanting Netherite Helmet
 Repairing Netherite Helmet
+Using Netherite Helmet
+Using Enhanced Netherite Helmet
 Crafting Netherite Chestplate
-Equipping Netherite Chestplate
 Enchanting Netherite Chestplate
 Repairing Netherite Chestplate
+Using Netherite Chestplate
+Using Enhanced Netherite Chestplate
 Crafting Netherite Leggings
-Equipping Netherite Leggings
 Enchanting Netherite Leggings
 Repairing Netherite Leggings
+Using Netherite Leggings
+Using Enhanced Netherite Leggings
 Crafting Netherite Boots
-Equipping Netherite Boots
 Enchanting Netherite Boots
 Repairing Netherite Boots
+Using Netherite Boots
+Using Enhanced Netherite Boots
 Collecting Flint
 Collecting Raw Porkchop
 Eating Raw Porkchop
@@ -4806,7 +833,7 @@ Eating Golden Apple
 Cooking Enchanted Golden Apple
 Eating Enchanted Golden Apple
 Crafting Bucket
-Interacting Bucket
+Using Bucket
 Collecting Water Bucket
 Interacting Water Bucket
 Collecting Lava Bucket
@@ -4836,29 +863,35 @@ Crafting Book
 Collecting Book
 Collecting Slimeball
 Crafting Compass
-Equipping Compass
 Enchanting Compass
 Repairing Compass
+Using Compass
+Using Enhanced Compass
 Crafting Recovery Compass
-Equipping Recovery Compass
 Enchanting Recovery Compass
 Repairing Recovery Compass
+Using Recovery Compass
+Using Enhanced Recovery Compass
 Crafting Bundle
-Equipping Bundle
 Enchanting Bundle
 Repairing Bundle
+Using Bundle
+Using Enhanced Bundle
 Crafting Fishing Rod
-Equipping Fishing Rod
 Enchanting Fishing Rod
 Repairing Fishing Rod
+Using Fishing Rod
+Using Enhanced Fishing Rod
 Crafting Clock
-Equipping Clock
 Enchanting Clock
 Repairing Clock
+Using Clock
+Using Enhanced Clock
 Crafting Spyglass
-Equipping Spyglass
 Enchanting Spyglass
 Repairing Spyglass
+Using Spyglass
+Using Enhanced Spyglass
 Collecting Glowstone Dust
 Cooking Cooked Cod
 Eating Cooked Cod
@@ -4910,9 +943,10 @@ Eating Cookie
 Crafting Map
 Collecting Map
 Crafting Shears
-Equipping Shears
 Enchanting Shears
 Repairing Shears
+Using Shears
+Using Enhanced Shears
 Collecting Melon Slice
 Eating Melon Slice
 Cooking Dried Kelp
@@ -4935,8 +969,6 @@ Collecting Blaze Rod
 Collecting Ghast Tear
 Crafting Gold Nugget
 Collecting Gold Nugget
-Crafting Glass Bottle
-Collecting Glass Bottle
 Collecting Spider Eye
 Collecting Fermented Spider Eye
 Crafting Blaze Powder
@@ -5017,11 +1049,11 @@ Using Zombie Horse Spawn Egg
 Using Zombie Villager Spawn Egg
 Using Zombified Piglin Spawn Egg
 Crafting Fire Charge
-Interacting Fire Charge
+Using Fire Charge
 Crafting Book and Quill
-Interacting Book and Quill
+Using Book and Quill
 Crafting Written Book
-Interacting Written Book
+Using Written Book
 Collecting Carrot
 Eating Carrot
 Planting Carrot
@@ -5042,7 +1074,7 @@ Eating Pumpkin Pie
 Crafting Firework Star
 Collecting Firework Star
 Crafting Enchanted Book
-Interacting Enchanted Book
+Using Enchanted Book
 Crafting Nether Brick
 Collecting Nether Brick
 Collecting Prismarine Shard
@@ -5055,25 +1087,29 @@ Collecting Rabbit's Foot
 Interacting Rabbit's Foot
 Collecting Rabbit Hide
 Crafting Iron Horse Armor
-Equipping Iron Horse Armor
 Enchanting Iron Horse Armor
 Repairing Iron Horse Armor
+Using Iron Horse Armor
+Using Enhanced Iron Horse Armor
 Crafting Golden Horse Armor
-Equipping Golden Horse Armor
 Enchanting Golden Horse Armor
 Repairing Golden Horse Armor
+Using Golden Horse Armor
+Using Enhanced Golden Horse Armor
 Crafting Diamond Horse Armor
-Equipping Diamond Horse Armor
 Enchanting Diamond Horse Armor
 Repairing Diamond Horse Armor
+Using Diamond Horse Armor
+Using Enhanced Diamond Horse Armor
 Crafting Leather Horse Armor
-Equipping Leather Horse Armor
 Enchanting Leather Horse Armor
 Repairing Leather Horse Armor
+Using Leather Horse Armor
+Using Enhanced Leather Horse Armor
 Crafting Lead
-Interacting Lead
+Using Lead
 Crafting Name Tag
-Interacting Name Tag
+Using Name Tag
 Collecting Raw Mutton
 Eating Raw Mutton
 Cooking Cooked Mutton
@@ -5091,20 +1127,21 @@ Planting Beetroot Seeds
 Cooking Beetroot Soup
 Eating Beetroot Soup
 Crafting Dragon's Breath
-Interacting Dragon's Breath
+Using Dragon's Breath
 Crafting Splash Potion
-Interacting Splash Potion
+Using Splash Potion
 Crafting Tipped Arrow
-Interacting Tipped Arrow
+Using Tipped Arrow
 Crafting Lingering Potion
-Interacting Lingering Potion
+Using Lingering Potion
 Crafting Shield
-Equipping Shield
 Enchanting Shield
 Repairing Shield
+Using Shield
+Using Enhanced Shield
 Crafting Totem of Undying
 Crafting Shulker Shell
-Interacting Shulker Shell
+Using Shulker Shell
 Crafting Iron Nugget
 Collecting Iron Nugget
 Collecting Knowledge Book
@@ -5116,17 +1153,18 @@ Collecting Disc Fragment
 Collecting Phantom Membrane
 Interacting Phantom Membrane
 Crafting Nautilus Shell
-Interacting Nautilus Shell
+Using Nautilus Shell
 Crafting Heart of the Sea
 Collecting Heart of the Sea
 Crafting Crossbow
-Equipping Crossbow
 Enchanting Crossbow
 Repairing Crossbow
+Using Crossbow
+Using Enhanced Crossbow
 Cooking Suspicious Stew
 Eating Suspicious Stew
 Crafting Banner Pattern
-Interacting Banner Pattern
+Using Banner Pattern
 Crafting Goat Horn
 Collecting Goat Horn
 Collecting Sweet Berries
@@ -5144,7 +1182,7 @@ Breeding Allay
 Taming Allay
 Crafting Armor Stand
 Interacting Armor Stand
-Mining Armor Stand
+Breaking Armor Stand
 Placing Armor Stand
 Throwing Arrow
 Killing Axolotl
@@ -5207,7 +1245,7 @@ Killing Ghast
 Killing Giant
 Crafting Glow Item Frame
 Interacting Glow Item Frame
-Mining Glow Item Frame
+Breaking Glow Item Frame
 Placing Glow Item Frame
 Killing Glow Squid
 Breeding Glow Squid
@@ -5227,12 +1265,12 @@ Breeding Iron Golem
 Taming Iron Golem
 Crafting Item Frame
 Interacting Item Frame
-Mining Item Frame
+Breaking Item Frame
 Placing Item Frame
 Throwing Fireball
 Crafting Leash Knot
 Interacting Leash Knot
-Mining Leash Knot
+Breaking Leash Knot
 Placing Leash Knot
 Hitting by Lightning Bolt
 Killing Llama
